@@ -937,6 +937,18 @@
   }
   .btn.signal:hover { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 
+  /* ============ SITES ============ */
+  .sites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 24px; }
+  .site-card { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: border 200ms; }
+  .site-card:hover { border-color: var(--border-hover); }
+  .site-preview { width: 100%; height: 180px; border: none; pointer-events: none; background: var(--bg-subtle); display: block; }
+  .site-info { padding: 14px 16px; }
+  .site-name { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .site-url { font-size: 11px; color: var(--accent-signal); margin-bottom: 8px; }
+  .site-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .site-link { font-size: 11px; font-family: 'JetBrains Mono', monospace; color: var(--text-faint); text-decoration: none; border: 1px solid var(--border); border-radius: 4px; padding: 3px 8px; transition: all 150ms; }
+  .site-link:hover { border-color: var(--accent); color: var(--accent); }
+
   /* ============ MASTERPROMPT ============ */
   .masterprompt-intro {
     background: var(--bg-elev);
@@ -1542,8 +1554,9 @@
   <button class="tab" data-view="team"><span class="tab-num">02</span> Team</button>
   <button class="tab" data-view="leaderboard"><span class="tab-num">03</span> Leaderboard</button>
   <button class="tab" data-view="partners"><span class="tab-num">04</span> Partners</button>
-  <button class="tab" data-view="masterprompt"><span class="tab-num">05</span> Masterprompt</button>
-  <button class="tab" data-view="voice"><span class="tab-num">06</span> Voice</button>
+  <button class="tab" data-view="sites"><span class="tab-num">05</span> Sites</button>
+  <button class="tab" data-view="masterprompt"><span class="tab-num">06</span> Masterprompt</button>
+  <button class="tab" data-view="voice"><span class="tab-num">07</span> Voice</button>
 </div>
 
 <!-- PROJECTS -->
@@ -1611,6 +1624,16 @@
     <button class="btn signal" id="add-partner-btn">+ Add partner</button>
   </div>
   <div class="partner-grid" id="partner-grid"></div>
+</div>
+
+<!-- SITES -->
+<div class="view" id="view-sites">
+  <div class="section-mark">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Sites &amp; apps. <em>Everything built and live.</em></h2>
+    <span class="section-meta" id="sites-meta">—</span>
+  </div>
+  <div class="sites-grid" id="sites-grid"></div>
 </div>
 
 <!-- MASTERPROMPT -->
@@ -1774,6 +1797,7 @@ document.querySelectorAll('.tab').forEach(t => {
     state.activeView = t.dataset.view;
     document.getElementById('view-' + state.activeView).classList.add('active');
     if (state.activeView === 'masterprompt') generateMasterprompt();
+    if (state.activeView === 'sites') renderSites();
   });
 });
 
@@ -1855,6 +1879,7 @@ function projectCardHtml(p) {
   const top = p.outstanding.slice(0, 3);
   const extra = p.outstanding.length - top.length;
   const urlHtml = p.url ? `<a class="project-url" href="${p.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${p.url.replace(/^https?:\/\//,'')}</a>` : '';
+  const ghHtml = p.github ? `<a class="project-url" href="${p.github}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:${p.url?'10px':'0'};">⎇ GitHub</a>` : '';
   const notesHtml = p.notes ? `<div class="project-notes">${p.notes}</div>` : '';
   return `
     <div class="project-card" data-id="${p.id}" style="--status-color: ${color};">
@@ -1866,7 +1891,7 @@ function projectCardHtml(p) {
         </div>
       </div>
       <div class="project-ecosystem">${p.ecosystem}</div>
-      ${urlHtml}
+      <div>${urlHtml}${ghHtml}</div>
       <div class="project-oneliner">${p.one_liner}</div>
       ${notesHtml}
       <div class="progress-track"><div class="progress-fill" style="width: ${p.progress}%;"></div></div>
@@ -2232,6 +2257,24 @@ function openAddPartnerModal() {
 }
 
 // ============ MASTERPROMPT ============
+function renderSites() {
+  const sites = PROJECTS.filter(p => p.url);
+  document.getElementById('sites-meta').textContent = `${sites.length} live`;
+  document.getElementById('sites-grid').innerHTML = sites.map(p => `
+    <div class="site-card">
+      <iframe class="site-preview" src="${p.url}" loading="lazy" sandbox="allow-scripts allow-same-origin" title="${p.name}"></iframe>
+      <div class="site-info">
+        <div class="site-name">${p.name}</div>
+        <div class="site-url">${p.url.replace(/^https?:\/\//,'')}</div>
+        <div class="site-links">
+          <a class="site-link" href="${p.url}" target="_blank" rel="noopener">↗ Open</a>
+          ${p.github ? `<a class="site-link" href="${p.github}" target="_blank" rel="noopener">⎇ GitHub</a>` : ''}
+          <a class="site-link" href="javascript:void(0)" onclick="openEditModal('${p.id}')">✎ Edit</a>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
 function generateMasterprompt() {
   const date = TEAM_DATA.last_updated;
   let p = `# NICK SINCLAIR — OPERATING STATE BRIEFING
@@ -2848,6 +2891,7 @@ fetch('./data.json')
     renderTeam();
     renderLeaderboard();
     renderPartners();
+    renderSites();
   })
   .catch(() => {
     document.getElementById("total-count").textContent = '—';
@@ -2870,6 +2914,7 @@ function openEditModal(id) {
     <h2 style="font-size:22px;font-weight:600;margin:0 0 20px;">Edit: ${p.name}</h2>
     <input type="hidden" id="edit-id" value="${p.id}">
     <div class="edit-field"><label>Live URL</label><input type="url" id="edit-url" value="${p.url||''}" placeholder="https://..."></div>
+    <div class="edit-field"><label>GitHub Repo</label><input type="url" id="edit-github" value="${p.github||''}" placeholder="https://github.com/..."></div>
     <div class="edit-field"><label>Status</label>
       <select id="edit-status">
         ${['Live','Build sprint','Designed','Pending'].map(s=>`<option value="${s}"${p.status===s?' selected':''}>${s}</option>`).join('')}
@@ -2895,6 +2940,7 @@ async function saveEdit() {
   PROJECTS[idx] = {
     ...PROJECTS[idx],
     url: document.getElementById('edit-url').value.trim() || undefined,
+    github: document.getElementById('edit-github').value.trim() || undefined,
     status: document.getElementById('edit-status').value,
     progress: parseInt(document.getElementById('edit-progress').value) || PROJECTS[idx].progress,
     one_liner: document.getElementById('edit-oneliner').value.trim(),

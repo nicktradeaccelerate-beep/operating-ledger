@@ -29,7 +29,8 @@
       "key_docs": [
         "CLAUDE.md (PTO production)",
         "UK tax strategy calculator v1.6.0"
-      ]
+      ],
+      "url": "https://propertytaxoptimisers.co.uk"
     },
     {
       "id": "pto-scorecard",
@@ -135,7 +136,8 @@
       "key_docs": [
         "caldr-alpha.vercel.app production config"
       ],
-      "url": "https://caldr-alpha.vercel.app"
+      "url": "https://caldr-alpha.vercel.app",
+      "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai"
     },
     {
       "id": "caldr-property",
@@ -242,7 +244,8 @@
       "key_docs": [
         "CLAUDE_BFB_MASTER_V3.md"
       ],
-      "url": "https://backfromblack.co.uk"
+      "url": "https://backfromblack.co.uk",
+      "github": "https://github.com/nicktradeaccelerate-beep/bfb-lead-engine"
     },
     {
       "id": "thor",
@@ -370,7 +373,8 @@
       "key_docs": [
         "CapexScan production repo"
       ],
-      "url": "https://capexscan.vercel.app"
+      "url": "https://capexscan.vercel.app",
+      "github": "https://github.com/nicktradeaccelerate-beep/capexscan"
     },
     {
       "id": "eva",
@@ -664,7 +668,8 @@
         "operating-ledger.vercel.app",
         "github.com/nicktradeaccelerate-beep/operating-ledger"
       ],
-      "url": "https://operating-ledger.vercel.app"
+      "url": "https://operating-ledger.vercel.app",
+      "github": "https://github.com/nicktradeaccelerate-beep/operating-ledger"
     }
   ],
   "team_data": {
