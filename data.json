@@ -55,7 +55,8 @@
       ],
       "key_docs": [
         "Scorecard production config"
-      ]
+      ],
+      "url": "https://score.propertytaxoptimisers.co.uk"
     },
     {
       "id": "pto-stan",
@@ -133,7 +134,8 @@
       ],
       "key_docs": [
         "caldr-alpha.vercel.app production config"
-      ]
+      ],
+      "url": "https://caldr-alpha.vercel.app"
     },
     {
       "id": "caldr-property",
@@ -187,7 +189,8 @@
       ],
       "key_docs": [
         "Caldr Acquire platform spec"
-      ]
+      ],
+      "url": "https://acquire.caldr.ai"
     },
     {
       "id": "mirror",
@@ -238,7 +241,8 @@
       ],
       "key_docs": [
         "CLAUDE_BFB_MASTER_V3.md"
-      ]
+      ],
+      "url": "https://backfromblack.co.uk"
     },
     {
       "id": "thor",
@@ -365,7 +369,8 @@
       ],
       "key_docs": [
         "CapexScan production repo"
-      ]
+      ],
+      "url": "https://capexscan.vercel.app"
     },
     {
       "id": "eva",
@@ -658,7 +663,8 @@
       "key_docs": [
         "operating-ledger.vercel.app",
         "github.com/nicktradeaccelerate-beep/operating-ledger"
-      ]
+      ],
+      "url": "https://operating-ledger.vercel.app"
     }
   ],
   "team_data": {

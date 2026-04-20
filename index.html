@@ -342,6 +342,48 @@
     height: 2px;
     background: var(--status-color, var(--text-faint));
   }
+  .project-url {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--accent-signal);
+    text-decoration: none;
+    margin-bottom: 6px;
+    letter-spacing: 0.01em;
+  }
+  .project-url:hover { text-decoration: underline; }
+  .project-notes {
+    font-size: 12px;
+    color: var(--text-faint);
+    background: var(--bg-subtle);
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin-bottom: 8px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  .edit-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-faint);
+    padding: 2px 7px;
+    line-height: 1.4;
+    transition: all 150ms;
+  }
+  .edit-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .edit-field { margin-bottom: 16px; }
+  .edit-field label { display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-faint); margin-bottom: 5px; }
+  .edit-field input, .edit-field textarea, .edit-field select {
+    width: 100%; box-sizing: border-box;
+    background: var(--bg-subtle); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 10px;
+    font-family: inherit; font-size: 14px; color: var(--text);
+    outline: none; transition: border 150ms;
+  }
+  .edit-field input:focus, .edit-field textarea:focus, .edit-field select:focus { border-color: var(--accent); }
+  .edit-field textarea { resize: vertical; }
   .project-card-head {
     display: flex;
     align-items: baseline;
@@ -1694,6 +1736,14 @@
 
 <div class="copy-toast" id="copy-toast">Copied to clipboard</div>
 
+<!-- EDIT MODAL -->
+<div class="modal-overlay" id="edit-overlay" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal" id="edit-modal" style="max-width:560px;">
+    <button class="modal-close" onclick="document.getElementById('edit-overlay').classList.remove('open')">✕</button>
+    <div class="modal-body" id="edit-modal-body"></div>
+  </div>
+</div>
+
 <script>
 let PROJECTS = [];
 let TEAM_DATA = {};
@@ -1804,14 +1854,21 @@ function projectCardHtml(p) {
   const color = STATUS_COLOR[p.status];
   const top = p.outstanding.slice(0, 3);
   const extra = p.outstanding.length - top.length;
+  const urlHtml = p.url ? `<a class="project-url" href="${p.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${p.url.replace(/^https?:\/\//,'')}</a>` : '';
+  const notesHtml = p.notes ? `<div class="project-notes">${p.notes}</div>` : '';
   return `
     <div class="project-card" data-id="${p.id}" style="--status-color: ${color};">
       <div class="project-card-head">
         <div class="project-name">${p.name}</div>
-        <div class="project-progress-big">${p.progress}%</div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <button class="edit-btn" onclick="event.stopPropagation();openEditModal('${p.id}')" title="Edit">✎</button>
+          <div class="project-progress-big">${p.progress}%</div>
+        </div>
       </div>
       <div class="project-ecosystem">${p.ecosystem}</div>
+      ${urlHtml}
       <div class="project-oneliner">${p.one_liner}</div>
+      ${notesHtml}
       <div class="progress-track"><div class="progress-fill" style="width: ${p.progress}%;"></div></div>
       <div class="meta-row">
         <span>Stack: <b>${p.tech_stack.slice(0, 3).join(" · ")}${p.tech_stack.length > 3 ? "…" : ""}</b></span>
@@ -1849,7 +1906,10 @@ function openProjectModal(id) {
     <div class="modal-section"><div class="modal-section-label">Outstanding (${p.outstanding.length})</div>
       <div class="modal-section-content"><ul>${p.outstanding.map(t => `<li>${t}</li>`).join("")}</ul></div></div>
     <div class="modal-section"><div class="modal-section-label">Key documents</div>
-      <div class="modal-section-content"><ul>${p.key_docs.map(d => `<li>${d}</li>`).join("")}</ul></div></div>`;
+      <div class="modal-section-content"><ul>${p.key_docs.map(d => `<li>${d}</li>`).join("")}</ul></div></div>
+    ${p.url ? `<div class="modal-section"><div class="modal-section-label">Live URL</div><div class="modal-section-content"><a href="${p.url}" target="_blank" rel="noopener" style="color:var(--accent-signal);">${p.url}</a></div></div>` : ''}
+    ${p.notes ? `<div class="modal-section"><div class="modal-section-label">Notes</div><div class="modal-section-content" style="white-space:pre-wrap;">${p.notes}</div></div>` : ''}
+    <div style="margin-top:24px;"><button class="btn signal" onclick="openEditModal('${p.id}');document.getElementById('modal-overlay').classList.remove('open');">Edit this project</button></div>`;
   document.getElementById("modal").classList.remove('small');
   document.getElementById("modal-overlay").classList.add("open");
 }
@@ -2786,6 +2846,141 @@ fetch('./data.json')
   .catch(() => {
     document.getElementById("total-count").textContent = '—';
   });
+
+// ============ EDIT MODAL ============
+const GITHUB_REPO = 'nicktradeaccelerate-beep/operating-ledger';
+function getToken() { return localStorage.getItem('ol_gh_token') || ''; }
+function requireToken() {
+  if (getToken()) return true;
+  const t = prompt('Enter your GitHub Personal Access Token (stored locally, never sent anywhere except GitHub API):');
+  if (t && t.trim()) { localStorage.setItem('ol_gh_token', t.trim()); return true; }
+  return false;
+}
+
+function openEditModal(id) {
+  const p = PROJECTS.find(x => x.id === id);
+  if (!p) return;
+  document.getElementById('edit-modal-body').innerHTML = `
+    <h2 style="font-size:22px;font-weight:600;margin:0 0 20px;">Edit: ${p.name}</h2>
+    <input type="hidden" id="edit-id" value="${p.id}">
+    <div class="edit-field"><label>Live URL</label><input type="url" id="edit-url" value="${p.url||''}" placeholder="https://..."></div>
+    <div class="edit-field"><label>Status</label>
+      <select id="edit-status">
+        ${['Live','Build sprint','Designed','Pending'].map(s=>`<option value="${s}"${p.status===s?' selected':''}>${s}</option>`).join('')}
+      </select>
+    </div>
+    <div class="edit-field"><label>Progress (0–100)</label><input type="number" id="edit-progress" min="0" max="100" value="${p.progress}"></div>
+    <div class="edit-field"><label>One-liner</label><input type="text" id="edit-oneliner" value="${p.one_liner.replace(/"/g,'&quot;')}"></div>
+    <div class="edit-field"><label>Notes</label><textarea id="edit-notes" rows="4" placeholder="Add any notes here…">${p.notes||''}</textarea></div>
+    <div class="edit-field"><label>Outstanding tasks (one per line)</label><textarea id="edit-outstanding" rows="6">${p.outstanding.join('\n')}</textarea></div>
+    <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
+      <button class="btn signal" onclick="saveEdit()">Save &amp; Deploy</button>
+      <button class="btn secondary" onclick="document.getElementById('edit-overlay').classList.remove('open')">Cancel</button>
+    </div>
+    <div id="edit-status-msg" style="margin-top:12px;font-size:13px;color:var(--text-faint);"></div>`;
+  document.getElementById('edit-overlay').classList.add('open');
+}
+
+async function saveEdit() {
+  if (!requireToken()) return;
+  const id = document.getElementById('edit-id').value;
+  const idx = PROJECTS.findIndex(x => x.id === id);
+  if (idx < 0) return;
+  PROJECTS[idx] = {
+    ...PROJECTS[idx],
+    url: document.getElementById('edit-url').value.trim() || undefined,
+    status: document.getElementById('edit-status').value,
+    progress: parseInt(document.getElementById('edit-progress').value) || PROJECTS[idx].progress,
+    one_liner: document.getElementById('edit-oneliner').value.trim(),
+    notes: document.getElementById('edit-notes').value.trim() || undefined,
+    outstanding: document.getElementById('edit-outstanding').value.split('\n').map(s=>s.trim()).filter(Boolean)
+  };
+  const msg = document.getElementById('edit-status-msg');
+  msg.textContent = 'Saving…';
+  try {
+    const data = { projects: PROJECTS, team_data: TEAM_DATA };
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+    const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/data.json`, {
+      headers: { Authorization: `token ${getToken()}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    const { sha } = await shaRes.json();
+    await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/data.json`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${getToken()}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: `edit: update ${id} [dashboard]`, content, sha })
+    });
+    msg.style.color = 'var(--status-live)';
+    msg.textContent = '✓ Saved — deploying now (10–20 seconds)';
+    renderProjects();
+    setTimeout(() => document.getElementById('edit-overlay').classList.remove('open'), 1500);
+  } catch(e) {
+    msg.style.color = 'var(--health-bad)';
+    msg.textContent = 'Save failed: ' + e.message;
+  }
+}
+
+// ============ EDIT TEAM/PARTNER ============
+function openPersonEditModal(type, id) {
+  const list = type === 'team' ? TEAM_DATA.team : TEAM_DATA.partners;
+  const p = list.find(x => x.id === id);
+  if (!p) return;
+  document.getElementById('edit-modal-body').innerHTML = `
+    <h2 style="font-size:22px;font-weight:600;margin:0 0 20px;">Edit: ${p.name}</h2>
+    <input type="hidden" id="edit-id" value="${id}">
+    <input type="hidden" id="edit-type" value="${type}">
+    <div class="edit-field"><label>Name</label><input type="text" id="edit-name" value="${p.name}"></div>
+    <div class="edit-field"><label>Role</label><input type="text" id="edit-role" value="${p.role}"></div>
+    ${type === 'team' ? `
+    <div class="edit-field"><label>Expected weekly hours</label><input type="number" id="edit-hours" value="${p.expected_weekly_hours}"></div>
+    <div class="edit-field"><label>Logged weekly hours</label><input type="number" id="edit-logged" value="${p.logged_weekly_hours}"></div>
+    ` : `
+    <div class="edit-field"><label>Deal</label><textarea id="edit-deal" rows="3">${p.deal}</textarea></div>
+    <div class="edit-field"><label>Notes</label><textarea id="edit-person-notes" rows="3">${p.notes||''}</textarea></div>
+    <div class="edit-field"><label>Last contact (days ago)</label><input type="number" id="edit-last-contact" value="${p.last_contact_days}"></div>
+    `}
+    <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
+      <button class="btn signal" onclick="savePersonEdit()">Save &amp; Deploy</button>
+      <button class="btn secondary" onclick="document.getElementById('edit-overlay').classList.remove('open')">Cancel</button>
+    </div>
+    <div id="edit-status-msg" style="margin-top:12px;font-size:13px;color:var(--text-faint);"></div>`;
+  document.getElementById('edit-overlay').classList.add('open');
+}
+
+async function savePersonEdit() {
+  if (!requireToken()) return;
+  const id = document.getElementById('edit-id').value;
+  const type = document.getElementById('edit-type').value;
+  const list = type === 'team' ? TEAM_DATA.team : TEAM_DATA.partners;
+  const idx = list.findIndex(x => x.id === id);
+  if (idx < 0) return;
+  if (type === 'team') {
+    list[idx] = { ...list[idx], name: document.getElementById('edit-name').value.trim(), role: document.getElementById('edit-role').value.trim(), expected_weekly_hours: parseInt(document.getElementById('edit-hours').value), logged_weekly_hours: parseInt(document.getElementById('edit-logged').value) };
+  } else {
+    list[idx] = { ...list[idx], name: document.getElementById('edit-name').value.trim(), role: document.getElementById('edit-role').value.trim(), deal: document.getElementById('edit-deal').value.trim(), notes: document.getElementById('edit-person-notes').value.trim(), last_contact_days: parseInt(document.getElementById('edit-last-contact').value) };
+  }
+  const msg = document.getElementById('edit-status-msg');
+  msg.textContent = 'Saving…';
+  try {
+    const data = { projects: PROJECTS, team_data: TEAM_DATA };
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+    const shaRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/data.json`, {
+      headers: { Authorization: `token ${getToken()}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    const { sha } = await shaRes.json();
+    await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/data.json`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${getToken()}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: `edit: update ${type} ${id} [dashboard]`, content, sha })
+    });
+    msg.style.color = 'var(--status-live)';
+    msg.textContent = '✓ Saved — deploying now';
+    renderTeam(); renderLeaderboard(); renderPartners();
+    setTimeout(() => document.getElementById('edit-overlay').classList.remove('open'), 1500);
+  } catch(e) {
+    msg.style.color = 'var(--health-bad)';
+    msg.textContent = 'Save failed: ' + e.message;
+  }
+}
 </script>
 </div>
 
