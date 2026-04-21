@@ -36,7 +36,13 @@ ${project.one_liner}${notes}
 Outstanding (${project.outstanding.length}):
 ${outstanding}
 
-Pick up where this left off. Focus on the outstanding items above. Ask before doing anything irreversible.`;
+WORKING INSTRUCTIONS:
+- Work through the outstanding items above in order unless told otherwise
+- File edits are pre-approved — implement directly, no need to ask
+- Before any bash command, deployment, API call, or DB migration: briefly state what you're about to do and why, then wait for approval
+- At genuine decision points (architecture choice, external service, irreversible action): present the options concisely and wait
+- After completing each outstanding item, confirm it's done and move to the next
+- If you're blocked or need credentials, say so clearly and stop`;
 
     console.log(JSON.stringify({
       hookSpecificOutput: {
