@@ -30,7 +30,8 @@
         "CLAUDE.md (PTO production)",
         "UK tax strategy calculator v1.6.0"
       ],
-      "url": "https://propertytaxoptimisers.co.uk"
+      "url": "https://propertytaxoptimisers.co.uk",
+      "local_path": ""
     },
     {
       "id": "pto-scorecard",
@@ -57,7 +58,8 @@
       "key_docs": [
         "Scorecard production config"
       ],
-      "url": "https://score.propertytaxoptimisers.co.uk"
+      "url": "https://score.propertytaxoptimisers.co.uk",
+      "local_path": ""
     },
     {
       "id": "pto-stan",
@@ -83,7 +85,8 @@
       ],
       "key_docs": [
         "Operator scoring methodology"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "pto-tax-calc",
@@ -107,7 +110,8 @@
       ],
       "key_docs": [
         "Tax Strategy Calculator v1.6.0"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "caldr-ai",
@@ -137,7 +141,8 @@
         "caldr-alpha.vercel.app production config"
       ],
       "url": "https://caldr-alpha.vercel.app",
-      "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai"
+      "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai",
+      "local_path": ""
     },
     {
       "id": "caldr-property",
@@ -164,7 +169,8 @@
       ],
       "key_docs": [
         "Caldr Property Intelligence spec"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "caldr-acquire",
@@ -172,7 +178,7 @@
       "ecosystem": "Caldr",
       "status": "Designed",
       "progress": 30,
-      "one_liner": "M&A acquisition intelligence (£3,500/mo, acquire.caldr.ai). Bloomberg-style dark UI.",
+      "one_liner": "M&A acquisition intelligence (\u00a33,500/mo, acquire.caldr.ai). Bloomberg-style dark UI.",
       "tech_stack": [
         "Next.js",
         "Supabase (planned)",
@@ -182,7 +188,7 @@
         "Caldr ecosystem",
         "Thor (adjacent)"
       ],
-      "revenue_model": "£3,500/month subscription",
+      "revenue_model": "\u00a33,500/month subscription",
       "outstanding": [
         "Owner psychology profiling module",
         "Bolt-on value model build",
@@ -192,7 +198,8 @@
       "key_docs": [
         "Caldr Acquire platform spec"
       ],
-      "url": "https://acquire.caldr.ai"
+      "url": "https://acquire.caldr.ai",
+      "local_path": "/Users/nicksinclair001/caldr acquire"
     },
     {
       "id": "mirror",
@@ -216,7 +223,8 @@
       ],
       "key_docs": [
         "Mirror module full spec"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "bfb",
@@ -235,7 +243,7 @@
         "backfromblack.co.uk landing",
         "Charlene (WhatsApp intake)"
       ],
-      "revenue_model": "Avg job value £500–£1,500. PO19 Chichester base.",
+      "revenue_model": "Avg job value \u00a3500\u2013\u00a31,500. PO19 Chichester base.",
       "outstanding": [
         "Production deployment (currently localhost)",
         "Property radar tuning",
@@ -245,7 +253,8 @@
         "CLAUDE_BFB_MASTER_V3.md"
       ],
       "url": "https://backfromblack.co.uk",
-      "github": "https://github.com/nicktradeaccelerate-beep/bfb-lead-engine"
+      "github": "https://github.com/nicktradeaccelerate-beep/bfb-lead-engine",
+      "local_path": "/Users/nicksinclair001/bfb-lead-engine"
     },
     {
       "id": "thor",
@@ -253,7 +262,7 @@
       "ecosystem": "Thor",
       "status": "Designed",
       "progress": 40,
-      "one_liner": "Demo-ready HTML build using Meridian Fluid Systems (fictional £3.2m hydraulics case).",
+      "one_liner": "Demo-ready HTML build using Meridian Fluid Systems (fictional \u00a33.2m hydraulics case).",
       "tech_stack": [
         "HTML demo",
         "Next.js (planned)"
@@ -271,15 +280,16 @@
       "key_docs": [
         "Thor explainer one-pager",
         "Thor operating system doc"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "comet-dno",
-      "name": "Comet Alliance DNO × EPC Tool",
+      "name": "Comet Alliance DNO \u00d7 EPC Tool",
       "ecosystem": "Comet",
       "status": "Live",
       "progress": 90,
-      "one_liner": "50,000 commercial properties, ~£125B estimated capital value. Streamlit on localhost:8501.",
+      "one_liner": "50,000 commercial properties, ~\u00a3125B estimated capital value. Streamlit on localhost:8501.",
       "tech_stack": [
         "Streamlit",
         "Python",
@@ -289,14 +299,15 @@
         "Thomas (field partner, site visits)",
         "Comet Alliance"
       ],
-      "revenue_model": "Internal deal origination → Comet Alliance deals",
+      "revenue_model": "Internal deal origination \u2192 Comet Alliance deals",
       "outstanding": [
         "Streamlit Community Cloud deployment",
         "Geographic radius filter v2 refinement"
       ],
       "key_docs": [
         "Stoke-on-Trent 868-site scoring workbook"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "comet-deal-flow",
@@ -320,7 +331,8 @@
       ],
       "key_docs": [
         "Comet deal flow dashboard"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "comet-pension",
@@ -344,7 +356,8 @@
       ],
       "key_docs": [
         "Pension deck working file"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "capexscan",
@@ -352,7 +365,7 @@
       "ecosystem": "Standalone",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property image → capital allowances report. UK/US/AU jurisdictions. 138 files, 7 SQL migrations.",
+      "one_liner": "Property image \u2192 capital allowances report. UK/US/AU jurisdictions. 138 files, 7 SQL migrations.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
@@ -374,7 +387,8 @@
         "CapexScan production repo"
       ],
       "url": "https://capexscan.vercel.app",
-      "github": "https://github.com/nicktradeaccelerate-beep/capexscan"
+      "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
+      "local_path": "/Users/nicksinclair001/capexscan"
     },
     {
       "id": "eva",
@@ -398,7 +412,8 @@
       ],
       "key_docs": [
         "CLAUDE_EVA_MASTER_V1.1.md"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "reporadar",
@@ -421,7 +436,8 @@
       ],
       "key_docs": [
         "CLAUDE.md 14-step autonomous build"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "lexivo",
@@ -444,7 +460,8 @@
       ],
       "key_docs": [
         "Lexivo module spec"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "vantage-ip",
@@ -470,7 +487,8 @@
       "key_docs": [
         "Vantage IP platform spec",
         "Next.js/Supabase implementation guide"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "procurai-scout",
@@ -495,7 +513,8 @@
       ],
       "key_docs": [
         "Procurai Scout CLAUDE.md"
-      ]
+      ],
+      "local_path": "/Users/nicksinclair001/scout"
     },
     {
       "id": "procurai-grants",
@@ -519,7 +538,8 @@
       ],
       "key_docs": [
         "Procurai Grants CLAUDE.md"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "procurai-signal",
@@ -542,7 +562,8 @@
       ],
       "key_docs": [
         "Procurai Signal CLAUDE.md"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "ai-board",
@@ -566,7 +587,8 @@
       "key_docs": [
         "AI Board app",
         "Persona briefs"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "trade-accelerate",
@@ -589,7 +611,8 @@
       ],
       "key_docs": [
         "Trade Accelerate ops doc"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "agentos-jodie",
@@ -615,7 +638,8 @@
       "key_docs": [
         "Franchise prospectus",
         "Partnership proposal"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "rent2rent-tarragon",
@@ -639,7 +663,8 @@
       ],
       "key_docs": [
         "Ten-clause amendment letter"
-      ]
+      ],
+      "local_path": ""
     },
     {
       "id": "operating-ledger",
@@ -647,7 +672,7 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 90,
-      "one_liner": "Live project dashboard at operating-ledger.vercel.app — auto-syncs from Claude Code sessions via Stop hook.",
+      "one_liner": "Live project dashboard at operating-ledger.vercel.app \u2014 auto-syncs from Claude Code sessions via Stop hook.",
       "tech_stack": [
         "HTML",
         "Vercel",
@@ -661,7 +686,7 @@
       ],
       "revenue_model": "Internal tool",
       "outstanding": [
-        "Add ledger.caldr.ai DNS A record (ledger → 76.76.21.21)",
+        "Add ledger.caldr.ai DNS A record (ledger \u2192 76.76.21.21)",
         "Connect Vercel to GitHub in dashboard settings"
       ],
       "key_docs": [
@@ -669,7 +694,8 @@
         "github.com/nicktradeaccelerate-beep/operating-ledger"
       ],
       "url": "https://operating-ledger.vercel.app",
-      "github": "https://github.com/nicktradeaccelerate-beep/operating-ledger"
+      "github": "https://github.com/nicktradeaccelerate-beep/operating-ledger",
+      "local_path": "/Users/nicksinclair001/operating-ledger"
     }
   ],
   "team_data": {
@@ -881,7 +907,7 @@
         "id": "dan",
         "name": "Dan",
         "role": "Personal tax partner",
-        "deal": "TBC — needs formalised split",
+        "deal": "TBC \u2014 needs formalised split",
         "access_input": "Personal tax advisory, individual client work adjacent to PTO commercial tax",
         "projects": [
           "pto-core"
@@ -900,8 +926,8 @@
         "id": "thomas",
         "name": "Thomas",
         "role": "Comet field partner",
-        "deal": "Comet Alliance partner — field execution on EPC/DNO site visits",
-        "access_input": "On-the-ground site visits for Comet DNO × EPC opportunities, grid connection verification",
+        "deal": "Comet Alliance partner \u2014 field execution on EPC/DNO site visits",
+        "access_input": "On-the-ground site visits for Comet DNO \u00d7 EPC opportunities, grid connection verification",
         "projects": [
           "comet-dno",
           "comet-deal-flow"
@@ -920,7 +946,7 @@
         "id": "elise",
         "name": "Elise",
         "role": "Comet partner",
-        "deal": "Comet Alliance partner — TBC exact capacity",
+        "deal": "Comet Alliance partner \u2014 TBC exact capacity",
         "access_input": "Comet ecosystem support (scope to be defined)",
         "projects": [
           "comet-dno",

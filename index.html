@@ -2083,6 +2083,7 @@ function projectCardHtml(p) {
         <div class="project-name">${p.name}</div>
         <div style="display:flex;align-items:center;gap:8px;">
           <button class="edit-btn" onclick="event.stopPropagation();openEditModal('${p.id}')" title="Edit">✎</button>
+          <button class="edit-btn" onclick="event.stopPropagation();copyResume('${p.id}')" title="Copy resume prompt for Claude Code" style="color:var(--status-live);border-color:var(--status-live);">▶</button>
           <button class="edit-btn" onclick="event.stopPropagation();openAiPanel('${p.id}')" title="Ask Claude" style="color:var(--accent-signal);border-color:var(--accent-signal);">⚡</button>
           <div class="project-progress-big">${p.progress}%</div>
         </div>
@@ -3243,6 +3244,29 @@ async function savePersonEdit() {
     msg.style.color = 'var(--health-bad)';
     msg.textContent = 'Save failed: ' + e.message;
   }
+}
+
+// ============ RESUME / HANDOFF ============
+function copyResume(projectId) {
+  const p = PROJECTS.find(x => x.id === projectId);
+  if (!p) return;
+  const outstanding = p.outstanding.length
+    ? p.outstanding.map(t => `  • ${t}`).join('\n')
+    : '  (none logged)';
+  const cdCmd = p.local_path ? `cd "${p.local_path}"\n` : '';
+  const prompt = `${cdCmd}# Then open Claude Code — the SessionStart hook will auto-inject this brief.
+# Or paste the context below directly into Claude:
+
+Continue work on: ${p.name}
+Status: ${p.status} | Progress: ${p.progress}%
+Stack: ${p.tech_stack.join(', ')}
+${p.one_liner}${p.notes ? '\nNotes: ' + p.notes : ''}
+
+Outstanding (${p.outstanding.length}):
+${outstanding}
+
+Pick up where this left off. Start with the first outstanding item unless I direct otherwise. Ask before anything irreversible.`;
+  navigator.clipboard.writeText(prompt).then(() => showToast('Resume prompt copied — paste into Claude Code'));
 }
 
 // ============ AI PANEL ============
