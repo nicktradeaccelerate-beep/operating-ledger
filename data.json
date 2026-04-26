@@ -703,12 +703,12 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Anthropic Claude",
+        "Claude API",
         "OpenAI",
         "Gemini",
         "Twilio",
@@ -716,27 +716,32 @@
         "Web Push API",
         "Tailwind CSS",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
-        "bfb"
+        "bfb",
+        "Twilio",
+        "Stripe",
+        "Anthropic"
       ],
-      "revenue_model": "SaaS subscriptions (Starter £12 / Pro £19 / Intelligence £35 / OS £29)",
+      "revenue_model": "Tiered SaaS subscriptions (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
       "outstanding": [
-        "Library section (master/library)",
-        "Access controls (master/access)",
-        "Training content (master/training)",
+        "Number porting implementation (/admin/numbers)",
+        "Library, Access, Training stubs (/master/*)",
         "Code editor functionality",
-        "BFB CRM write-back integration",
-        "Number porting (admin/numbers)",
         "Conference calling",
-        "QR code generation",
-        "Phase 10 features (shifts, invoices, location tracking)"
+        "BFB CRM write-back",
+        "Boss notification stubs",
+        "QR generation",
+        "Code review AI feature",
+        "Clippy AI assistant"
       ],
       "key_docs": [
         "os.caldr.ai",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "CLAUDE.md"
       ]
     }
   ],
