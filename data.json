@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 15",
         "Supabase Auth",
@@ -713,7 +713,7 @@
         "Google Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
+        "Web Push API",
         "Tailwind CSS",
         "idb-keyval",
         "next-pwa"
@@ -721,26 +721,25 @@
       "connections": [
         "caldr-ai",
         "bfb",
-        "Supabase shared CRM"
+        "Resend"
       ],
-      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29/month)",
+      "revenue_model": "4-tier SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29)",
       "outstanding": [
-        "Master library section",
-        "Master access controls",
-        "Master training module",
-        "Admin number porting",
-        "Code editor functionality",
-        "Clippy AI assistant",
-        "BFB CRM write-back integration",
-        "Conference call support",
-        "QR generation endpoint",
-        "Push notification refinement",
-        "Phase 10: shifts, invoices, milestones, location tracking"
+        "Complete master/library",
+        "Complete master/access",
+        "Complete master/training",
+        "Complete admin/numbers (number porting)",
+        "Implement code editor (CodeEnv)",
+        "Implement BFB CRM write-back",
+        "Implement QR generation",
+        "Implement Twilio conference",
+        "Implement conference",
+        "Phase 10 shifts & invoicing",
+        "Stub implementations across post-call-debrief, code-review, clippy"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
