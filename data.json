@@ -703,10 +703,10 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 15",
-        "TypeScript",
+        "PWA",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -714,30 +714,32 @@
         "Google Gemini",
         "Twilio VoIP",
         "Stripe",
-        "Resend",
         "Web Push API",
         "idb-keyval",
-        "next-pwa",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
         "caldr-property",
-        "caldr-acquire",
-        "bfb"
+        "BFB CRM",
+        "Twilio",
+        "Stripe",
+        "Supabase"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29/month)",
+      "revenue_model": "SaaS subscription tiers (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Code editor implementation (CodeEnv)",
-        "Library management (master/library)",
-        "Access controls (master/access)",
-        "Training module (master/training)",
-        "Number porting (admin/numbers)",
-        "BFB lead write-back integration",
-        "Twilio conference routing",
+        "Code editor functionality",
+        "Library section (master dashboard)",
+        "Access controls (master dashboard)",
+        "Training module (master dashboard)",
+        "Number porting workflow",
+        "Conference calling",
+        "BFB CRM write-back integration",
         "QR code generation",
         "Code review AI feature",
-        "Clippy assistant stub"
+        "Boss update notifications refinement",
+        "Phase 10 features (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
