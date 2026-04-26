@@ -703,9 +703,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -713,33 +713,30 @@
         "Google Gemini",
         "Twilio",
         "Stripe",
-        "Web Push API",
-        "idb-keyval",
-        "next-pwa",
         "Resend",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "idb-keyval",
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "4-tier subscription plans (Starter £12, Professional £19, Intelligence £35, OS £29) via Stripe",
+      "revenue_model": "4-tier SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Implement /admin/numbers (number porting workflow)",
-        "Build /code editor functionality (CodeEnv component)",
-        "Implement BFB CRM write-back after calls",
-        "Complete QR code generation endpoint",
-        "Build Twilio conference and port endpoints",
-        "Complete AI code-review and clippy endpoints",
-        "Implement boss updates event streaming"
+        "Complete code editor (CodeEnv)",
+        "Implement BFB CRM write-back",
+        "Build master library, access, and training stubs",
+        "Implement number porting flows",
+        "Phase 10 tables (shifts, invoices, push subscriptions, milestones, location logs)",
+        "QR code generation endpoint",
+        "Clippy AI coaching stub",
+        "Conference call stub"
       ],
       "key_docs": [
-        "CLAUDE.md",
         "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "os.caldr.ai",
+        "CLAUDE.md"
       ]
     }
   ],
