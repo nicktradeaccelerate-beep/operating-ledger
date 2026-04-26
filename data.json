@@ -703,44 +703,46 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered mobile-first work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
+        "Google Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Supabase (external BFB CRM project)"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Stripe subscriptions: Starter £12, Pro £19, Intelligence £35, OS £29/month",
       "outstanding": [
-        "Master library section",
-        "Master access controls",
-        "Master training section",
-        "Admin number porting",
-        "BFB lead write-back integration",
-        "Code review AI feature",
-        "Clippy assistant",
-        "Conference calling",
-        "QR code generation",
-        "Phase 10 implementation (shifts, invoices, milestones, location tracking)"
+        "Complete code editor (CodeEnv)",
+        "Implement library management (/master/library)",
+        "Implement access controls (/master/access)",
+        "Implement training module (/master/training)",
+        "Implement number porting (/admin/numbers)",
+        "Build code review AI feature",
+        "Build Clippy assistant",
+        "Implement BFB write-back integration",
+        "Implement QR code generation",
+        "Implement Twilio conference support",
+        "Complete Phase 10 tables (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
