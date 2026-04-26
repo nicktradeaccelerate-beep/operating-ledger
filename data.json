@@ -703,50 +703,44 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
-        "TypeScript",
-        "Supabase PostgreSQL",
+        "Next.js 14.2",
         "Supabase Auth",
+        "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
+        "Google Gemini",
         "Twilio",
         "Stripe",
-        "Tailwind CSS",
+        "Web Push API",
         "idb-keyval",
         "next-pwa",
-        "Web Push API",
-        "Resend"
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "BFB CRM",
-        "Twilio",
-        "Stripe",
-        "Anthropic",
-        "OpenAI",
-        "Supabase"
+        "bfb"
       ],
-      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "4-tier SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29) via Stripe",
       "outstanding": [
-        "Code editor functionality",
-        "Library section",
-        "Access controls UI",
-        "Training module",
-        "Number porting workflow",
-        "Conference call feature",
-        "BFB lead write-back integration",
-        "Code review AI endpoint",
-        "Clippy AI coach",
+        "Number porting (/api/twilio/port)",
+        "Library management (/master/library)",
+        "Access controls (/master/access)",
+        "Training module (/master/training)",
+        "Code editor functionality (/code)",
+        "BFB CRM write-back",
         "QR code generation",
-        "Boss update notifications optimization"
+        "Conference calling",
+        "Code review AI",
+        "Clippy chatbot",
+        "Phase 10 features (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "os.caldr.ai",
+        "CLAUDE.md",
         "/Users/nicksinclair001/caldr-os/",
-        "CLAUDE.md"
+        "os.caldr.ai"
       ]
     }
   ],
