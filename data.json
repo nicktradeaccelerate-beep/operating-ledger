@@ -703,44 +703,42 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
-        "Twilio VoIP",
+        "Gemini",
+        "Twilio",
         "Stripe",
+        "Resend",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "4-tier subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
       "outstanding": [
-        "code-review API",
-        "code editor functionality",
-        "library master section",
-        "access master section",
-        "training master section",
-        "number porting",
-        "BFB lead write-back",
-        "conference calling",
-        "QR generation",
-        "Phase 10 tables (shifts, invoices, milestones, location tracking)"
+        "Code editor (CodeEnv) functionality",
+        "Library section",
+        "Access controls section",
+        "Training section",
+        "Number porting",
+        "Code review API",
+        "Clippy AI assistant",
+        "BFB CRM write-back",
+        "QR code generation",
+        "Conference calling",
+        "Boss updates section"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "os.caldr.ai",
         "/Users/nicksinclair001/caldr-os/"
       ]
     }
