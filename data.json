@@ -703,41 +703,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
-        "Supabase Auth",
-        "Supabase PostgreSQL",
+        "Next.js 15",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
+        "Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
         "Tailwind CSS",
-        "idb-keyval",
-        "next-pwa"
+        "Web Push API",
+        "idb-keyval"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
-        "bfb"
+        "BFB CRM integration"
       ],
-      "revenue_model": "Freemium SaaS: 4 subscription tiers (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month) via Stripe",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
       "outstanding": [
-        "Complete Master dashboard stubs (library, access, training)",
-        "Complete Admin stubs (number porting)",
-        "Implement code editor functionality",
-        "API stubs (conference, port, code-review, clippy, QR generation, BFB write-back)",
-        "Phase 10 features (shifts, invoices, push notifications, milestones, location tracking)",
-        "Custom domain routing",
-        "Number porting workflow"
+        "Master library section",
+        "Master access controls",
+        "Master training section",
+        "Admin number porting",
+        "BFB lead write-back",
+        "Code editor functionality",
+        "Clippy AI assistant",
+        "QR code generation",
+        "Conference calls",
+        "Phase 10 features (shifts, invoices, location logging)"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)"
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
