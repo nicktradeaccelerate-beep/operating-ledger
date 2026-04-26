@@ -703,46 +703,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP, task management, AI coaching, and boss reporting.",
       "tech_stack": [
-        "Next.js 15",
-        "TypeScript",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
-        "OpenAI GPT",
+        "OpenAI",
         "Google Gemini",
         "Twilio VoIP",
         "Stripe",
         "Web Push API",
         "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "Stripe subscriptions: Starter £12/mo, Professional £19/mo, Intelligence £35/mo, OS £29/mo",
+      "revenue_model": "Tiered SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29 per VA per month)",
       "outstanding": [
-        "Complete master/library routes",
-        "Complete master/access and master/training stubs",
-        "Implement /admin/numbers number porting",
-        "Build /code code editor functionality",
-        "Implement BFB CRM write-back after calls",
-        "Complete Twilio conference endpoint",
-        "Build QR code generation",
-        "Implement Phase 10 tables: shifts, invoices, milestones, location logs",
-        "Test offline-first functionality across all routes",
-        "Integrate location services for shift tracking"
+        "Phase 10: shifts, invoices, milestones",
+        "/master/library stub",
+        "/master/access stub",
+        "/master/training stub",
+        "/admin/numbers number porting",
+        "BFB CRM write-back integration",
+        "code editor functionality",
+        "QR code generation",
+        "conference calling",
+        "Clippy AI assistant",
+        "code review endpoint"
       ],
       "key_docs": [
+        "CLAUDE.md",
         "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md"
+        "os.caldr.ai"
       ]
     }
   ],
