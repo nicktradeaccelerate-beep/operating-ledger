@@ -703,9 +703,10 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
+        "App Router",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -721,28 +722,33 @@
       ],
       "connections": [
         "caldr-ai",
-        "BFB CRM",
+        "bfb",
         "Twilio",
-        "Stripe"
+        "Anthropic",
+        "OpenAI",
+        "Stripe",
+        "Supabase"
       ],
-      "revenue_model": "SaaS subscription: Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo",
+      "revenue_model": "SaaS subscriptions (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
       "outstanding": [
-        "Code editor implementation",
-        "Master/library section",
-        "Master/access section",
-        "Master/training section",
-        "Admin/numbers (number porting)",
-        "BFB CRM write-back",
-        "Conference calling",
-        "QR generation",
-        "Code review AI",
-        "Clippy feature",
-        "Phase 10 shifts/invoices/milestones"
+        "Complete /master/library route",
+        "Complete /master/access route",
+        "Complete /master/training route",
+        "Complete /admin/numbers route (number porting)",
+        "Implement /code editor (CodeEnv component)",
+        "Complete POST /api/ai/code-review endpoint",
+        "Complete POST /api/ai/clippy endpoint",
+        "Complete POST /api/twilio/conference endpoint",
+        "Complete POST /api/twilio/port endpoint",
+        "Complete POST /api/bfb/update-lead endpoint",
+        "Complete POST /api/boss/updates endpoint",
+        "Implement POST /api/qr/generate endpoint",
+        "Implement Phase 10 tables (shifts, invoices, milestones, location_logs)"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "os.caldr.ai",
-        "/Users/nicksinclair001/caldr-os/"
+        "os.caldr.ai (live domain)",
+        "/Users/nicksinclair001/caldr-os/ (local path)"
       ]
     }
   ],
