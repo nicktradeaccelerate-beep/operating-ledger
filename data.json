@@ -703,45 +703,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
-        "Supabase Auth",
-        "Supabase PostgreSQL",
-        "Claude API",
-        "OpenAI",
-        "Gemini",
+        "Next.js 15",
+        "Supabase",
+        "Anthropic Claude",
         "Twilio",
         "Stripe",
-        "Web Push API",
         "Tailwind CSS",
-        "idb-keyval",
-        "next-pwa",
-        "Resend"
+        "Web Push API",
+        "idb-keyval"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Twilio",
-        "Stripe",
-        "Anthropic"
+        "BFB CRM"
       ],
-      "revenue_model": "Tiered SaaS subscriptions (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per month)",
       "outstanding": [
-        "Number porting implementation (/admin/numbers)",
-        "Library, Access, Training stubs (/master/*)",
         "Code editor functionality",
+        "Library section",
+        "Access controls section",
+        "Training section",
+        "Number porting",
         "Conference calling",
-        "BFB CRM write-back",
-        "Boss notification stubs",
-        "QR generation",
-        "Code review AI feature",
+        "BFB lead write-back",
+        "Admin updates API",
+        "QR code generation",
+        "Phase 10 tables implementation",
         "Clippy AI assistant"
       ],
       "key_docs": [
-        "os.caldr.ai",
-        "/Users/nicksinclair001/caldr-os/",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
