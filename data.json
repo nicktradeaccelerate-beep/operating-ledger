@@ -703,20 +703,21 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP calling, task management, AI coaching, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
+        "TypeScript",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Anthropic Claude SDK",
+        "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
+        "Resend",
         "Web Push API",
         "idb-keyval",
         "next-pwa",
-        "Resend",
         "Tailwind CSS"
       ],
       "connections": [
@@ -725,22 +726,23 @@
         "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "Stripe subscription plans: Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo",
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29/month)",
       "outstanding": [
-        "Code editor functionality (/code route)",
-        "Library, access, and training master routes",
-        "Number porting endpoints",
+        "Code editor implementation (CodeEnv)",
+        "Library management (master/library)",
+        "Access controls (master/access)",
+        "Training module (master/training)",
+        "Number porting (admin/numbers)",
         "BFB lead write-back integration",
-        "Conference call support",
+        "Twilio conference routing",
         "QR code generation",
-        "Phase 10 tables implementation (shifts, invoices, milestones, location logs)",
-        "Code review AI endpoint",
-        "Clippy AI endpoint"
+        "Code review AI feature",
+        "Clippy assistant stub"
       ],
       "key_docs": [
+        "CLAUDE.md",
         "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai",
-        "CLAUDE.md"
+        "os.caldr.ai"
       ]
     }
   ],
