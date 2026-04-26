@@ -703,9 +703,11 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
+        "React",
+        "TypeScript",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -713,34 +715,35 @@
         "Google Gemini",
         "Twilio VoIP",
         "Stripe",
-        "Web Push API",
+        "Resend",
+        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "Web Push API"
       ],
       "connections": [
         "caldr-ai",
         "caldr-property",
         "caldr-acquire",
-        "bfb"
+        "BFB CRM (external Supabase project)"
       ],
-      "revenue_model": "4-tier SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29 monthly)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo) via Stripe",
       "outstanding": [
-        "Code editor functionality",
-        "Number porting system",
-        "Master team library section",
-        "Master training section",
-        "Master access controls section",
-        "BFB CRM write-back integration",
-        "Clippy AI assistant stub",
-        "Code review API",
-        "Conference call routing",
-        "QR code generation"
+        "Complete /master/library, /master/access, /master/training stubs",
+        "Complete /admin/numbers (number porting)",
+        "Implement /code editor (CodeEnv) functionality",
+        "Build POST /api/ai/code-review and POST /api/ai/clippy endpoints",
+        "Implement BFB CRM write-back (POST /api/bfb/update-lead)",
+        "Complete QR generation (POST /api/qr/generate)",
+        "Build Phase 10 tables: shifts, invoices, push_subscriptions, user_milestones, location_logs",
+        "Build Twilio conference and port endpoints",
+        "Implement boss_updates notification pipeline fully",
+        "Test offline PWA flows and idb-keyval sync"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/ (local repo)",
+        "os.caldr.ai (live domain)"
       ]
     }
   ],
