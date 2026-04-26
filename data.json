@@ -703,41 +703,48 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "TypeScript",
-        "Supabase",
-        "PostgreSQL",
+        "Supabase Auth",
+        "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio",
+        "Google Gemini",
+        "Twilio VoIP",
         "Stripe",
         "Tailwind CSS",
         "Web Push API",
-        "idb-keyval"
+        "idb-keyval",
+        "next-pwa",
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
-        "BFB CRM integration"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb"
       ],
-      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "Tiered SaaS subscription: Starter £12, Professional £19, Intelligence £35, OS £29 per user/month via Stripe",
       "outstanding": [
         "Master library section",
-        "Master access controls",
+        "Master access section",
         "Master training section",
-        "Admin number porting",
-        "BFB lead write-back",
-        "Code editor functionality",
+        "Admin numbers porting stub",
+        "BFB CRM write-back integration",
+        "Code review API",
         "Clippy AI assistant",
         "QR code generation",
-        "Conference calls",
-        "Phase 10 features (shifts, invoices, location logging)"
+        "Twilio conference routing",
+        "Number porting workflow",
+        "Phase 10 tables (shifts, invoices, milestones, location tracking)",
+        "Custom domain routing"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
