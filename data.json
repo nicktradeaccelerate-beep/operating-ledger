@@ -178,7 +178,7 @@
       "ecosystem": "Caldr",
       "status": "Designed",
       "progress": 30,
-      "one_liner": "M&A acquisition intelligence (\u00a33,500/mo, acquire.caldr.ai). Bloomberg-style dark UI.",
+      "one_liner": "M&A acquisition intelligence (£3,500/mo, acquire.caldr.ai). Bloomberg-style dark UI.",
       "tech_stack": [
         "Next.js",
         "Supabase (planned)",
@@ -188,7 +188,7 @@
         "Caldr ecosystem",
         "Thor (adjacent)"
       ],
-      "revenue_model": "\u00a33,500/month subscription",
+      "revenue_model": "£3,500/month subscription",
       "outstanding": [
         "Owner psychology profiling module",
         "Bolt-on value model build",
@@ -243,7 +243,7 @@
         "backfromblack.co.uk landing",
         "Charlene (WhatsApp intake)"
       ],
-      "revenue_model": "Avg job value \u00a3500\u2013\u00a31,500. PO19 Chichester base.",
+      "revenue_model": "Avg job value £500–£1,500. PO19 Chichester base.",
       "outstanding": [
         "Production deployment (currently localhost)",
         "Property radar tuning",
@@ -262,7 +262,7 @@
       "ecosystem": "Thor",
       "status": "Designed",
       "progress": 40,
-      "one_liner": "Demo-ready HTML build using Meridian Fluid Systems (fictional \u00a33.2m hydraulics case).",
+      "one_liner": "Demo-ready HTML build using Meridian Fluid Systems (fictional £3.2m hydraulics case).",
       "tech_stack": [
         "HTML demo",
         "Next.js (planned)"
@@ -285,11 +285,11 @@
     },
     {
       "id": "comet-dno",
-      "name": "Comet Alliance DNO \u00d7 EPC Tool",
+      "name": "Comet Alliance DNO × EPC Tool",
       "ecosystem": "Comet",
       "status": "Live",
       "progress": 90,
-      "one_liner": "50,000 commercial properties, ~\u00a3125B estimated capital value. Streamlit on localhost:8501.",
+      "one_liner": "50,000 commercial properties, ~£125B estimated capital value. Streamlit on localhost:8501.",
       "tech_stack": [
         "Streamlit",
         "Python",
@@ -299,7 +299,7 @@
         "Thomas (field partner, site visits)",
         "Comet Alliance"
       ],
-      "revenue_model": "Internal deal origination \u2192 Comet Alliance deals",
+      "revenue_model": "Internal deal origination → Comet Alliance deals",
       "outstanding": [
         "Streamlit Community Cloud deployment",
         "Geographic radius filter v2 refinement"
@@ -365,7 +365,7 @@
       "ecosystem": "Standalone",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property image \u2192 capital allowances report. UK/US/AU jurisdictions. 138 files, 7 SQL migrations.",
+      "one_liner": "Property image → capital allowances report. UK/US/AU jurisdictions. 138 files, 7 SQL migrations.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
@@ -672,7 +672,7 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 90,
-      "one_liner": "Live project dashboard at operating-ledger.vercel.app \u2014 auto-syncs from Claude Code sessions via Stop hook.",
+      "one_liner": "Live project dashboard at operating-ledger.vercel.app — auto-syncs from Claude Code sessions via Stop hook.",
       "tech_stack": [
         "HTML",
         "Vercel",
@@ -686,7 +686,7 @@
       ],
       "revenue_model": "Internal tool",
       "outstanding": [
-        "Add ledger.caldr.ai DNS A record (ledger \u2192 76.76.21.21)",
+        "Add ledger.caldr.ai DNS A record (ledger → 76.76.21.21)",
         "Connect Vercel to GitHub in dashboard settings"
       ],
       "key_docs": [
@@ -696,10 +696,53 @@
       "url": "https://operating-ledger.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/operating-ledger",
       "local_path": "/Users/nicksinclair001/operating-ledger"
+    },
+    {
+      "id": "caldr-os",
+      "name": "Caldr OS",
+      "ecosystem": "Caldr",
+      "status": "Build sprint",
+      "progress": 65,
+      "one_liner": "AI-powered mobile-first work OS for remote Virtual Assistants combining VoIP, task management, AI coaching and boss reporting.",
+      "tech_stack": [
+        "Next.js 15",
+        "Supabase",
+        "Twilio",
+        "Anthropic Claude",
+        "OpenAI",
+        "Google Gemini",
+        "Stripe",
+        "Tailwind CSS",
+        "Web Push API",
+        "idb-keyval",
+        "Resend"
+      ],
+      "connections": [
+        "caldr-ai",
+        "bfb"
+      ],
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "outstanding": [
+        "Complete /master/library stub",
+        "Complete /master/access stub",
+        "Complete /master/training stub",
+        "Complete /admin/numbers number porting",
+        "Implement /code editor functionality",
+        "Build Twilio conference endpoint",
+        "Build BFB lead write-back integration",
+        "Implement QR code generation",
+        "Build boss update notifications STUB",
+        "Phase 10: shifts, invoices, push subscriptions, user milestones, location logs"
+      ],
+      "key_docs": [
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai",
+        "CLAUDE.md"
+      ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-04-20",
+    "last_updated": "2026-04-26",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
@@ -907,7 +950,7 @@
         "id": "dan",
         "name": "Dan",
         "role": "Personal tax partner",
-        "deal": "TBC \u2014 needs formalised split",
+        "deal": "TBC — needs formalised split",
         "access_input": "Personal tax advisory, individual client work adjacent to PTO commercial tax",
         "projects": [
           "pto-core"
@@ -926,8 +969,8 @@
         "id": "thomas",
         "name": "Thomas",
         "role": "Comet field partner",
-        "deal": "Comet Alliance partner \u2014 field execution on EPC/DNO site visits",
-        "access_input": "On-the-ground site visits for Comet DNO \u00d7 EPC opportunities, grid connection verification",
+        "deal": "Comet Alliance partner — field execution on EPC/DNO site visits",
+        "access_input": "On-the-ground site visits for Comet DNO × EPC opportunities, grid connection verification",
         "projects": [
           "comet-dno",
           "comet-deal-flow"
@@ -946,7 +989,7 @@
         "id": "elise",
         "name": "Elise",
         "role": "Comet partner",
-        "deal": "Comet Alliance partner \u2014 TBC exact capacity",
+        "deal": "Comet Alliance partner — TBC exact capacity",
         "access_input": "Comet ecosystem support (scope to be defined)",
         "projects": [
           "comet-dno",
