@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
@@ -713,33 +713,32 @@
         "Google Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
+        "Web Push API",
         "Tailwind CSS",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "Stripe subscription plans: Starter (£12), Professional (£19), Intelligence (£35), OS (£29)",
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Complete Master library, access, and training stubs",
-        "Implement Admin number porting",
-        "Build BFB CRM write-back integration",
-        "Implement Code editor functionality",
-        "Build QR code generation endpoint",
-        "Phase 10: shifts, invoices, milestones, location tracking",
-        "Supervisor conference calling",
-        "Code review AI endpoint",
-        "Boss updates and daily summary refinement"
+        "Master library section",
+        "Master access controls",
+        "Master training module",
+        "Admin number porting",
+        "Code editor functionality",
+        "Clippy AI assistant",
+        "BFB CRM write-back",
+        "QR code generation",
+        "Twilio conference routing",
+        "Phase 10 features (shifts, invoices, location logging)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
