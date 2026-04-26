@@ -703,47 +703,46 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP, task management, AI coaching, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 15",
-        "Supabase PostgreSQL",
+        "App Router",
         "Supabase Auth",
+        "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Twilio",
-        "Stripe",
-        "Anthropic",
-        "Supabase"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "SaaS subscription: 4 tiers (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Implement /admin/numbers (number porting)",
-        "Build /code editor (CodeEnv component)",
-        "Implement /api/ai/code-review and /api/ai/clippy",
-        "Build /api/bfb/update-lead write-back",
-        "Implement /api/twilio/conference and /api/twilio/port",
-        "Complete /api/boss/updates",
-        "Build /api/qr/generate",
-        "Implement Phase 10 tables (shifts, invoices, milestones, location logging)",
-        "Complete offline PWA sync strategy"
+        "Code editor functionality",
+        "Master library section",
+        "Access controls section",
+        "Training portal",
+        "Number porting workflow",
+        "Code review AI feature",
+        "Clippy assistant",
+        "BFB CRM write-back",
+        "Boss updates API",
+        "QR code generation"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md (this file)"
+        "CLAUDE.md",
+        "os.caldr.ai",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
