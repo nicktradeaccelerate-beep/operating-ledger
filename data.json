@@ -710,39 +710,34 @@
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
-        "Twilio",
+        "Gemini",
+        "Twilio VoIP",
         "Stripe",
         "Web Push API",
-        "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "idb-keyval"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Twilio",
-        "Stripe",
-        "Supabase"
+        "BFB CRM"
       ],
-      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 per user/month)",
+      "revenue_model": "4-tier SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Code editor implementation",
+        "Number porting flow",
+        "Code editor functionality",
         "Master library section",
         "Master access controls",
-        "Master training module",
-        "Admin number porting",
-        "Twilio conference routing",
-        "BFB CRM write-back",
-        "Boss updates API",
-        "QR code generation",
-        "AI code review",
-        "AI clippy assistant"
+        "Master training section",
+        "BFB lead write-back",
+        "Conference calls",
+        "QR generation endpoint",
+        "Daily summary refinement",
+        "Phase 10 implementation (shifts, invoices, milestones)"
       ],
       "key_docs": [
-        "os.caldr.ai",
-        "/Users/nicksinclair001/caldr-os/"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
