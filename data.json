@@ -703,19 +703,22 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 15",
-        "Supabase",
+        "TypeScript",
+        "Supabase Auth",
+        "Supabase PostgreSQL",
         "Anthropic Claude",
-        "OpenAI",
-        "Gemini",
-        "Twilio",
+        "OpenAI GPT",
+        "Google Gemini",
+        "Twilio VoIP",
         "Stripe",
-        "Tailwind CSS",
+        "Web Push API",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
@@ -723,22 +726,23 @@
         "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Stripe subscriptions: Starter £12/mo, Professional £19/mo, Intelligence £35/mo, OS £29/mo",
       "outstanding": [
-        "Library section (stub)",
-        "Access controls (stub)",
-        "Training module (stub)",
-        "Number porting implementation",
-        "Code review API",
-        "Conference routing",
-        "BFB CRM write-back",
-        "Phase 10 features (shifts, invoices, milestones)",
-        "QR code generation"
+        "Complete master/library routes",
+        "Complete master/access and master/training stubs",
+        "Implement /admin/numbers number porting",
+        "Build /code code editor functionality",
+        "Implement BFB CRM write-back after calls",
+        "Complete Twilio conference endpoint",
+        "Build QR code generation",
+        "Implement Phase 10 tables: shifts, invoices, milestones, location logs",
+        "Test offline-first functionality across all routes",
+        "Integrate location services for shift tracking"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "os.caldr.ai",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai (live domain)",
+        "CLAUDE.md"
       ]
     }
   ],
