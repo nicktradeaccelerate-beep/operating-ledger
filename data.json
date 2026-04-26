@@ -703,48 +703,45 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
+        "TypeScript",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
+        "Resend",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Twilio",
-        "Supabase",
-        "Stripe",
-        "Anthropic"
+        "caldr-property",
+        "bfb"
       ],
-      "revenue_model": "4-tier subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "SaaS subscription: 4 tiered plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
       "outstanding": [
-        "Number porting (POST /api/twilio/port)",
-        "Code editor (CodeEnv component)",
-        "Library section (/master/library)",
-        "Access controls (/master/access)",
-        "Training module (/master/training)",
-        "BFB lead write-back",
-        "QR code generation",
+        "Library section (Master view)",
+        "Access controls (Master view)",
+        "Training module (Master view)",
+        "Number porting implementation",
+        "Code editor functionality",
+        "BFB CRM write-back integration",
         "Conference calling",
-        "Code review API",
-        "Clippy AI assistant",
-        "Phase 10 tables (shifts, invoices, push subscriptions, milestones, location logs)"
+        "QR code generation",
+        "Code review AI endpoint",
+        "Clippy assistant"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "/Users/nicksinclair001/caldr-os/ (local)",
+        "os.caldr.ai (live domain)",
+        "CLAUDE.md"
       ]
     }
   ],
