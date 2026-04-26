@@ -703,10 +703,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
-        "TypeScript",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -714,34 +713,34 @@
         "Google Gemini",
         "Twilio VoIP",
         "Stripe",
-        "Resend",
         "Web Push API",
         "idb-keyval",
         "next-pwa",
+        "Resend",
         "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
         "caldr-property",
+        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription: 4 tiered plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
+      "revenue_model": "4-tier SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29 monthly)",
       "outstanding": [
-        "Library section (Master view)",
-        "Access controls (Master view)",
-        "Training module (Master view)",
-        "Number porting implementation",
         "Code editor functionality",
+        "Number porting system",
+        "Master team library section",
+        "Master training section",
+        "Master access controls section",
         "BFB CRM write-back integration",
-        "Conference calling",
-        "QR code generation",
-        "Code review AI endpoint",
-        "Clippy assistant"
+        "Clippy AI assistant stub",
+        "Code review API",
+        "Conference call routing",
+        "QR code generation"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/ (local)",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
