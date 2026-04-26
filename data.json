@@ -703,44 +703,44 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
+        "Google Gemini",
         "Twilio",
         "Stripe",
-        "Web Push API",
-        "idb-keyval",
-        "next-pwa",
         "Resend",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "idb-keyval",
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
         "bfb",
-        "Twilio",
-        "Stripe",
-        "Supabase"
+        "Supabase shared CRM"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29/month)",
       "outstanding": [
-        "Complete Master library/access/training stubs",
-        "Complete Admin numbers porting",
-        "Implement code editor (CodeEnv)",
-        "Build Clippy AI assistant",
+        "Master library section",
+        "Master access controls",
+        "Master training module",
+        "Admin number porting",
+        "Code editor functionality",
+        "Clippy AI assistant",
         "BFB CRM write-back integration",
-        "Phase 10 tables (shifts, invoices, milestones, location logs)",
-        "QR code generation endpoint",
-        "Number porting workflow",
-        "Conference call capability"
+        "Conference call support",
+        "QR generation endpoint",
+        "Push notification refinement",
+        "Phase 10: shifts, invoices, milestones, location tracking"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
