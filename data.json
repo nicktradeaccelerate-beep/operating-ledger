@@ -703,45 +703,45 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio VoIP",
+        "Twilio",
         "Stripe",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
         "bfb",
-        "Anthropic",
-        "OpenAI",
         "Twilio",
-        "Stripe"
+        "Stripe",
+        "Supabase"
       ],
-      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29/month)",
+      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 per user/month)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Complete /admin/numbers (number porting)",
-        "Implement /code editor (CodeEnv component)",
-        "Build /api/ai/code-review and /api/ai/clippy",
-        "Build /api/bfb/update-lead (CRM write-back)",
-        "Build /api/boss/updates",
-        "Build /api/twilio/conference and /api/twilio/port",
-        "Build /api/qr/generate",
-        "Implement Phase 10 tables (shifts, invoices, milestones, location logs)",
-        "Deploy to os.caldr.ai and verify production flows"
+        "Code editor implementation",
+        "Master library section",
+        "Master access controls",
+        "Master training module",
+        "Admin number porting",
+        "Twilio conference routing",
+        "BFB CRM write-back",
+        "Boss updates API",
+        "QR code generation",
+        "AI code review",
+        "AI clippy assistant"
       ],
       "key_docs": [
-        "CLAUDE.md",
+        "os.caldr.ai",
         "/Users/nicksinclair001/caldr-os/"
       ]
     }
