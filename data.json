@@ -703,15 +703,15 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio VoIP",
+        "Google Gemini",
+        "Twilio",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -721,28 +721,27 @@
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription tiers (Starter £12, Professional £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "4-tier subscription plans (Starter £12 / Pro £19 / Intelligence £35 / OS £29) via Stripe",
       "outstanding": [
-        "Complete code editor (CodeEnv)",
-        "Implement master library section",
-        "Implement master access controls",
-        "Implement master training section",
-        "Implement admin numbers/porting",
-        "Implement BFB CRM write-back",
-        "Implement Twilio conference calls",
-        "Implement QR code generation",
-        "Build Phase 10 features (shifts, invoices, milestones, location tracking)",
-        "Complete AI code review and Clippy features",
-        "Boss updates section"
+        "Code editor implementation",
+        "Library module",
+        "Access controls module",
+        "Training module",
+        "Number porting",
+        "Conference calls",
+        "BFB CRM write-back",
+        "Boss updates module",
+        "QR code generation",
+        "Code review AI feature",
+        "Clippy feature",
+        "Phase 10 tables (shifts, invoices, milestones, location logging)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
