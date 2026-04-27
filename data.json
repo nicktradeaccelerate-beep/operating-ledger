@@ -710,26 +710,31 @@
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio",
+        "Google Gemini",
+        "Twilio VoIP",
         "Stripe",
-        "Resend",
-        "Tailwind CSS",
+        "Web Push API",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "SaaS subscriptions (Starter £12 / Pro £19 / Intelligence £35 / OS £29)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Implement /code editor functionality",
-        "Build /admin/numbers number porting",
-        "Implement BFB CRM write-back",
-        "Complete Phase 10 tables (shifts, invoices, milestones)",
-        "Code review and Clippy AI features"
+        "Number porting implementation",
+        "Library section",
+        "Access controls section",
+        "Training section",
+        "Code editor functionality",
+        "BFB CRM write-back",
+        "Conference calling",
+        "QR code generation",
+        "Clippy AI assistant",
+        "Phase 10 tables implementation (shifts, invoices, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -738,7 +743,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-04-26",
+    "last_updated": "2026-04-27",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
