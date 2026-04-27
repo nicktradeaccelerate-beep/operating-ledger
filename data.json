@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants with VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
@@ -711,34 +711,37 @@
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio VoIP",
+        "Twilio",
         "Stripe",
+        "Resend",
         "Web Push API",
         "idb-keyval",
         "next-pwa",
-        "Resend",
         "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscriptions (Starter £12 / Pro £19 / Intelligence £35 / OS £29)",
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Number porting implementation",
-        "Library section",
-        "Access controls section",
-        "Training section",
-        "Code editor functionality",
-        "BFB CRM write-back",
-        "Conference calling",
-        "QR code generation",
-        "Clippy AI assistant",
-        "Phase 10 tables implementation (shifts, invoices, location tracking)"
+        "Complete /master/library, /master/access, /master/training stubs",
+        "Complete /admin/numbers (number porting)",
+        "Implement /code editor (CodeEnv)",
+        "BFB CRM write-back integration",
+        "QR code generation endpoint",
+        "Conference calling stub",
+        "Code review AI endpoint",
+        "Clippy AI assistant stub",
+        "Phase 10 tables (shifts, invoices, milestones, location logs)",
+        "Custom domain provisioning"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
