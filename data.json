@@ -703,14 +703,14 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
+        "Gemini",
         "Twilio",
         "Stripe",
         "Web Push API",
@@ -722,24 +722,24 @@
       "connections": [
         "caldr-ai",
         "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per month)",
       "outstanding": [
-        "Complete master library, access, training sections",
+        "Complete Master library, access, training stubs",
+        "Complete Admin numbers porting stub",
         "Implement code editor (CodeEnv)",
-        "Complete admin number porting section",
-        "Implement BFB CRM lead write-back",
-        "Build Phase 10 features (shifts, invoices, milestones, location tracking)",
-        "Implement code review and Clippy AI features",
-        "Build Twilio conference and port endpoints",
-        "Complete boss update notifications system"
+        "Implement Clippy and code-review AI endpoints",
+        "Implement BFB lead write-back",
+        "Complete QR code generation endpoint",
+        "Complete Twilio conference routing",
+        "Complete number porting workflow",
+        "Finish Phase 10 tables and features (shifts, invoices, location tracking)"
       ],
       "key_docs": [
-        "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
