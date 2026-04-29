@@ -705,38 +705,36 @@
       "progress": 65,
       "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Claude AI",
+        "Anthropic Claude",
         "OpenAI",
-        "Gemini",
+        "Google Gemini",
         "Twilio VoIP",
         "Stripe",
-        "Tailwind CSS",
         "Web Push API",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Anthropic Claude",
-        "Twilio",
-        "Stripe"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb"
       ],
-      "revenue_model": "SaaS subscription tiers (Starter £12, Pro £19, Intelligence £35, OS £29 per month)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
       "outstanding": [
-        "number porting functionality",
-        "code editor (CodeEnv)",
-        "library management stub",
-        "access controls stub",
-        "training module stub",
-        "conference calling",
-        "BFB CRM write-back",
-        "QR generation",
-        "boss updates management",
-        "Phase 10 features (shifts, invoices, milestones, location tracking)"
+        "Complete /master/library, /master/access, /master/training stubs",
+        "Implement /admin/numbers number porting",
+        "Build /code code editor functionality",
+        "Implement BFB CRM write-back after calls",
+        "Build conference call routing",
+        "QR code generation endpoint",
+        "AI code review and Clippy endpoints",
+        "Phase 10 tables: shifts, invoices, milestones, location tracking"
       ],
       "key_docs": [
         "CLAUDE.md",
