@@ -703,38 +703,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 14.2",
-        "Supabase Auth",
-        "Supabase PostgreSQL",
+        "Supabase",
+        "Twilio",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio VoIP",
         "Stripe",
+        "Tailwind CSS",
         "Web Push API",
-        "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "idb-keyval"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
-        "bfb"
+        "bfb",
+        "Resend"
       ],
-      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "Tiered subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Implement /admin/numbers number porting",
-        "Build /code code editor functionality",
-        "Implement BFB CRM write-back after calls",
-        "Build conference call routing",
-        "QR code generation endpoint",
-        "AI code review and Clippy endpoints",
-        "Phase 10 tables: shifts, invoices, milestones, location tracking"
+        "Code editor functionality",
+        "Library section (master)",
+        "Access controls (master)",
+        "Training portal (master)",
+        "Number porting (admin)",
+        "Conference calling",
+        "BFB CRM write-back",
+        "QR code generation",
+        "Clippy AI feature",
+        "Code review API",
+        "Boss notification updates",
+        "Phase 10 implementation (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
