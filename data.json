@@ -703,15 +703,15 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio VoIP",
+        "Google Gemini",
+        "Twilio",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -721,26 +721,25 @@
       ],
       "connections": [
         "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Code editor functionality (CodeEnv component)",
-        "Master library section",
-        "Master access controls section",
-        "Master training section",
-        "Admin number porting",
-        "Twilio conference calls",
-        "BFB CRM write-back integration",
-        "QR code generation",
-        "AI code review feature",
-        "Clippy AI assistant stub",
-        "Phase 10 implementation (shifts, invoices, milestones, location logging)"
+        "Complete master library, access, training sections",
+        "Implement code editor (CodeEnv)",
+        "Complete admin number porting section",
+        "Implement BFB CRM lead write-back",
+        "Build Phase 10 features (shifts, invoices, milestones, location tracking)",
+        "Implement code review and Clippy AI features",
+        "Build Twilio conference and port endpoints",
+        "Complete boss update notifications system"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "os.caldr.ai (live domain)",
+        "/Users/nicksinclair001/caldr-os/ (local path)",
+        "CLAUDE.md"
       ]
     }
   ],
