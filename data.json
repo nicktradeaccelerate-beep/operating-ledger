@@ -703,44 +703,45 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Anthropic Claude",
+        "Claude AI",
         "OpenAI",
         "Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
+        "Tailwind CSS",
         "Web Push API",
         "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
-        "bfb"
+        "bfb",
+        "Anthropic Claude",
+        "Twilio",
+        "Stripe"
       ],
-      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
+      "revenue_model": "SaaS subscription tiers (Starter £12, Pro £19, Intelligence £35, OS £29 per month)",
       "outstanding": [
-        "Code editor (CodeEnv) functionality",
-        "Master library section",
-        "Master access controls",
-        "Master training module",
-        "Admin number porting",
-        "Twilio conference API",
-        "BFB lead write-back",
-        "QR code generation",
-        "Boss updates section",
-        "Code review AI endpoint",
-        "Clippy AI endpoint",
-        "Phase 10 features (shifts, invoices, milestones, location logging)"
+        "number porting functionality",
+        "code editor (CodeEnv)",
+        "library management stub",
+        "access controls stub",
+        "training module stub",
+        "conference calling",
+        "BFB CRM write-back",
+        "QR generation",
+        "boss updates management",
+        "Phase 10 features (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
