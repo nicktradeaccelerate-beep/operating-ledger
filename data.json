@@ -711,7 +711,7 @@
         "Anthropic Claude",
         "OpenAI",
         "Gemini",
-        "Twilio VoIP",
+        "Twilio",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -721,29 +721,26 @@
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "Tiered SaaS plans (Starter £12, Pro £19, Intelligence £35, OS £29 per month)",
+      "revenue_model": "Tiered SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Code editor functionality",
-        "Master library stub",
+        "Code editor (CodeEnv) functionality",
+        "Master library section",
         "Master access controls",
         "Master training module",
-        "Number porting",
-        "Conference calling",
-        "BFB CRM write-back",
-        "Boss updates workflow",
+        "Admin number porting",
+        "Twilio conference API",
+        "BFB lead write-back",
         "QR code generation",
-        "Code review API",
-        "Clippy assistant",
-        "Phase 10 features (shifts, invoices, milestones, location logs)"
+        "Boss updates section",
+        "Code review AI endpoint",
+        "Clippy AI endpoint",
+        "Phase 10 features (shifts, invoices, milestones, location logging)"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
