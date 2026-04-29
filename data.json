@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
@@ -725,21 +725,18 @@
         "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "Stripe subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 per VA per month via Stripe)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Implement /admin/numbers (number porting)",
-        "Build /code editor (CodeEnv component functional)",
-        "Implement BFB CRM write-back (/api/bfb/update-lead)",
-        "Implement /api/twilio/conference and /api/twilio/port",
-        "Add /api/ai/code-review and /api/ai/clippy",
-        "Phase 10 tables and features (shifts, invoices, user milestones, location logs)",
-        "QR generation endpoint (/api/qr/generate)"
+        "Complete stubbed routes: /master/library, /master/access, /master/training, /admin/numbers",
+        "Complete stubbed API routes: /api/ai/code-review, /api/ai/clippy, /api/twilio/conference, /api/twilio/port, /api/bfb/update-lead, /api/boss/updates, /api/qr/generate",
+        "Phase 10 implementation: shifts, invoices, push_subscriptions, user_milestones, location_logs",
+        "Number porting workflow",
+        "BFB CRM write-back integration"
       ],
       "key_docs": [
-        "CLAUDE.md",
         "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)"
+        "/Users/nicksinclair001/caldr-os/ (local path)",
+        "CLAUDE.md"
       ]
     }
   ],
