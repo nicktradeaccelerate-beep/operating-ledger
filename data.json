@@ -707,12 +707,12 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Anthropic Claude",
+        "Claude API",
         "OpenAI",
         "Gemini",
         "Twilio",
@@ -720,30 +720,29 @@
         "Web Push API",
         "Tailwind CSS",
         "idb-keyval",
-        "next-pwa",
-        "Resend"
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
+      "revenue_model": "SaaS subscription: 4 tiered plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Complete code editor (CodeEnv component)",
-        "Implement number porting workflow",
-        "Build master library section",
-        "Build master access controls section",
-        "Build master training section",
-        "Implement BFB CRM write-back after calls",
-        "Implement conference calling",
-        "Implement QR code generation for onboarding",
-        "Complete Phase 10 features (shifts, invoices, milestones, location logging)",
-        "Implement Clippy AI assistant stub",
-        "Implement code review AI feature"
+        "Library section (stub)",
+        "Access controls section (stub)",
+        "Training section (stub)",
+        "Number porting (stub)",
+        "Code editor functionality",
+        "Conference calling (stub)",
+        "BFB CRM write-back (stub)",
+        "QR code generation (stub)",
+        "Code review AI (stub)",
+        "Clippy assistant (stub)",
+        "Boss updates section (stub)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
