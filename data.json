@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
         "Supabase Auth",
@@ -714,8 +714,9 @@
         "Twilio",
         "Stripe",
         "Web Push API",
-        "idb-keyval",
         "Tailwind CSS",
+        "idb-keyval",
+        "next-pwa",
         "Resend"
       ],
       "connections": [
@@ -724,17 +725,16 @@
       ],
       "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Number porting implementation",
         "Master library section",
         "Master access controls",
-        "Master training section",
+        "Master training module",
+        "Admin number porting",
+        "BFB CRM write-back",
         "Code editor functionality",
-        "BFB CRM write-back integration",
-        "QR code generation",
         "Conference calling",
-        "Code review AI feature",
-        "Clippy AI assistant",
-        "Phase 10 tables (shifts, invoices, milestones, location tracking)"
+        "QR code generation",
+        "Boss updates features",
+        "Phase 10 implementation (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
