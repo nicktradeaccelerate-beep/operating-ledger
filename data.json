@@ -703,33 +703,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered mobile-first work OS for remote Virtual Assistants combining VoIP, task management, AI coaching, and boss reporting.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 14.2",
+        "Supabase Auth",
+        "Supabase PostgreSQL",
         "Anthropic Claude",
+        "OpenAI",
+        "Google Gemini",
         "Twilio",
         "Stripe",
-        "Tailwind CSS",
+        "Resend",
         "Web Push API",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "BFB CRM"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Stripe subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Code editor functionality",
-        "Master library section",
-        "Master access controls",
-        "Master training section",
-        "Admin number porting",
-        "BFB lead write-back",
-        "QR code generation",
-        "Conference calling",
-        "Phase 10 tables implementation"
+        "Complete Master dashboard library, access, training stubs",
+        "Complete Admin numbers porting stub",
+        "Implement code editor (CodeEnv)",
+        "Implement AI code-review and Clippy endpoints",
+        "Implement Twilio conference and number porting",
+        "Implement BFB CRM lead write-back",
+        "Implement Phase 10 features (shifts, invoices, milestones, location logs)",
+        "Implement QR code generation endpoint",
+        "Complete boss updates and daily summary features"
       ],
       "key_docs": [
         "CLAUDE.md",
