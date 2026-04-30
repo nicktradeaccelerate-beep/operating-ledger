@@ -703,42 +703,45 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Claude API",
+        "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio VoIP",
+        "Google Gemini",
+        "Twilio",
         "Stripe",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "4-tier subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
+      "revenue_model": "SaaS subscription: Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month via Stripe",
       "outstanding": [
-        "Code editor functionality",
-        "Library section",
-        "Access controls UI",
-        "Training section",
-        "Number porting workflow",
-        "BFB CRM write-back",
-        "Conference calling",
-        "QR code generation",
-        "Clippy stub",
-        "Code review stub",
-        "Phase 10 features (shifts, invoices, milestones, location tracking)"
+        "Complete code editor (CodeEnv)",
+        "BFB CRM write-back integration",
+        "Number porting flow",
+        "Master library section",
+        "Master access controls",
+        "Master training module",
+        "Conference call handling",
+        "QR generation endpoint",
+        "Clippy AI assistant",
+        "Phase 10 tables (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai",
+        "CLAUDE.md"
       ]
     }
   ],
