@@ -707,9 +707,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -718,26 +718,29 @@
         "Twilio VoIP",
         "Stripe",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Resend"
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Stripe subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Code editor functionality",
         "Master library section",
         "Master access controls",
-        "Master training section",
-        "Number porting API",
-        "BFB CRM write-back",
-        "Conference call support",
+        "Master training module",
+        "Number porting functionality",
+        "BFB CRM write-back integration",
+        "Code editor functionality",
+        "Conference calling",
         "QR code generation",
-        "Phase 10 tables implementation"
+        "Boss updates module",
+        "Phase 10 tables (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
         "CLAUDE.md",
