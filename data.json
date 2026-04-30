@@ -149,28 +149,32 @@
       "name": "Caldr Property Intelligence",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 55,
-      "one_liner": "Portfolio intelligence: compliance, finance, maintenance, AI quote analysis modules.",
+      "progress": 65,
+      "one_liner": "Property sourcing CRM: multi-tenant deal pipeline, AI daily trigger runs, interaction log, DISRUPT scoring.",
       "tech_stack": [
-        "Next.js",
-        "Supabase",
-        "Claude API"
+        "Next.js 15",
+        "Supabase (London eu-west-2)",
+        "Claude API (Haiku 4.5 / Sonnet)",
+        "TypeScript"
       ],
       "connections": [
         "Caldr.ai",
-        "Eva (property education module)",
-        "PTO (cross-sell)"
+        "PTO (cross-sell)",
+        "Eva (property education module)"
       ],
-      "revenue_model": "SaaS subscription per portfolio",
+      "revenue_model": "SaaS subscription per operator (sourcer/investor)",
       "outstanding": [
-        "Compliance module live wiring",
-        "Maintenance module AI quote analysis ingest",
-        "Finance module reconciliation logic"
+        "Vercel deployment (needs GitHub push + env vars in Vercel)",
+        "RLS verification against live Supabase",
+        "Phase 3: Twilio SMS outreach (stubbed in DealDetailPanel)",
+        "Phase 4: Deal pack generation",
+        "Phase 5: Tenant-zero portfolio data seeded"
       ],
       "key_docs": [
-        "Caldr Property Intelligence spec"
+        "Caldr Property v1 build sequence",
+        "/Users/nicksinclair001/caldr-property/"
       ],
-      "local_path": ""
+      "local_path": "/Users/nicksinclair001/caldr-property"
     },
     {
       "id": "caldr-acquire",
