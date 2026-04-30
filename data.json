@@ -725,24 +725,25 @@
       ],
       "connections": [
         "caldr-ai",
-        "bfb"
+        "bfb",
+        "Twilio",
+        "Supabase",
+        "Stripe"
       ],
-      "revenue_model": "Freemium SaaS with 4 subscription tiers (Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
         "Code editor functionality",
-        "Master library section",
-        "Master access controls",
-        "Master training section",
-        "Admin number porting",
-        "Twilio conference routing",
+        "Master library, access, training sections",
+        "Admin numbers/porting",
         "BFB CRM write-back",
-        "QR code generation",
         "Boss updates section",
-        "Phase 10 implementation (shifts, invoices, milestones, location logs)"
+        "QR code generation",
+        "Twilio conference and porting endpoints",
+        "Phase 10 tables implementation",
+        "Location logging"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "os.caldr.ai",
         "/Users/nicksinclair001/caldr-os/"
       ]
     }
