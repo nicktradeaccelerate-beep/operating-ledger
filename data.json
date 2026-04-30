@@ -707,9 +707,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA work OS for remote VAs combining VoIP, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -717,28 +717,30 @@
         "Google Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
-        "Tailwind CSS",
+        "Web Push API",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Anthropic",
-        "Twilio",
-        "Stripe"
+        "bfb"
       ],
-      "revenue_model": "4-tier SaaS subscription (Starter £12 / Pro £19 / Intelligence £35 / OS £29)",
+      "revenue_model": "SaaS subscription: 4 plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training stubs",
-        "Complete /admin/numbers number porting flow",
-        "Implement /code editor (CodeEnv component)",
-        "Build /api/ai/code-review and /api/ai/clippy endpoints",
-        "Implement BFB CRM write-back (/api/bfb/update-lead)",
-        "Build QR code generation (/api/qr/generate)",
-        "Implement Twilio conference and port endpoints",
-        "Build Phase 10 tables: shifts, invoices, location_logs, user_milestones"
+        "Code editor (CodeEnv) functionality",
+        "Master library section",
+        "Master access controls",
+        "Master training section",
+        "Admin number porting",
+        "Twilio conference routing",
+        "BFB CRM lead write-back",
+        "QR code generation",
+        "Code review AI endpoint",
+        "Clippy AI assistant",
+        "Boss updates log",
+        "Phase 10 tables (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
