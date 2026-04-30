@@ -707,44 +707,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Gemini",
-        "Twilio",
+        "Google Gemini",
+        "Twilio VoIP",
         "Stripe",
         "Web Push API",
+        "Tailwind CSS",
         "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
-        "bfb",
-        "Twilio",
-        "Supabase",
-        "Stripe"
+        "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "Tiered SaaS: Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo",
       "outstanding": [
-        "Code editor functionality",
-        "Master library, access, training sections",
-        "Admin numbers/porting",
-        "BFB CRM write-back",
-        "Boss updates section",
-        "QR code generation",
-        "Twilio conference and porting endpoints",
-        "Phase 10 tables implementation",
-        "Location logging"
+        "Complete /master/library, /master/access, /master/training routes",
+        "Complete /admin/numbers (number porting)",
+        "Implement code editor functionality (/code route)",
+        "Build code-review and clippy AI endpoints",
+        "Implement Twilio conference and port endpoints",
+        "Build BFB CRM write-back functionality",
+        "Complete Phase 10 tables (shifts, invoices, user milestones, location logs)",
+        "Implement QR code generation endpoint"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "os.caldr.ai (live domain)",
+        "/Users/nicksinclair001/caldr-os/ (local path)"
       ]
     }
   ],
