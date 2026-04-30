@@ -703,15 +703,15 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
-        "Twilio VoIP",
+        "Gemini",
+        "Twilio",
         "Stripe",
         "Web Push API",
         "Tailwind CSS",
@@ -721,27 +721,25 @@
       ],
       "connections": [
         "caldr-ai",
-        "BFB CRM",
-        "Twilio"
+        "bfb"
       ],
-      "revenue_model": "4-tier SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29) + Stripe payments",
+      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Code editor (CodeEnv)",
-        "Library master routes",
-        "Access controls master routes",
-        "Training master routes",
-        "Number porting API",
-        "Code review API",
-        "Clippy assistant",
-        "BFB lead write-back",
-        "QR code generation",
-        "Conference calling",
-        "Boss update stubs",
-        "Phase 10 tables implementation (shifts, invoices, milestones, location logs)"
+        "Complete code editor (CodeEnv component)",
+        "Implement number porting workflow",
+        "Build master library section",
+        "Build master access controls section",
+        "Build master training section",
+        "Implement BFB CRM write-back after calls",
+        "Implement conference calling",
+        "Implement QR code generation for onboarding",
+        "Complete Phase 10 features (shifts, invoices, milestones, location logging)",
+        "Implement Clippy AI assistant stub",
+        "Implement code review AI feature"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
