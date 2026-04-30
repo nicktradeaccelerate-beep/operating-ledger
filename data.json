@@ -717,31 +717,29 @@
         "Gemini",
         "Twilio",
         "Stripe",
-        "Resend",
-        "Tailwind CSS",
-        "idb-keyval",
-        "next-pwa"
+        "Web Push API",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "4-tier subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
+        "Library section",
+        "Access controls",
+        "Training hub",
+        "Number porting",
         "Code editor functionality",
-        "Master library section",
-        "Master access controls",
-        "Master training module",
-        "Admin number porting",
-        "Twilio conference routing",
+        "Clippy AI assistant",
         "BFB CRM write-back",
         "QR code generation",
-        "AI code review",
-        "Clippy AI assistant",
-        "Boss updates logic"
+        "Conference calls",
+        "Phase 10 features (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
         "CLAUDE.md",
+        "os.caldr.ai",
         "/Users/nicksinclair001/caldr-os/"
       ]
     }
