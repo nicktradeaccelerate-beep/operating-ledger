@@ -707,15 +707,15 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP/WhatsApp",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -729,25 +729,23 @@
         "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29 per VA/month)",
+      "revenue_model": "SaaS subscription plans: Starter £12, Professional £19, Intelligence £35, OS £29 per user/month via Stripe",
       "outstanding": [
-        "Complete /master/library routes",
-        "Complete /master/access routes",
-        "Complete /master/training routes",
-        "Implement /admin/numbers (number porting)",
-        "Implement /code editor (CodeEnv)",
-        "Implement /api/ai/code-review",
-        "Implement /api/ai/clippy",
-        "Implement /api/twilio/conference",
-        "Implement /api/twilio/port",
-        "Implement /api/bfb/update-lead",
-        "Implement /api/boss/updates",
-        "Implement /api/qr/generate",
-        "Phase 10 features (shifts, invoices, milestones, location logs)"
+        "Complete /code editor (CodeEnv component)",
+        "/master/library section",
+        "/master/access section",
+        "/master/training section",
+        "/admin/numbers page (number porting)",
+        "BFB CRM write-back integration",
+        "Twilio conference routing",
+        "QR code generation endpoint",
+        "Post-call code review endpoint",
+        "Clippy AI assistant stub"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
