@@ -703,48 +703,47 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js 15 PWA for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
-        "Anthropic Claude SDK",
+        "Claude API",
         "OpenAI",
-        "Google Gemini",
+        "Gemini",
         "Twilio VoIP",
         "Stripe",
         "Web Push API",
+        "Tailwind CSS",
         "idb-keyval",
-        "next-pwa",
-        "Resend",
-        "Tailwind CSS"
+        "next-pwa"
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription: Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo via Stripe",
+      "revenue_model": "4-tier subscription plans (Starter £12, Pro £19, Intelligence £35, OS £29) via Stripe",
       "outstanding": [
-        "Complete master team/library/access/training routes",
-        "Implement code editor (CodeEnv)",
-        "Implement BFB CRM write-back",
-        "Implement conference calling",
-        "Implement number porting",
-        "Implement QR generation",
-        "Complete Phase 10 tables (shifts, invoices, milestones, location logs)",
-        "Functional testing on core VA flows"
+        "Code editor functionality",
+        "Library section",
+        "Access controls UI",
+        "Training section",
+        "Number porting workflow",
+        "BFB CRM write-back",
+        "Conference calling",
+        "QR code generation",
+        "Clippy stub",
+        "Code review stub",
+        "Phase 10 features (shifts, invoices, milestones, location tracking)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-04-29",
+    "last_updated": "2026-04-30",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
