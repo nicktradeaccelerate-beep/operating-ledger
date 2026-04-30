@@ -707,15 +707,15 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 14.2",
+        "Next.js 15",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -724,29 +724,24 @@
         "Tailwind CSS"
       ],
       "connections": [
-        "BFB CRM (external Supabase)",
         "caldr-ai",
-        "caldr-property",
-        "caldr-acquire"
+        "bfb"
       ],
       "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Code editor functionality (CodeEnv component)",
-        "Master library section",
-        "Master access controls",
-        "Master training module",
-        "Admin number porting",
-        "BFB CRM write-back integration",
-        "Twilio conference routing",
+        "Code editor functionality",
+        "Master library, access, training stubs",
+        "Admin numbers/porting",
+        "BFB CRM write-back",
+        "Push notifications stubs",
         "QR code generation",
-        "Code review AI endpoint",
-        "Clippy AI coaching stub",
-        "Phase 10 features (shifts, invoices, milestones, location logging)"
+        "Twilio conference/porting",
+        "Phase 10 implementation (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
