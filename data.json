@@ -703,9 +703,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS for remote VAs combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -723,27 +723,27 @@
         "caldr-ai",
         "caldr-property",
         "caldr-acquire",
-        "BFB CRM (external Supabase)"
+        "bfb"
       ],
-      "revenue_model": "4-tier subscription: Starter £12, Pro £19, Intelligence £35, OS £29/month via Stripe",
+      "revenue_model": "SaaS subscription (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29)",
       "outstanding": [
-        "Master library section",
-        "Master access controls section",
-        "Master training section",
-        "Admin number porting workflow",
-        "Code editor functionality (CodeEnv)",
-        "AI code review endpoint",
-        "Clippy AI feature",
-        "Twilio conference calls",
-        "BFB CRM lead write-back",
-        "Boss update notifications STUB",
-        "QR code generation",
-        "Phase 10 tables: shifts, invoices, push subscriptions, milestones, location logs"
+        "Complete /code editor (CodeEnv component)",
+        "Implement /master/library dashboard",
+        "Implement /master/access controls",
+        "Implement /master/training module",
+        "Implement /admin/numbers number porting",
+        "Implement BFB CRM write-back (/api/bfb/update-lead)",
+        "Build Twilio conference routing (/api/twilio/conference)",
+        "Build QR code generation (/api/qr/generate)",
+        "Implement Phase 10 tables (shifts, invoices, milestones, location_logs)",
+        "Add remaining AI endpoints (code-review, clippy)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md (this file)"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai",
+        "Database schema with RLS",
+        "API routes documentation"
       ]
     }
   ],
