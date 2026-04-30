@@ -707,15 +707,17 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js 15 PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered mobile-first work OS for remote Virtual Assistants combining VoIP, task management, AI coaching, and boss reporting.",
       "tech_stack": [
         "Next.js 15",
+        "TypeScript",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio VoIP/WhatsApp",
+        "Twilio VoIP",
+        "Twilio WhatsApp",
         "Stripe",
         "Web Push API",
         "idb-keyval",
@@ -729,23 +731,24 @@
         "caldr-acquire",
         "bfb"
       ],
-      "revenue_model": "SaaS subscription plans: Starter £12, Professional £19, Intelligence £35, OS £29 per user/month via Stripe",
+      "revenue_model": "Stripe subscription plans (Starter £12 / Pro £19 / Intelligence £35 / OS £29 per month)",
       "outstanding": [
-        "Complete /code editor (CodeEnv component)",
-        "/master/library section",
-        "/master/access section",
-        "/master/training section",
-        "/admin/numbers page (number porting)",
+        "Code editor (CodeEnv) — make functional",
+        "Master library section — design & build",
+        "Master access controls — design & build",
+        "Master training section — design & build",
+        "Number porting UI — design & build",
         "BFB CRM write-back integration",
-        "Twilio conference routing",
-        "QR code generation endpoint",
-        "Post-call code review endpoint",
-        "Clippy AI assistant stub"
+        "Boss updates event streaming",
+        "Clippy AI assistant",
+        "Conference call routing",
+        "QR code generation",
+        "Phase 10: Shifts, invoices, location tracking, milestones"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "os.caldr.ai (live domain)",
+        "/Users/nicksinclair001/caldr-os/ (local repo)",
+        "CLAUDE.md (this file)"
       ]
     }
   ],
