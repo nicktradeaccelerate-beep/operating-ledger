@@ -703,7 +703,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
+      "one_liner": "AI-powered Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
         "Next.js 15",
         "Supabase Auth",
@@ -711,36 +711,37 @@
         "Anthropic Claude",
         "OpenAI",
         "Google Gemini",
-        "Twilio",
+        "Twilio VoIP",
         "Stripe",
-        "Resend",
         "Web Push API",
+        "Tailwind CSS",
         "idb-keyval",
         "next-pwa",
-        "Tailwind CSS"
+        "Resend"
       ],
       "connections": [
         "caldr-ai",
-        "bfb"
+        "BFB CRM",
+        "Twilio"
       ],
-      "revenue_model": "SaaS subscription (4 plans: Starter £12, Pro £19, Intelligence £35, OS £29)",
+      "revenue_model": "4-tier SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29) + Stripe payments",
       "outstanding": [
-        "Complete /code editor functionality",
-        "Implement /master/library stub",
-        "Implement /master/access stub",
-        "Implement /master/training stub",
-        "Implement /admin/numbers (number porting)",
-        "Implement BFB CRM write-back API",
-        "Implement QR generation endpoint",
-        "Implement Twilio conference endpoint",
-        "Implement AI code-review endpoint",
-        "Implement Clippy endpoint",
-        "Implement boss/updates endpoint",
-        "Phase 10 table migrations (shifts, invoices, milestones, location_logs)"
+        "Code editor (CodeEnv)",
+        "Library master routes",
+        "Access controls master routes",
+        "Training master routes",
+        "Number porting API",
+        "Code review API",
+        "Clippy assistant",
+        "BFB lead write-back",
+        "QR code generation",
+        "Conference calling",
+        "Boss update stubs",
+        "Phase 10 tables implementation (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/",
-        "os.caldr.ai"
+        "CLAUDE.md",
+        "/Users/nicksinclair001/caldr-os/"
       ]
     }
   ],
