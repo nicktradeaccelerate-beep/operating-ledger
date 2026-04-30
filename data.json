@@ -703,9 +703,11 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "AI-powered Next.js PWA for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
       "tech_stack": [
         "Next.js 14.2",
+        "React",
+        "TypeScript",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
@@ -713,40 +715,35 @@
         "Google Gemini",
         "Twilio VoIP",
         "Stripe",
-        "Resend",
         "Web Push API",
         "idb-keyval",
         "next-pwa",
+        "Resend",
         "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
         "caldr-property",
         "caldr-acquire",
-        "BFB CRM",
-        "Twilio",
-        "Stripe"
+        "bfb"
       ],
-      "revenue_model": "4-tier SaaS subscription (Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
+      "revenue_model": "SaaS subscription (4 tiers: Starter £12, Pro £19, Intelligence £35, OS £29 monthly)",
       "outstanding": [
-        "Complete /master/library stub",
-        "Complete /master/access stub",
-        "Complete /master/training stub",
-        "Complete /admin/numbers (number porting)",
-        "Implement /code editor (CodeEnv)",
-        "Build POST /api/ai/code-review",
-        "Build POST /api/ai/clippy",
-        "Build POST /api/twilio/conference",
-        "Build POST /api/twilio/port",
-        "Build POST /api/bfb/update-lead",
-        "Build POST /api/boss/updates",
-        "Build POST /api/qr/generate",
-        "Build Phase 10 tables and features (shifts, invoices, milestones, location logs)"
+        "Library section build",
+        "Access controls section",
+        "Training section",
+        "Number porting implementation",
+        "Code editor functionality",
+        "BFB CRM write-back integration",
+        "Conference call feature",
+        "QR code generation",
+        "Code review AI feature",
+        "Clippy AI feature",
+        "Phase 10 tables (shifts, invoices, milestones, location logs)"
       ],
       "key_docs": [
-        "/Users/nicksinclair001/caldr-os/ (local path)",
-        "os.caldr.ai (live domain)",
-        "CLAUDE.md (this document)"
+        "/Users/nicksinclair001/caldr-os/",
+        "os.caldr.ai"
       ]
     }
   ],
