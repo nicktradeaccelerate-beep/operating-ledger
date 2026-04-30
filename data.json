@@ -707,40 +707,46 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "AI-powered Next.js PWA work OS for remote Virtual Assistants combining VoIP calling, AI coaching, task management, and boss reporting.",
+      "one_liner": "Next.js 15 PWA work OS combining VoIP calling, AI coaching, task management, and boss reporting for remote Virtual Assistants.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 14.2",
+        "React",
         "Supabase Auth",
         "Supabase PostgreSQL",
         "Anthropic Claude",
         "OpenAI",
-        "Google Gemini",
-        "Twilio VoIP",
+        "Gemini",
+        "Twilio",
         "Stripe",
         "Web Push API",
-        "Tailwind CSS",
         "idb-keyval",
-        "next-pwa"
+        "next-pwa",
+        "Resend",
+        "Tailwind CSS"
       ],
       "connections": [
         "caldr-ai",
-        "bfb"
+        "caldr-property",
+        "caldr-acquire",
+        "bfb",
+        "Supabase (shared BFB CRM)"
       ],
-      "revenue_model": "Tiered SaaS: Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo",
+      "revenue_model": "Tiered SaaS subscription (Starter £12/mo, Pro £19/mo, Intelligence £35/mo, OS £29/mo)",
       "outstanding": [
-        "Complete /master/library, /master/access, /master/training routes",
-        "Complete /admin/numbers (number porting)",
-        "Implement code editor functionality (/code route)",
-        "Build code-review and clippy AI endpoints",
-        "Implement Twilio conference and port endpoints",
-        "Build BFB CRM write-back functionality",
-        "Complete Phase 10 tables (shifts, invoices, user milestones, location logs)",
-        "Implement QR code generation endpoint"
+        "Complete /master/library, /master/access, /master/training stubs",
+        "/admin/numbers number porting functionality",
+        "BFB CRM write-back after call (/api/bfb/update-lead)",
+        "/api/ai/code-review and /api/ai/clippy",
+        "/api/twilio/conference and /api/twilio/port",
+        "QR code generation (/api/qr/generate)",
+        "/code route CodeEnv component functionality",
+        "Phase 10 tables: shifts, invoices, location_logs implementation",
+        "Boss updates and push notification workflows"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "os.caldr.ai (live domain)",
-        "/Users/nicksinclair001/caldr-os/ (local path)"
+        "/Users/nicksinclair001/caldr-os/ (local path)",
+        "os.caldr.ai (live domain)"
       ]
     }
   ],
