@@ -747,10 +747,52 @@
         "/Users/nicksinclair001/caldr-os/",
         "os.caldr.ai"
       ]
+    },
+    {
+      "id": "caldr-sites-au",
+      "name": "Caldr Sites AU",
+      "ecosystem": "Caldr",
+      "status": "Build sprint",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying ownership change signals before listing.",
+      "tech_stack": [
+        "Next.js 15",
+        "Supabase",
+        "Vercel",
+        "Clerk",
+        "Anthropic Claude Opus 4.7",
+        "Resend",
+        "PostGIS",
+        "TypeScript",
+        "G-NAF",
+        "ABR",
+        "ASIC"
+      ],
+      "connections": [
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
+      ],
+      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd); operator commission structure TBC",
+      "outstanding": [
+        "Loïc rev-share % finalization",
+        "LoA draft for Loïc",
+        "NSW licensing compliance call",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter development",
+        "Phase 1C engine wiring with real data",
+        "Phase 1D operator console delivery"
+      ],
+      "key_docs": [
+        "docs/architecture-v0.1.md",
+        "lib/core/types/adapter.ts",
+        "CLAUDE.md"
+      ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-04-30",
+    "last_updated": "2026-05-19",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
