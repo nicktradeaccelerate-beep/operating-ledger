@@ -754,41 +754,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before public listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing NSW industrial owners for relationship-based sales.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "Claude Opus 4.7",
-        "G-NAF",
-        "ABR bulk data"
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
+        "Loïc (Lead operator)",
+        "Nick Sinclair (Reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross from operating entity (Newton & Sinclair Ltd direct) to IP owner (Newton & Sinclair Ltd UK); operator commission structure TBC",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity (Newton & Sinclair Ltd direct)",
       "outstanding": [
-        "Loïc rev-share percentage definition",
-        "Commission flow structure NSW vs VIC",
-        "Letter of Authority draft for Loïc",
-        "Licensing call completion (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against live NSW data",
-        "Phase 1D operator console delivery"
+        "Loïc rev-share % and commission structure (NSW vs VIC)",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PS)",
+        "Phase 1A core scaffold (repo, Supabase, schema, federal adapter skeleton)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup, electricity resolver)",
+        "Phase 1C engine wired to real NSW data (holding-period scoring, candidate universe)",
+        "Phase 1D operator console (map, filters, property/owner detail, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/ (state-agnostic core)",
+        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
+        "lib/adapters/nsw/ (NSW regional adapter)"
       ]
     }
   ],
