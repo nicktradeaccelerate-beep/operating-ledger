@@ -754,37 +754,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at the parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
-        "Supabase",
-        "PostGIS",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
-        "TypeScript",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
-        "G-NAF",
-        "Mayfair register"
+        "PostGIS",
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
-        "Caldr Acquire"
+        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair (reports to)",
+        "Loïc (lead operator)",
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "IP licenced at 20% gross from Newton & Sinclair Ltd to operating entity; future acquirer book and mandate matching (Phase 4).",
+      "revenue_model": "20% gross licence fee to IP owner (Newton & Sinclair Ltd); operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
-        "VIC adapter paid LANDATA integration",
-        "Scout AI production depth for owner research and outreach"
+        "Loïc rev-share % finalisation",
+        "Letter of Authority draft (Loïc)",
+        "Licensing sign-off (NSW)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wired to live NSW data",
+        "Phase 1D operator console launch"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
         "lib/adapters/federal/",
         "lib/adapters/nsw/"
       ]
