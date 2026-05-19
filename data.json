@@ -754,40 +754,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership sales likelihood before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with AI-driven ownership intelligence at parcel level.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Prompt caching"
+        "ABR bulk data"
       ],
       "connections": [
+        "Newton & Sinclair Ltd",
         "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee from operating entity to IP owner; operator commission structure pending",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity",
       "outstanding": [
-        "Loïc rev-share percentage",
+        "Loïc rev-share % confirmation",
         "LoA draft for Loïc",
-        "Licensing call (NSW pending)",
+        "Licensing call completion",
         "Phase 1A core scaffold completion",
         "NSW adapter dual-path PSI ingestion",
-        "Engine wiring against real NSW data",
-        "Operator console delivery"
+        "Engine wired against real NSW data",
+        "Operator console build"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "CLAUDE.md"
       ]
     }
   ],
