@@ -754,35 +754,32 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying industrial/logistics owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership-change signals before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK claude-opus-4-7",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "Prompt caching"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee to Newton & Sinclair Ltd (IP owner) from operating entity",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; future acquirer mandate and off-market deal flow commission",
       "outstanding": [
-        "Loïc rev-share percentage and commission structure",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "NSW licensing call completion",
-        "Phase 1A core scaffold",
-        "Phase 1B NSW adapter",
-        "Phase 1C engine wiring",
-        "Phase 1D operator console"
+        "Licensing call (NSW PS)",
+        "Phase 1B NSW adapter build",
+        "Supabase region finalisation ratification"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
@@ -792,7 +789,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-19",
+    "last_updated": "2026-05-20",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
