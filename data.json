@@ -754,17 +754,18 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intent before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at parcel level.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
-        "Resend",
+        "Anthropic Claude Opus 4.7",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "Resend",
+        "TypeScript",
+        "G-NAF",
+        "React"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -772,21 +773,20 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee to Newton & Sinclair Ltd from operating entity; future commission structure TBC",
+      "revenue_model": "IP licensing to operating entity at 20% gross; operator rev-share % pending",
       "outstanding": [
-        "Loïc rev-share % and commission structure (NSW vs VIC)",
-        "LoA draft for Loïc operator",
-        "Licensing call (NSW Planning & Strategy)",
-        "Phase 1A core scaffold completion",
-        "NSW adapter dual-path PSI ingestion",
-        "Engine wiring against NSW data",
-        "Operator console delivery"
+        "Loïc rev-share percentage finalisation",
+        "LoA draft for Loïc",
+        "NSW licensing call completion",
+        "Phase 1A core scaffold",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine integration with NSW data",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/adapters/federal/",
-        "Phase 1A-1D build plan"
+        "CLAUDE.md"
       ]
     }
   ],
