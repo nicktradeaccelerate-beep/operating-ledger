@@ -758,39 +758,39 @@
       "tech_stack": [
         "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic SDK",
         "Claude Opus 4.7",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
         "Nick Sinclair",
-        "caldr-acquire"
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licenced at 20% gross to operating entity; phase 2+ expands to VIC with paid LANDATA integration; future acquirer layer monetization",
+      "revenue_model": "20% gross licence fee from Newton & Sinclair Ltd operating entity to IP owner; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure",
-        "LoA draft for Loïc",
-        "Licensing sign-off (NSW Privacy Act)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter with PSI/cadastre/zoning",
-        "Phase 1C engine wired to real NSW data",
-        "Phase 1D operator console for Loïc"
+        "Loïc rev-share % and commission flow mechanics",
+        "LoA draft for Loïc operator",
+        "NSW PS licensing sign-off",
+        "Phase 1B NSW adapter build",
+        "PSI bulk ingestion dual-path implementation",
+        "NSW cadastre and zoning load",
+        "Title lookup and ASIC extract selective integrations"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/nsw/",
-        "lib/adapters/federal/"
+        "lib/adapters/federal/",
+        "CLAUDE.md"
       ]
     }
   ],
