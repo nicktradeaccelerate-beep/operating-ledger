@@ -754,19 +754,17 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sellers in industrial/logistics.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intent before listing.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "G-NAF",
-        "ABR bulk",
-        "ASIC dataset"
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -774,20 +772,21 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; commission structure TBC",
+      "revenue_model": "20% gross licensing fee to Newton & Sinclair Ltd from operating entity; future commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "LoA draft for Loïc",
-        "NSW licensing call completion",
+        "Loïc rev-share % and commission structure (NSW vs VIC)",
+        "LoA draft for Loïc operator",
+        "Licensing call (NSW Planning & Strategy)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console delivery"
+        "NSW adapter dual-path PSI ingestion",
+        "Engine wiring against NSW data",
+        "Operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/adapters/federal/",
+        "Phase 1A-1D build plan"
       ]
     }
   ],
