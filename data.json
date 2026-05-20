@@ -754,40 +754,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sale opportunities at parcel level.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates in Australian industrial/logistics markets.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "Vercel",
+        "PostGIS",
         "Clerk",
+        "Vercel",
         "Anthropic SDK",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
         "Claude Opus 4.7"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-property",
-        "caldr-ai"
+        "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed by Newton & Sinclair Ltd at 20% gross to operating entity; Phase 2+ potential paid integrations (LANDATA VIC).",
+      "revenue_model": "IP licensing at 20% gross from operating entity (Newton & Sinclair Ltd) to UK IP owner; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
+        "Loïc rev-share % confirmation",
+        "LoA draft for operator",
+        "NSW licensing call completion",
+        "Phase 1A core scaffold",
+        "Phase 1B NSW adapter dual-path PSI ingestion",
         "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console delivery"
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
