@@ -754,40 +754,42 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before public listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "claude-opus-4-7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc (Lead operator)",
-        "Nick Sinclair",
+        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair (reports to)",
+        "Loïc (lead operator)",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity (Newton & Sinclair Ltd direct); operator commission model TBC",
+      "revenue_model": "20% gross licence fee from Newton & Sinclair Ltd direct operating entity to IP owner; potential future acquirer matching and curated off-market delivery.",
       "outstanding": [
-        "Loïc rev-share % finalization",
+        "Loïc rev-share % confirmation and commission flow structure",
         "LoA draft for Loïc",
-        "NSW licensing call completion",
+        "Licensing call completion",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter development",
-        "Phase 1C engine integration with real data",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring against NSW data",
         "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Phase 1A–1D build plan"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
