@@ -754,42 +754,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership likelihood to sell before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "Resend",
         "PostGIS",
         "TypeScript",
-        "Resend",
         "G-NAF",
-        "ABR bulk data"
+        "Claude Opus 4.7"
       ],
       "connections": [
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-property"
+        "Caldr Acquire"
       ],
-      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd (IP owner); operator commission structure TBC",
+      "revenue_model": "20% gross licensing fee from operating entity to IP owner; operator commission structure pending",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "LoA draft for Loïc (Jodie Stubbington template mirror)",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, state-agnostic schema)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping)",
+        "Loïc rev-share percentage finalisation",
+        "LoA draft for Loïc",
+        "NSW PS licensing call",
+        "Phase 1B NSW adapter build",
         "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "portfolio May 2026 standard audit"
       ]
     }
   ],
