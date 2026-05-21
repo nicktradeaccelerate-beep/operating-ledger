@@ -754,40 +754,44 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale opportunities across Australian states, launching in NSW.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing industrial/logistics owners in Australia, launching in NSW.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
         "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "TypeScript",
         "G-NAF",
-        "ABR"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Nick Sinclair (reports to)",
+        "Loïc (lead operator)",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licensed from Newton & Sinclair Ltd at 20% gross to operating entity; future operator rev-share model TBC",
+      "revenue_model": "20% gross licensing fee to Newton & Sinclair Ltd from operating entity; operator commission structure (% TBC)",
       "outstanding": [
         "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine integration with NSW data",
-        "Phase 1D operator console launch"
+        "Letter of authority draft for Loïc",
+        "NSW licensing confirmation",
+        "Architecture contract finalization (docs/architecture-v0.1.md)",
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, electricity network)",
+        "Phase 1C engine wired to NSW data",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
