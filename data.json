@@ -753,36 +753,37 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying owners likely to sell before listing across Australia, launching in NSW.",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before public listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
         "Resend",
-        "PostGIS",
         "TypeScript",
+        "Claude Opus 4.7",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
         "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee to Newton & Sinclair Ltd IP owner; operator commission structure TBC",
+      "revenue_model": "IP licensing to operating entity at 20% gross margin; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalization",
+        "Loïc rev-share % definition",
         "LoA draft for Loïc",
-        "Licensing call completion",
-        "Phase 1A core scaffold (week 1)",
-        "Phase 1B NSW adapter (weeks 2-3)",
-        "Phase 1C engine data wiring (week 3)",
-        "Phase 1D operator console (week 4)"
+        "Licensing call NSW PS completion",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine data integration",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
