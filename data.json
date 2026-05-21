@@ -754,43 +754,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying industrial/logistics owners likely to sell before listing across Australia, launching in NSW.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership intelligence at parcel level.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
+        "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "ABR bulk data",
+        "ASIC dataset"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "Jodie Stubbington (LoA template reference)"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity; operator rev-share % TBC",
+      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd direct); future state-specific commission structures pending",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold (week 1)",
-        "Phase 1B NSW adapter (weeks 2–3)",
-        "Phase 1C engine wired against NSW data (week 3)",
-        "Phase 1D operator console (week 4)"
+        "Loïc rev-share % and commission flow structure",
+        "LoA draft for Loïc operator",
+        "Licensing approval (NSW PS)",
+        "Phase 1B NSW adapter build",
+        "Phase 1C real data integration",
+        "Phase 1D operator console",
+        "Mayfair register color palette finalization"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
-        "lib/adapters/nsw/ (NSW adapter — PSI, cadastre, zoning, electricity, titles)"
+        "CLAUDE.md"
       ]
     }
   ],
