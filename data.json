@@ -754,34 +754,35 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sales opportunities across Australian states, launching in NSW Greater Sydney.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale opportunities across Australian states, launching in NSW.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "Claude Opus 4.7",
         "Resend",
-        "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "G-NAF",
+        "ABR"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "caldr-acquire",
-        "caldr-os"
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; future phase 2+ paid data integrations (LANDATA for VIC); acquirer matching (Phase 4)",
+      "revenue_model": "IP licensed from Newton & Sinclair Ltd at 20% gross to operating entity; future operator rev-share model TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
-        "Letter of Authority draft for Loïc",
-        "Licensing confirmation (NSW PS)",
+        "Loïc rev-share % confirmation",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PS)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wired to NSW data",
-        "Phase 1D operator console delivery"
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine integration with NSW data",
+        "Phase 1D operator console launch"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
