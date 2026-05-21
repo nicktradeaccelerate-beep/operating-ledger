@@ -754,38 +754,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sellers in Australian industrial/logistics sector.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership change signals.",
       "tech_stack": [
         "Next.js 15 App Router",
-        "Supabase",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "G-NAF",
-        "Prompt caching"
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc (lead operator)",
         "Nick Sinclair",
+        "Loïc (lead operator)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross revenue license fee from operating entity (Newton & Sinclair Ltd) to IP owner (Newton & Sinclair Ltd); operator (Loïc) takes rev-share on deals (% TBC)",
+      "revenue_model": "20% gross licence fee from operating entity (Newton & Sinclair Ltd) to IP owner (Newton & Sinclair Ltd); future acquirer matching and off-market deal delivery.",
       "outstanding": [
         "Loïc rev-share % confirmation",
         "LoA draft for Loïc",
-        "Licensing call completion",
-        "Phase 1A core scaffold",
-        "Phase 1B NSW adapter",
-        "Phase 1C engine wiring",
-        "Phase 1D operator console"
+        "Licensing sign-off (NSW PS)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console deployment"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
-        "lib/core/types/adapter.ts"
+        "lib/core/types/adapter.ts",
+        "lib/core/ (core engine)",
+        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
+        "lib/adapters/nsw/ (NSW-specific adapter)"
       ]
     }
   ],
