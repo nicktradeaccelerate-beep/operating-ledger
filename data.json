@@ -754,38 +754,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership likelihood to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic Claude Opus 4.7",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Claude Opus 4.7"
+        "Anthropic Prompt Caching"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "Caldr Acquire"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee from operating entity to IP owner; operator commission structure pending",
+      "revenue_model": "IP licensing at 20% gross from Newton & Sinclair Ltd to operating entity; future operator commission structure TBC.",
       "outstanding": [
-        "Loïc rev-share percentage finalisation",
-        "LoA draft for Loïc",
-        "NSW PS licensing call",
+        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
+        "Letter of Authority template for Loïc",
+        "Licensing call and regulatory sign-off",
+        "Phase 1A core scaffold completion",
         "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console"
+        "Phase 1C engine wiring against live NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "portfolio May 2026 standard audit"
+        "lib/adapters/federal/",
+        "CLAUDE.md"
       ]
     }
   ],
