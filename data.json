@@ -754,49 +754,47 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership signals across Australia, launching in Greater Sydney.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sale opportunities at the parcel level.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
-        "Clerk",
         "Vercel",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Clerk",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data"
+        "ABR",
+        "ASIC"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-property",
-        "caldr-os"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing to operating entity at 20% gross; operator rev-share structure TBC",
+      "revenue_model": "20% gross licensing fee from Newton & Sinclair Ltd to operating entity on IP; operator commission structure (TBC) on deal flow",
       "outstanding": [
-        "Loïc rev-share % confirmation and commission flow structure (NSW vs VIC)",
-        "Letter of Authority template (mirror Jodie Stubbington template)",
-        "Licensing call completion (NSW PS authority)",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapters)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping, electricity resolver)",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Loïc rev-share % confirmation",
+        "Letter of authority draft for Loïc",
+        "Licensing call completion",
+        "Phase 1A core scaffold build",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/schema",
+        "lib/core/",
         "lib/adapters/federal/",
         "lib/adapters/nsw/"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
