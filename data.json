@@ -754,41 +754,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying owners likely to sell before listing across Australia, launching in NSW.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before public listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "claude-opus-4-7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Prompt caching"
+        "ABR bulk data"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "caldr-acquire",
-        "caldr-os"
+        "Loïc (Lead operator)",
+        "Nick Sinclair",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed by Newton & Sinclair Ltd at 20% gross to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity (Newton & Sinclair Ltd direct); operator commission model TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
+        "Loïc rev-share % finalization",
         "LoA draft for Loïc",
-        "NSW licensing sign-off",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring",
-        "Phase 1D operator console",
-        "VIC adapter design (Phase 2)"
+        "NSW licensing call completion",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter development",
+        "Phase 1C engine integration with real data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/"
+        "Phase 1A–1D build plan"
       ]
     }
   ],
