@@ -754,43 +754,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at the parcel level.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
-        "Claude Opus 4.7",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
+        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "Caldr Acquire UK"
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee from operating entity (Newton & Sinclair Ltd) to IP owner; operator commission structure TBC",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % confirmation",
+        "Loïc rev-share % and commission flow structure",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
+        "Licensing call (NSW)",
         "Phase 1A core scaffold completion",
-        "NSW adapter dual-path PSI ingestion",
-        "Engine wiring against real NSW data",
-        "Operator console delivery"
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
         "lib/core/",
-        "lib/adapters/",
-        "CLAUDE.md"
+        "lib/adapters/"
       ]
     }
   ],
