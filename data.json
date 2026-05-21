@@ -754,40 +754,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates across Australian states, launching in NSW Greater Sydney.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
         "Anthropic Claude Opus 4.7",
-        "Resend",
         "PostGIS",
         "TypeScript",
+        "Resend",
         "G-NAF",
-        "React"
+        "ABR bulk data",
+        "ASIC dataset"
       ],
       "connections": [
+        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire",
-        "caldr-os"
+        "caldr-property"
       ],
-      "revenue_model": "20% gross licence fee from Newton & Sinclair Ltd operating entity to IP owner; future commission structure TBC",
+      "revenue_model": "IP licensed by Newton & Sinclair Ltd at 20% gross to operating entity; Phase 2+ potential paid LANDATA integrations for VIC; Phase 4 acquirer layer revenue TBD",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "NSW licensing call completion",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine data integration",
-        "Phase 1D operator console deployment"
+        "Loïc rev-share % and commission structure definition",
+        "Letter of Authority draft for Loïc",
+        "NSW licensing call completion",
+        "Phase 1B NSW adapter dual-path bulk PSI ingestion",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 audit standard"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
