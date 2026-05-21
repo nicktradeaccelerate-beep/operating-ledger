@@ -754,41 +754,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying likely sellers before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing owners in Australian industrial markets.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "claude-opus-4-7",
-        "Resend",
+        "Anthropic Claude Opus 4.7",
         "TypeScript",
-        "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "PostGIS",
+        "Resend",
+        "G-NAF"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
-        "caldr-acquire"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licencing at 20% gross to operating entity (Newton & Sinclair Ltd); potential rev-share with Loïc (TBC).",
+      "revenue_model": "IP licensing at 20% gross from operating entity to Newton & Sinclair Ltd; operator commission structure (rev-share % TBC)",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % confirmation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter",
-        "Phase 1C engine wiring",
-        "Phase 1D operator console"
+        "Licensing approval (NSW PSI)",
+        "Phase 1A scaffold completion",
+        "NSW adapter dual-path PSI ingestion",
+        "Engine wiring against NSW data",
+        "Operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "Portfolio May 2026 audit standard"
       ]
     }
   ],
