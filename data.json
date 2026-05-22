@@ -754,40 +754,42 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at the parcel level.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
-        "Resend",
+        "Anthropic Claude Opus 4.7",
         "PostGIS",
         "TypeScript",
+        "Resend",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "React"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
-        "caldr-acquire"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "20% gross licence fee from operating entity (Newton & Sinclair Ltd direct) to IP owner (Newton & Sinclair Ltd UK); future Loïc rev-share % and commission structure TBC",
+      "revenue_model": "20% gross licence fee from operating entity to Newton & Sinclair Ltd (IP owner); future operator rev-share pending agreement",
       "outstanding": [
         "Loïc rev-share % finalisation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW Police Commissioner)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wired against real NSW data",
-        "Phase 1D operator console delivery"
+        "Letter of Authority template (mirror Jodie Stubbington)",
+        "Licensing call completion (NSW PS)",
+        "Phase 1A core scaffold completion (week 1)",
+        "Phase 1B NSW adapter build (weeks 2-3)",
+        "Phase 1C engine wiring against real NSW data (week 3)",
+        "Phase 1D operator console deployment (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/ (core schema, scoring, Scout AI, operator workflow)",
+        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
+        "lib/adapters/nsw/ (launch regional adapter)"
       ]
     }
   ],
