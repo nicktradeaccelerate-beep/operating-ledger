@@ -756,40 +756,41 @@
       "progress": 5,
       "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "claude-opus-4-7",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
-        "caldr-acquire"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licensed from Newton & Sinclair Ltd (UK) at 20% gross to operating entity; operator-driven deal origination commission structure TBC",
+      "revenue_model": "IP licence at 20% gross from operating entity Newton & Sinclair Ltd to IP owner; operator commission structure TBC",
       "outstanding": [
         "Loïc rev-share % definition",
         "Commission flow structure NSW vs VIC",
-        "Letter of Appointment draft for Loïc",
-        "Licensing call completion",
+        "LoA draft for Loïc",
+        "NSW licensing clearance",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against real NSW data",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring against live NSW data",
         "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "CLAUDE.md"
       ]
     }
   ],
