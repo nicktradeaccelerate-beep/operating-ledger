@@ -765,22 +765,25 @@
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Mapbox"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "IP licenced at 20% gross from Newton & Sinclair Ltd to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licensing at 20% gross revenue to Newton & Sinclair Ltd (IP owner); operating entity Newton & Sinclair Ltd direct",
       "outstanding": [
-        "Loïc rev-share % confirmation",
+        "Loïc rev-share % finalization",
         "LoA draft for Loïc",
-        "Licensing call NSW PS",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring to NSW data",
-        "Phase 1D operator console"
+        "NSW licensing call completion",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter dual-path PSI ingestion",
+        "Phase 1C engine integration with NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
