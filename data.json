@@ -754,43 +754,47 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying likely-to-sell owners in Australia before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying ownership intelligence at parcel level across Australian states, launching in NSW.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Claude Opus 4.7"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
-        "caldr-acquire"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "IP licence at 20% gross from operating entity (Newton & Sinclair Ltd) to parent; operator commission TBC",
+      "revenue_model": "Newton & Sinclair Ltd licences IP to operating entity at 20% gross; operator commission structure (Loïc rev-share % TBC)",
       "outstanding": [
-        "Loïc rev-share % confirmation",
+        "Loïc rev-share percentage definition",
         "LoA draft for Loïc",
-        "NSW licensing approval",
-        "Phase 1B NSW adapter build",
-        "Scout AI production depth",
-        "Acquirer layer (Phase 4)"
+        "Licensing call (NSW)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter",
+        "Phase 1C engine wiring",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/",
+        "lib/adapters/"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-21",
+    "last_updated": "2026-05-22",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
