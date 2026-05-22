@@ -754,17 +754,19 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "G-NAF",
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -772,15 +774,15 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross royalty from operating entity to Newton & Sinclair Ltd IP licensor",
+      "revenue_model": "IP licensed from Newton & Sinclair Ltd at 20% gross to operating entity; commission flows structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "LoA draft for Loïc (Jodie Stubbington template mirror)",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold (repo, schema, federal adapters)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning)",
-        "Phase 1C engine scoring and Scout AI synthesis",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Loïc rev-share % definition and commission flow structure (NSW vs VIC)",
+        "LoA draft for Loïc",
+        "Licensing approval (NSW PS)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring against NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
