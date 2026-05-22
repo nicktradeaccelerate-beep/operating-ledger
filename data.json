@@ -754,41 +754,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates across Australian states, launching in NSW.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Anthropic Claude Opus 4.7",
+        "Resend",
         "PostGIS",
         "TypeScript",
-        "Resend",
         "G-NAF",
-        "Mayfair register"
+        "ABR",
+        "ASIC"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire",
-        "caldr-os"
+        "caldr-property"
       ],
-      "revenue_model": "20% gross licensing fee from operating entity (Newton & Sinclair Ltd) to IP owner (Newton & Sinclair Ltd); Phase 2+ cost variance via state adapter economics (e.g. paid LANDATA in VIC)",
+      "revenue_model": "IP licence to operating entity at 20% gross; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "NSW licensing confirmation",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring to NSW data",
-        "Phase 1D operator console delivery"
+        "Licensing approval (NSW PSI)",
+        "VIC adapter phase gate",
+        "Scout AI production depth"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "Phase 1A-1D build sequence"
       ]
     }
   ],
