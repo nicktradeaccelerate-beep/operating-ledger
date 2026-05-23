@@ -754,36 +754,36 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership sales opportunities.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sellers in industrial/logistics.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "claude-opus-4-7",
         "Resend",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
-        "caldr-acquire",
-        "caldr-os"
+        "Loïc (Lead operator)",
+        "Nick Sinclair (Reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross from Newton & Sinclair Ltd to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licensed by Newton & Sinclair Ltd at 20% gross to operating entity (Newton & Sinclair Ltd direct); operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share percentage finalisation",
-        "Letter of Appointment for Loïc",
-        "NSW licensing confirmation",
-        "VIC LANDATA integration cost analysis",
-        "Deep green accent colour hex confirmation",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C holding-period scoring and candidate universe query",
+        "Loïc rev-share % confirmation",
+        "Commission flow structure (NSW vs VIC)",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PS)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real NSW data",
         "Phase 1D operator console delivery"
       ],
       "key_docs": [
