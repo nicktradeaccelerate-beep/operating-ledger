@@ -754,44 +754,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sellers in industrial/logistics.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates in Australian markets, launching in NSW.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "claude-opus-4-7",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "Mapbox"
       ],
       "connections": [
-        "Loïc (Lead operator)",
-        "Nick Sinclair (Reports to)",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "IP licensed by Newton & Sinclair Ltd at 20% gross to operating entity (Newton & Sinclair Ltd direct); operator commission structure TBC",
+      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd); future phase 2+ adapters (VIC, QLD, WA, SA) replicate cost economics",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "Commission flow structure (NSW vs VIC)",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console delivery"
+        "NSW licensing sign-off",
+        "Phase 1A repo and Supabase scaffold",
+        "Federal adapter skeleton (G-NAF, ABR, ASIC loaders)",
+        "NSW bulk PSI ingestion paths",
+        "NSW cadastre and zoning load",
+        "Scout AI system prompt caching implementation",
+        "Operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
         "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "lib/adapters/"
       ]
     }
   ],
