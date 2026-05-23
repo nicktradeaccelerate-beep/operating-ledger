@@ -754,18 +754,18 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates in Australian markets, launching in NSW.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at parcel level.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Mapbox"
+        "Claude Opus 4.7"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -774,23 +774,21 @@
         "caldr-acquire",
         "caldr-os"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd); future phase 2+ adapters (VIC, QLD, WA, SA) replicate cost economics",
+      "revenue_model": "20% gross licence fee from operating entity (Newton & Sinclair Ltd) to IP owner (Newton & Sinclair Ltd). Phase 2+ includes LANDATA paid lookups in VIC adapter.",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % and commission structure",
         "LoA draft for Loïc",
-        "NSW licensing sign-off",
-        "Phase 1A repo and Supabase scaffold",
-        "Federal adapter skeleton (G-NAF, ABR, ASIC loaders)",
-        "NSW bulk PSI ingestion paths",
-        "NSW cadastre and zoning load",
-        "Scout AI system prompt caching implementation",
-        "Operator console (map, filters, pipeline, digest)"
+        "NSW licensing call completion",
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter (weeks 2-3)",
+        "Phase 1C engine wiring against NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/"
+        "lib/adapters/federal/",
+        "CLAUDE.md"
       ]
     }
   ],
