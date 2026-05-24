@@ -797,35 +797,35 @@
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic SDK",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
         "Claude Opus 4.7"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
         "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee from operating entity to IP owner (Newton & Sinclair Ltd); operator rev-share structure TBC",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd IP owner; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % confirmation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
+        "Licensing call (NSW PSI)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console delivery"
+        "NSW adapter dual-path PSI ingestion",
+        "Engine wired against real NSW data",
+        "Operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
-        "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "CLAUDE.md",
+        "lib/core/types/adapter.ts"
       ]
     }
   ],
