@@ -598,24 +598,24 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage multi-trade retrofit projects at scale.",
+      "status": "Designed",
+      "progress": 0,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit works.",
       "tech_stack": [
-        "Next.js 14",
+        "Next.js 14 App Router",
         "Supabase",
         "Postgres 15",
-        "Vercel",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Drizzle ORM",
         "Stripe",
         "Stannp",
         "Twilio",
         "Resend",
         "Google Business Profile API",
         "Postcodes.io",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
@@ -623,18 +623,16 @@
         "Caldr",
         "PTO Score"
       ],
-      "revenue_model": "Trade subscription + three-letter sequence print-and-post integration + campaign builder + premium addons (v1.1+)",
+      "revenue_model": "SaaS subscription for trades (tiered pricing); affiliate revenue from grant/retrofit service providers; three-letter sequence print-and-post campaigns; premium microsite templates (v1.2+)",
       "outstanding": [
-        "Complete 01_MASTER_SPEC.md",
-        "Apply 02_SCHEMA.sql to Supabase",
-        "Implement 03_API_CONTRACTS.md",
-        "Build 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md",
-        "Develop 16_TRADE_ONBOARDING_UX.md (6-step flow)",
-        "Build 19_THREE_LETTER_SEQUENCE.md (priority revenue mechanism)",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md",
-        "Complete trade dashboard campaign builder",
-        "Set up 06_ENVIRONMENT.md variables and third-party accounts",
-        "Achieve 5+ paying trades for v1.1 decision gate"
+        "Build v1 core (five paying trades minimum gate)",
+        "Implement three-letter sequence revenue mechanism",
+        "Trade onboarding flow (6-step UX)",
+        "Grants finder and calculator tools",
+        "Free tool abuse framework",
+        "SEO audit tool for trades",
+        "v1.1 features pending live gate",
+        "v1.2+ decision gates and commercial venture brief evaluation"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -647,13 +645,11 @@
         "06_ENVIRONMENT.md",
         "07_INTEGRITY_LAYER.md",
         "08_BRAND.md",
+        "19_THREE_LETTER_SEQUENCE.md",
+        "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
         "11_GRANT_CALCULATOR.md",
-        "13_SEO_AUDIT_TOOL.md",
-        "15_FREE_TOOL_ABUSE_FRAMEWORK.md",
-        "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md",
-        "19_THREE_LETTER_SEQUENCE.md"
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
