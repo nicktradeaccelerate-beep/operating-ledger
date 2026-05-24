@@ -793,39 +793,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership before listing through parcel-level intelligence.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Claude Opus 4.7"
+        "ABR bulk data",
+        "ASIC dataset"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "20% gross IP licence fee from Newton & Sinclair Ltd to operating entity on off-market industrial deal origination",
+      "revenue_model": "IP licensing to operating entity (Newton & Sinclair Ltd direct) at 20% gross; operator rev-share model TBC; future acquirer matching layer (Phase 4).",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine data integration",
-        "Phase 1D operator console delivery"
+        "Loïc rev-share % and NSW vs VIC commission structure",
+        "Letter of Authority draft for Loïc",
+        "Licensing call (NSW PS resolution)",
+        "Phase 1A core scaffold completion (repo, schema, federal adapters)",
+        "Phase 1B NSW adapter (PSI, cadastre, zoning, electricity resolver)",
+        "Phase 1C real data wiring and candidate scoring",
+        "Phase 1D operator console and daily digest"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 prompt caching standard"
+        "lib/core/ (core engine)",
+        "lib/adapters/federal/ (federal helpers)",
+        "lib/adapters/nsw/ (NSW adapter)"
       ]
     }
   ],
