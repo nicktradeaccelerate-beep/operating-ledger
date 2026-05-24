@@ -598,12 +598,11 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit work, with trade-facing marketing and scheduling tools.",
+      "status": "Designed",
+      "progress": 0,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to access retrofit funding and services.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "TypeScript",
         "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
         "Vercel",
         "Stripe",
@@ -613,27 +612,29 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
+        "TypeScript",
         "shadcn/ui",
         "Tailwind CSS",
         "Drizzle ORM"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "Caldr (sister platform)",
+        "PTO Score (sister Braemar Bus producer)",
+        "Braemar Bus event infrastructure"
       ],
-      "revenue_model": "Trade subscription model; three-letter sequence (AI letter generation + print-and-post); future commercial venture routing (2027)",
+      "revenue_model": "Trade subscription (dashboard, campaign tools, lead routing) + Three-Letter Sequence print-and-post service + v1.2 premium microsite templates + v1.2 commercial venture origination",
       "outstanding": [
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md) first",
-        "Complete trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Implement grants finder and calculator (10_GRANTS_FINDER.md, 11_GRANT_CALCULATOR.md)",
-        "Build campaign builder (trade dashboard, v3 mockup)",
-        "Apply audience register progression (20_AUDIENCE_REGISTER.md across all surfaces)",
-        "Set up Stripe integration and Braemar Bus event schemas",
-        "Deploy schema and API contracts (02_SCHEMA.sql, 03_API_CONTRACTS.md)",
-        "Execute 05_BUILD_SEQUENCE.md week-by-week plan",
-        "Defer v1.1 features (grants cross-referencing, review-triggered campaigns, unclaimed pages)"
+        "Apply 02_SCHEMA.sql Postgres schema to Supabase",
+        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism first",
+        "Implement 16_TRADE_ONBOARDING_UX.md 6-step flow",
+        "Build 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
+        "Implement 13_SEO_AUDIT_TOOL.md free tool with v1.1 dashboard",
+        "Build 15_FREE_TOOL_ABUSE_FRAMEWORK.md abuse protection",
+        "Implement 03_API_CONTRACTS.md public/internal APIs",
+        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md cross-cutting abuse protection",
+        "Set up 06_ENVIRONMENT.md third-party integrations and approval workflows",
+        "Complete 05_BUILD_SEQUENCE.md week-by-week execution plan"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -643,11 +644,16 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "06_ENVIRONMENT.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "08_BRAND.md",
-        "07_INTEGRITY_LAYER.md"
+        "11_GRANT_CALCULATOR.md",
+        "13_SEO_AUDIT_TOOL.md",
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md",
+        "17_FOR_TRADES_PAGE.md"
       ],
       "local_path": ""
     },
