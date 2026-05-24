@@ -793,35 +793,35 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at parcel level.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
-        "PostGIS",
         "TypeScript",
-        "G-NAF geocoder"
+        "G-NAF",
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
-        "Nick Sinclair (reports to)",
         "Loïc (lead operator)",
-        "caldr-acquire",
-        "caldr-os"
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity; future rev-share with Loïc (% TBC)",
+      "revenue_model": "20% gross licensing fee to operating entity (Newton & Sinclair Ltd); future acquirer layer and mandate matching",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "Letter of Authority draft (Loïc)",
-        "NSW licensing confirmation",
-        "Phase 1A core scaffold (week 1)",
-        "Phase 1B NSW adapter (weeks 2–3)",
-        "Phase 1C engine wiring to real NSW data (week 3)",
-        "Phase 1D operator console (week 4)",
-        "Architecture-v0.1.md ratification"
+        "Loïc rev-share percentage and commission structure",
+        "LoA draft for Loïc operator agreement",
+        "NSW licensing sign-off",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
