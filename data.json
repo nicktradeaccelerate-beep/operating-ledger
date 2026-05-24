@@ -793,39 +793,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership signals.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing NSW industrial owners for relationship-driven acquisition.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "ABR bulk data",
+        "ASIC dataset"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross license fee from operating entity to IP owner; Phase 2+ may involve state-specific cost economics (e.g. paid LANDATA for VIC)",
+      "revenue_model": "IP licensing at 20% gross to operating entity; future phase-based expansion (VIC Phase 2, QLD/WA/SA Phase 3+)",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call completion",
-        "Phase 1A core scaffold delivery",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console launch"
+        "Loïc rev-share % confirmation and commission flow structure",
+        "Letter of Authority draft for Loïc",
+        "NSW licensing call completion",
+        "Phase 1A core scaffold (repo, Supabase, schema, federal adapter skeleton)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup)",
+        "Phase 1C engine wired against real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, daily digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
+        "lib/adapters/",
         "CLAUDE.md"
       ]
     }
