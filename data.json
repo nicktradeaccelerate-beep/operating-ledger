@@ -787,34 +787,34 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying ownership likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic SDK",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "G-NAF",
+        "Claude Opus 4.7"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-property"
+        "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed by Newton & Sinclair Ltd to operating entity at 20% gross; operator commission structure TBC",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; phase 2+ potential VIC expansion with different cost economics",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "Letter of Appointment for Loïc",
-        "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup, electricity resolver)",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Loïc rev-share % confirmation",
+        "LoA draft for Loïc",
+        "Licensing call (NSW)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter dual-path PSI ingestion",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
