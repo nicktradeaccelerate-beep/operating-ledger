@@ -793,35 +793,34 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates in Australia, launching in NSW.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "Prompt caching"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
-        "Nick Sinclair (reports to)",
         "Loïc (lead operator)",
-        "Caldr Acquire (separate product)"
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee from Newton & Sinclair Ltd to operating entity; Phase 2+ commission structure TBC",
+      "revenue_model": "20% gross licence fee from operating entity to IP owner; Phase 2+ potential paid integrations (LANDATA for VIC)",
       "outstanding": [
-        "Loïc rev-share % definition",
-        "Letter of Authority template for Loïc",
+        "Loïc rev-share % finalisation",
+        "LoA draft (Jodie Stubbington template)",
         "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel setup)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning)",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter (weeks 2-3)",
+        "Phase 1C engine wired to NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
