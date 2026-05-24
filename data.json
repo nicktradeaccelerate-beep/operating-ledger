@@ -793,13 +793,13 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying likely-to-sell owners before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
         "PostGIS",
         "TypeScript strict",
@@ -811,15 +811,15 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity; future operator rev-share TBC",
+      "revenue_model": "IP licensed at 20% gross to operating entity (Newton & Sinclair Ltd direct); Phase 2+ regional adapters may have different cost economics (e.g. paid LANDATA for VIC).",
       "outstanding": [
         "Loïc rev-share % and commission flow structure",
-        "Letter of Appointment for Loïc (Jodie Stubbington template mirror)",
-        "Licensing call (NSW PSI pathway)",
-        "Phase 1A: Core scaffold (week 1)",
-        "Phase 1B: NSW adapter and dual-path PSI ingestion (weeks 2-3)",
-        "Phase 1C: Engine wire-up against real NSW data (week 3)",
-        "Phase 1D: Operator console and daily digest (week 4)"
+        "LoA draft for Loïc",
+        "Licensing clearance (NSW PS)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter (PSI bulk ingestion, cadastre, zoning)",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
