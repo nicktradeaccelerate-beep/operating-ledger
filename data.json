@@ -797,32 +797,31 @@
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
-        "Resend",
+        "Anthropic Claude Opus 4.7",
+        "PostGIS",
         "TypeScript",
+        "Resend",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "ABR bulk data",
+        "ASIC dataset"
       ],
       "connections": [
-        "Loïc (lead operator)",
+        "Loïc (operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; operator commission structure pending",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity",
       "outstanding": [
-        "Loïc rev-share % confirmation",
+        "Loïc rev-share % and commission structure",
         "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
-        "Phase 1A core scaffold",
-        "Phase 1B NSW adapter",
-        "Phase 1C engine integration",
-        "Phase 1D operator console"
+        "NSW licensing approval",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine production data wiring",
+        "Phase 1D operator console completion"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
