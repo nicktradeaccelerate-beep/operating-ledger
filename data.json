@@ -787,37 +787,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence and pre-listing identification.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
-        "PostGIS",
-        "TypeScript",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
-        "G-NAF"
+        "PostGIS",
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "IP licensed at 20% gross to operating entity (Newton & Sinclair Ltd direct); operator commission structure pending",
+      "revenue_model": "IP licenced by Newton & Sinclair Ltd at 20% gross to operating entity; eventual commission-based or mandate fees from acquirer relationships",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % finalization",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS completion)",
-        "Phase 1A core scaffold completion",
-        "NSW adapter dual-path PSI ingestion",
-        "Scout AI production depth for owner research"
+        "Licensing call (NSW PS)",
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema migration)",
+        "Federal adapter skeleton (G-NAF, ABR, ASIC loaders)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping)",
+        "Phase 1C engine wired to real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 standard (prompt caching audit)"
+        "CLAUDE.md"
       ]
     }
   ],
