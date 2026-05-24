@@ -792,43 +792,41 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership opportunities.",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at the parcel level.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
-        "PostGIS",
-        "TypeScript",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
+        "PostGIS",
+        "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd IP owner; Phase 2+ regional adapter licensing and acquirer mandate fees.",
+      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; operator commission on off-market deals (Loïc rev-share % pending)",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure",
-        "Letter of Authority draft for Loïc",
-        "NSW licensing confirmation",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel setup)",
-        "Phase 1B NSW adapter (PSI bulk ingestion, cadastre, zoning)",
-        "Phase 1C engine wiring against NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)",
-        "Scout AI production depth (owner research, signal triage, outreach)"
+        "Loïc rev-share % finalisation",
+        "LoA draft for Loïc",
+        "NSW licensing call completion",
+        "Phase 1A core scaffold (weeks 1)",
+        "Phase 1B NSW adapter (weeks 2–3)",
+        "Phase 1C engine wired against real NSW data (week 3)",
+        "Phase 1D operator console delivery (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "CLAUDE.md"
       ]
     }
   ],
