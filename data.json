@@ -787,42 +787,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership change signals before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoding",
-        "Cormorant Garamond / Inter"
+        "TypeScript",
+        "G-NAF",
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Nick Sinclair (reports to)",
         "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire (separate UK product)",
-        "caldr-os (portfolio standard)"
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "IP licensed from Newton & Sinclair Ltd at 20% gross margin to operating entity; future acquirer layer and VIC/QLD/WA/SA expansion.",
+      "revenue_model": "IP licensed at 20% gross to Newton & Sinclair Ltd operating entity; Loïc commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % definition",
-        "Letter of Authority draft (Loïc)",
-        "NSW licensing compliance",
-        "Phase 1A core scaffold (week 1)",
-        "Phase 1B NSW adapter (weeks 2-3)",
-        "Phase 1C engine wired to NSW data (week 3)",
-        "Phase 1D operator console (week 4)"
+        "Loïc rev-share % confirmation",
+        "LoA draft for Loïc",
+        "NSW licensing sign-off",
+        "architecture-v0.1.md finalization",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter dual-path PSI ingestion"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
         "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "lib/core/"
       ]
     }
   ],
