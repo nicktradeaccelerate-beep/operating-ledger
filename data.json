@@ -793,39 +793,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at the parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
-        "TypeScript",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
+        "TypeScript",
         "G-NAF",
-        "Cormorant Garamond"
+        "Prompt caching"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
-        "caldr-acquire"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "20% gross licensing fee to operating entity from IP owner Newton & Sinclair Ltd; future operator commission structure TBC.",
+      "revenue_model": "20% gross licensing fee from operating entity to IP owner (Newton & Sinclair Ltd); future commission structure TBC",
       "outstanding": [
-        "Loïc rev-share percentage confirmation",
+        "Loïc rev-share percentage finalisation",
         "LoA draft for Loïc",
-        "NSW licensing clearance",
+        "Licensing call for NSW",
         "Phase 1A core scaffold completion",
-        "Supabase RLS and audit schema",
-        "Federal adapter skeleton implementation"
+        "Phase 1B NSW adapter build",
+        "PSI bulk data ingestion dual-path",
+        "NSW cadastre and zoning load",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/adapters/federal/",
+        "Portfolio May 2026 audit standard"
       ]
     }
   ],
