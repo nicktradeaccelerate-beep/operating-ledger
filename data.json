@@ -791,38 +791,43 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing industrial/logistics owners likely to sell.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale candidates in Australia, launching with NSW.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Anthropic Claude Opus 4.7",
+        "Resend",
         "PostGIS",
         "TypeScript",
-        "Resend",
-        "G-NAF"
+        "G-NAF",
+        "React"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; operator commission structure (rev-share % TBC)",
+      "revenue_model": "IP licensing at 20% gross from operating entity to Newton & Sinclair Ltd; operator rev-share % TBC",
       "outstanding": [
-        "Loïc rev-share percentage finalization",
+        "Loïc rev-share % and commission structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing call (NSW PSI clarification)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console delivery"
+        "Licensing call completion (NSW Public Sector)",
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel setup)",
+        "Federal adapter skeleton (G-NAF, ABR, ASIC loaders)",
+        "NSW adapter dual-path PSI ingestion",
+        "NSW cadastre and zoning load",
+        "Holding-period scoring engine",
+        "Scout AI synthesis wiring",
+        "Operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
+        "lib/adapters/federal/",
         "CLAUDE.md"
       ]
     }
