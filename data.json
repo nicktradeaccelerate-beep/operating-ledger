@@ -600,22 +600,22 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowner grant matching and trade lead generation through AI-powered letter campaigns and multi-trade scheduling.",
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit work, with AI-powered marketing tools for trade businesses.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
-        "Vercel",
+        "Supabase (Postgres 15)",
+        "TypeScript",
+        "shadcn/ui",
+        "Tailwind CSS",
+        "Drizzle ORM",
         "Stripe",
         "Stannp",
         "Twilio",
         "Resend",
         "Google Business Profile API",
         "Postcodes.io",
-        "Cloudflare",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Vercel",
+        "Cloudflare"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
@@ -623,18 +623,21 @@
         "PTO Score",
         "Braemar Bus"
       ],
-      "revenue_model": "Trade subscription via Stripe; three-letter sequence print-and-post campaigns via Stannp integration; v1.2+ upsell to business OS features",
+      "revenue_model": "Subscription pricing for trades (SaaS); free tools (grants finder, SEO audit) with premium features; three-letter campaign print-and-post service; future commercial venture integration",
       "outstanding": [
-        "Complete 02_SCHEMA.sql and apply to Supabase",
-        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism (priority 1)",
-        "Implement 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
-        "Build 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md abuse protection",
-        "Set up 03_API_CONTRACTS.md public/internal endpoints",
-        "Build 13_SEO_AUDIT_TOOL.md free tool",
-        "Implement 12_COMMERCIAL_VENTURE_BRIEF.md scope-out detection and routing",
-        "Create campaign builder per 05_BUILD_SEQUENCE.md week-by-week plan",
-        "Achieve 5+ paying trades before v1.1 release gate"
+        "Build three-letter sequence revenue mechanism first (19_THREE_LETTER_SEQUENCE.md)",
+        "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Create grants finder tool (10_GRANTS_FINDER.md)",
+        "Create grant calculator (11_GRANT_CALCULATOR.md)",
+        "Build SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
+        "Establish abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Implement audience register system (20_AUDIENCE_REGISTER.md)",
+        "Apply Postgres schema (02_SCHEMA.sql)",
+        "Build week-by-week per 05_BUILD_SEQUENCE.md",
+        "Establish integrity layer (07_INTEGRITY_LAYER.md)",
+        "Implement API contracts (03_API_CONTRACTS.md)",
+        "Setup Braemar Bus producer (04_BUS_PRODUCER_CONTRACT.md)",
+        "Configure environment variables (06_ENVIRONMENT.md)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -650,8 +653,7 @@
         "19_THREE_LETTER_SEQUENCE.md",
         "10_GRANTS_FINDER.md",
         "11_GRANT_CALCULATOR.md",
-        "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md"
+        "16_TRADE_ONBOARDING_UX.md"
       ],
       "local_path": ""
     },
