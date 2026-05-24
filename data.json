@@ -793,41 +793,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing NSW industrial owners for relationship-driven acquisition.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
-        "caldr-acquire"
+        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair (reports to)",
+        "Loïc (lead operator)",
+        "Caldr Acquire (separate product)"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity; future phase-based expansion (VIC Phase 2, QLD/WA/SA Phase 3+)",
+      "revenue_model": "20% gross licensing fee from Newton & Sinclair Ltd to operating entity; Phase 2+ commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % confirmation and commission flow structure",
-        "Letter of Authority draft for Loïc",
+        "Loïc rev-share % definition",
+        "Letter of Authority template for Loïc",
         "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, schema, federal adapter skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup)",
-        "Phase 1C engine wired against real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, daily digest)"
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel setup)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning)",
+        "Phase 1C engine wiring against NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/",
         "CLAUDE.md"
       ]
     }
