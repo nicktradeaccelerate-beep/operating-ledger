@@ -793,45 +793,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying industrial/logistics owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "Prompt caching"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to, from August 2026)",
-        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
         "caldr-acquire"
       ],
-      "revenue_model": "Newton & Sinclair Ltd licenses IP at 20% gross to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity (Newton & Sinclair Ltd direct); operator commission structure (NSW vs VIC TBC)",
       "outstanding": [
-        "Loïc rev-share % definition",
-        "Commission flow structure (NSW vs VIC)",
+        "Loïc rev-share % and commission structure",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold build",
-        "Phase 1B NSW adapter implementation",
-        "PSI bulk ingestion (community CSV and .DAT paths)",
-        "NSW cadastre and zoning load",
-        "Phase 1C engine wiring and candidate scoring",
+        "Licensing approval (NSW Property Services)",
+        "Phase 1B NSW adapter (weeks 2–3)",
+        "Phase 1C engine production wiring",
         "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (core engine)",
-        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
-        "lib/adapters/nsw/ (NSW adapter — Phase 1B)"
+        "CLAUDE.md"
       ]
     }
   ],
