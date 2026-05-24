@@ -796,40 +796,39 @@
       "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Supabase",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
+        "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
         "Newton & Sinclair Ltd (IP owner)",
-        "Nick Sinclair (reports to)",
         "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
         "caldr-acquire",
-        "caldr-os"
+        "caldr-property"
       ],
-      "revenue_model": "20% gross licence fee from operating entity to IP owner (Newton & Sinclair Ltd); operator rev-share % TBC",
+      "revenue_model": "20% gross licensing fee from Newton & Sinclair Ltd to operating entity on IP; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % (and commission flow differences NSW vs VIC)",
-        "LoA draft for Loïc (mirror Jodie Stubbington template)",
-        "Licensing call (NSW PS completion)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, filters, property detail, pipeline, signal capture, daily digest)"
+        "Loïc rev-share % definition",
+        "Commission flow differences NSW vs VIC",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PSI)",
+        "Core scaffold completion (Phase 1A)",
+        "NSW adapter build (Phase 1B)",
+        "Engine wiring against NSW data (Phase 1C)",
+        "Operator console (Phase 1D)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
         "lib/adapters/federal/",
-        "lib/adapters/nsw/",
         "CLAUDE.md"
       ]
     }
