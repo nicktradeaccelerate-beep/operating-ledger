@@ -793,32 +793,34 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "G-NAF",
+        "Mapbox"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licenced at 20% gross to operating entity (Newton & Sinclair Ltd direct); future rev-share with operator TBC",
+      "revenue_model": "IP licensing at 20% gross from Newton & Sinclair Ltd to operating entity; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % confirmation",
+        "Commission flow structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
+        "Licensing call (NSW PSI access)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against NSW data",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring with real NSW data",
         "Phase 1D operator console launch"
       ],
       "key_docs": [
