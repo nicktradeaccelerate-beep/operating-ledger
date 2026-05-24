@@ -793,9 +793,9 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing industrial/logistics owners in NSW launch market.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
         "Vercel",
         "Clerk",
@@ -804,8 +804,7 @@
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "React"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -813,24 +812,21 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licensed to operating entity (Newton & Sinclair Ltd) at 20% gross; future operator commission structure TBC",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd (IP owner); potential future rev-share with Loïc (NSW operator)",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "Letter of Appointment for Loïc",
-        "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel setup)",
-        "Federal adapter skeleton (G-NAF, ABR, ASIC loaders)",
-        "NSW adapter dual-path PSI ingestion",
+        "Loïc rev-share percentage confirmation",
+        "Letter of Authority draft for Loïc",
+        "NSW licensing sign-off",
+        "Phase 1B NSW adapter dual-path bulk PSI ingestion",
         "NSW cadastre and zoning load",
-        "Engine wired against real NSW data",
-        "Operator console build (map, filters, pipeline, digest)"
+        "Engine wiring against real NSW data",
+        "Operator console map and detail views",
+        "Scout AI production depth (Phase 3)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "CLAUDE.md"
       ]
     }
   ],
