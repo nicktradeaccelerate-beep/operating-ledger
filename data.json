@@ -793,7 +793,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying industrial/logistics owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase (ap-southeast-1)",
@@ -802,30 +802,31 @@
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript (strict)",
+        "TypeScript strict",
         "G-NAF geocoder"
       ],
       "connections": [
+        "Nick Sinclair (reports to)",
         "Loïc (lead operator)",
-        "Nick Sinclair (reports to, based Hua Hin from August 2026)",
-        "Newton & Sinclair Ltd (IP owner, 20% licensing fee)"
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity; future Phase 4 acquirer matching and curated off-market deal flow",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity; future operator rev-share TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure (NSW vs VIC)",
-        "LoA draft for Loïc (Jodie Stubbington template mirror)",
-        "Licensing call (NSW PSI and title access)",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping, electricity resolver, selective title/ASIC)",
-        "Phase 1C engine wiring (holding-period scoring, candidate-universe query, Scout AI synthesis)",
-        "Phase 1D operator console (map, filters, property/owner detail, pipeline, Resend digest)"
+        "Loïc rev-share % and commission flow structure",
+        "Letter of Appointment for Loïc (Jodie Stubbington template mirror)",
+        "Licensing call (NSW PSI pathway)",
+        "Phase 1A: Core scaffold (week 1)",
+        "Phase 1B: NSW adapter and dual-path PSI ingestion (weeks 2-3)",
+        "Phase 1C: Engine wire-up against real NSW data (week 3)",
+        "Phase 1D: Operator console and daily digest (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/federal/ (shared federal helpers)",
-        "lib/adapters/nsw/ (NSW adapter, Phase 1B)"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
