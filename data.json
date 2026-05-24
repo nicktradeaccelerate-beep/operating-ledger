@@ -793,41 +793,42 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at the parcel level.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
         "Loïc (lead operator)",
-        "Nick Sinclair",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire",
-        "caldr-property"
+        "caldr-property",
+        "caldr-os"
       ],
-      "revenue_model": "IP licensing at 20% gross from operating entity to Newton & Sinclair Ltd; operator rev-share TBC",
+      "revenue_model": "IP licensed to operating entity (Newton & Sinclair Ltd) at 20% gross; operator rev-share % TBC; commission structure differs by state (NSW vs VIC pending)",
       "outstanding": [
-        "Loïc rev-share percentage and commission flow structure (NSW vs VIC)",
-        "Letter of Authority draft for Loïc",
-        "NSW licensing approval",
+        "Loïc rev-share % confirmation and state-specific commission structure",
+        "Letter of Authority draft (mirror Jodie Stubbington template)",
+        "Licensing call (NSW PS)",
         "Phase 1A core scaffold completion (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, electricity network, title integrations)",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, signal capture, digest)"
+        "Phase 1B NSW adapter (PSI ingestion dual-path, cadastre, zoning, LGA lookup, electricity network, title/ASIC selective integrations)",
+        "Phase 1C engine wiring against real NSW data (holding-period scoring, candidate universe query, Scout AI synthesis)",
+        "Phase 1D operator console (map, filters, detail views, pipeline, signal capture, daily digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "CLAUDE.md"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
