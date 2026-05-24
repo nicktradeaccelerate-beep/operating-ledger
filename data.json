@@ -798,32 +798,28 @@
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "ABR bulk data"
       ],
       "connections": [
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-os"
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross margin to operating entity; future phase 2+ state adapters with differentiated cost economics",
+      "revenue_model": "20% gross licence fee to Newton & Sinclair Ltd from operating entity; future phase 2+ LANDATA cost pass-through on VIC adapter",
       "outstanding": [
-        "Loïc rev-share % confirmation and commission structure",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
+        "Licensing call (NSW PSI)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console delivery"
+        "Phase 1B NSW adapter dual-path ingestion",
+        "Phase 1C engine wired to real data",
+        "Phase 1D operator console launch"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "CLAUDE.md"
       ]
     }
   ],
