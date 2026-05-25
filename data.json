@@ -792,39 +792,43 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership before listing.",
+      "progress": 0,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "Claude Opus 4.7"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)"
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licence at 20% gross margin to operating entity; phase 2+ potential paid state adapters (LANDATA for VIC); acquirer matching fee potential in v2.",
+      "revenue_model": "20% gross license fee from operating entity to IP owner; potential operator commission on off-market deal flow (terms pending)",
       "outstanding": [
-        "Loïc rev-share percentage finalisation",
-        "LoA draft for operator",
-        "Licensing and regulatory review (NSW PS)",
+        "Loïc rev-share percentage confirmation",
+        "LoA draft for Loïc operator agreement",
+        "NSW licensing call completion",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against real NSW data",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring with real NSW data",
         "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 prompt caching standard"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     }
   ],
