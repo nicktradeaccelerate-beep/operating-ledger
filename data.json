@@ -599,11 +599,11 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to find customers through AI-powered letter campaigns and scheduling tools.",
+      "progress": 5,
+      "one_liner": "UK property retrofit and trades growth platform enabling trades to run marketing campaigns and homeowners to access grants and retrofit services.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "Supabase (Postgres 15)",
+        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
         "Vercel",
         "Stripe",
         "Stannp",
@@ -619,21 +619,20 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription fees for platform access, campaign tools, and scheduling; homeowner grant-finding and retrofit matching services",
+      "revenue_model": "Trade subscription platform + three-letter sequence print-and-post campaigns + premium microsite templates (v1.2+)",
       "outstanding": [
-        "Build three-letter sequence revenue mechanism (priority 1)",
-        "Implement trade onboarding flow (6-step UX)",
-        "Develop grants finder tool (homeowner-facing)",
-        "Build campaign builder (trade dashboard)",
-        "Implement free tool abuse protection framework",
-        "Set up Braemar Bus event streaming integration",
-        "Complete trade SEO audit tool",
-        "Establish Companies House lead-gen detection (v1.1)",
-        "Build works calendar scheduling (phase 2)"
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism)",
+        "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Build grants finder tool (10_GRANTS_FINDER.md)",
+        "Build grants calculator (11_GRANT_CALCULATOR.md)",
+        "Build SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
+        "Implement abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Complete schema and API contracts",
+        "Build week-by-week sprints per 05_BUILD_SEQUENCE.md"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -643,10 +642,16 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "06_ENVIRONMENT.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
+        "17_FOR_TRADES_PAGE.md",
         "10_GRANTS_FINDER.md",
-        "08_BRAND.md"
+        "11_GRANT_CALCULATOR.md",
+        "13_SEO_AUDIT_TOOL.md",
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
