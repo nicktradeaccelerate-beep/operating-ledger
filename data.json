@@ -787,41 +787,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sale candidates in NSW launch market.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic SDK",
         "Resend",
-        "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "G-NAF",
+        "Claude Opus 4.7"
       ],
       "connections": [
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-property"
+        "Newton & Sinclair Ltd (IP owner)"
       ],
-      "revenue_model": "IP licensed at 20% gross by Newton & Sinclair Ltd to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licence at 20% gross margin to operating entity; phase 2+ potential paid state adapters (LANDATA for VIC); acquirer matching fee potential in v2.",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping, electricity network, title/ASIC integration)",
+        "Loïc rev-share percentage finalisation",
+        "LoA draft for operator",
+        "Licensing and regulatory review (NSW PS)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter dual-path PSI ingestion",
         "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/federal/ (shared federal helpers)",
-        "lib/adapters/nsw/ (NSW regional adapter)"
+        "Portfolio May 2026 prompt caching standard"
       ]
     }
   ],
