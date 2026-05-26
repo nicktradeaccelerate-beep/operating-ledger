@@ -824,10 +824,66 @@
         "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
         "lib/adapters/nsw/ (NSW adapter — Phase 1B)"
       ]
+    },
+    {
+      "id": "standards",
+      "name": "Newton & Sinclair — Standards Repo",
+      "ecosystem": "Internal",
+      "status": "Live",
+      "progress": 85,
+      "one_liner": "Canonical reference for portfolio-wide patterns, templates, and conventions across all ventures.",
+      "tech_stack": [
+        "Markdown",
+        "JSON",
+        "Obsidian",
+        "MCP"
+      ],
+      "connections": [
+        "pto-core",
+        "pto-scorecard",
+        "pto-stan",
+        "pto-tax-calc",
+        "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
+        "mirror",
+        "bfb",
+        "thor",
+        "comet-dno",
+        "comet-deal-flow",
+        "comet-pension",
+        "capexscan",
+        "eva",
+        "reporadar",
+        "lexivo",
+        "vantage-ip",
+        "procurai-scout",
+        "procurai-grants",
+        "procurai-signal",
+        "ai-board",
+        "trade-accelerate",
+        "agentos-jodie",
+        "rent2rent-tarragon",
+        "operating-ledger",
+        "caldr-os",
+        "caldr-sites-au"
+      ],
+      "revenue_model": "Internal efficiency — reduces scaffolding time and ensures pattern consistency across portfolio",
+      "outstanding": [
+        "Maintain PORTFOLIO_MAP.md currency",
+        "Expand /patterns/ directory with cross-portfolio solutions",
+        "Integrate Obsidian vault indexing workflow"
+      ],
+      "key_docs": [
+        "PORTFOLIO_MAP.md",
+        "/patterns/",
+        "Obsidian Portfolio index",
+        "_Templates/"
+      ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-05-26",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
