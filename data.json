@@ -833,9 +833,10 @@
       "progress": 85,
       "one_liner": "Canonical reference for portfolio-wide patterns, templates, and conventions across all ventures.",
       "tech_stack": [
-        "Obsidian",
+        "Markdown",
         "JSON",
-        "Markdown"
+        "Obsidian",
+        "MCP"
       ],
       "connections": [
         "pto-core",
@@ -867,16 +868,17 @@
         "caldr-os",
         "caldr-sites-au"
       ],
-      "revenue_model": "Internal efficiency and knowledge reuse",
+      "revenue_model": "Internal enablement / efficiency",
       "outstanding": [
-        "Keep PORTFOLIO_MAP.md synchronized",
-        "Populate /patterns/ with cross-portfolio solutions",
-        "Maintain Obsidian vault templates"
+        "Keep PORTFOLIO_MAP.md synchronized with all venture launches",
+        "Expand /patterns/ with cross-portfolio solutions",
+        "Maintain Obsidian Portfolio index and templates"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
         "/patterns/",
-        "Obsidian Portfolio index at /Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/"
+        "Obsidian Portfolio index",
+        "_Templates/ directory"
       ]
     }
   ],
