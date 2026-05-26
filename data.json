@@ -830,13 +830,12 @@
       "name": "Newton & Sinclair — Standards Repo",
       "ecosystem": "Internal",
       "status": "Live",
-      "progress": 100,
+      "progress": 85,
       "one_liner": "Canonical reference for portfolio-wide patterns, templates, and conventions across all ventures.",
       "tech_stack": [
-        "Markdown",
-        "JSON",
         "Obsidian",
-        "MCP"
+        "JSON",
+        "Markdown"
       ],
       "connections": [
         "pto-core",
@@ -868,16 +867,16 @@
         "caldr-os",
         "caldr-sites-au"
       ],
-      "revenue_model": "Internal efficiency tool — no direct revenue",
+      "revenue_model": "Internal efficiency and knowledge reuse",
       "outstanding": [
-        "Keep PORTFOLIO_MAP.md in sync with all ventures",
-        "Maintain /patterns/ directory with canonical implementations",
-        "Update Obsidian templates as new patterns emerge"
+        "Keep PORTFOLIO_MAP.md synchronized",
+        "Populate /patterns/ with cross-portfolio solutions",
+        "Maintain Obsidian vault templates"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
         "/patterns/",
-        "/Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/_Templates/"
+        "Obsidian Portfolio index at /Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/"
       ]
     }
   ],
