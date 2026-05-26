@@ -831,12 +831,12 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Canonical reference for portfolio-wide patterns, templates, and conventions across all Newton & Sinclair ventures.",
+      "one_liner": "Canonical reference for portfolio-wide patterns, templates, and conventions across all ventures.",
       "tech_stack": [
         "Markdown",
         "JSON",
-        "Obsidian MCP",
-        "Git"
+        "Obsidian",
+        "MCP"
       ],
       "connections": [
         "pto-core",
@@ -868,17 +868,17 @@
         "caldr-os",
         "caldr-sites-au"
       ],
-      "revenue_model": "Internal governance and efficiency tool (no direct revenue)",
+      "revenue_model": "Internal enablement — no direct revenue",
       "outstanding": [
-        "Keep PORTFOLIO_MAP.md in sync with all launches",
-        "Expand /patterns/ directory with cross-portfolio solutions",
-        "Document Obsidian MCP server integration",
-        "Create enforcement mechanism for portfolio check before new scaffolds"
+        "Keep PORTFOLIO_MAP.md synchronized across all ventures",
+        "Populate /patterns/ with cross-portfolio reference implementations",
+        "Maintain Obsidian template library in _Templates/"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
+        "CLAUDE.md",
         "/patterns/",
-        "/Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/_Templates/"
+        "Obsidian Portfolio index at /Users/nicksinclair001/Desktop/obsidean\\ genuis/genuies\\ vault/"
       ]
     }
   ],
