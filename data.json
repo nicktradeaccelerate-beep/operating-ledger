@@ -870,11 +870,12 @@
       ],
       "revenue_model": "Internal efficiency and reuse acceleration",
       "outstanding": [
-        "Keep PORTFOLIO_MAP.md synchronized with all venture launches",
-        "Expand /patterns/ directory with solved cross-portfolio problems",
-        "Maintain Obsidian vault template consistency"
+        "Maintain PORTFOLIO_MAP.md currency",
+        "Expand /patterns/ directory with new cross-portfolio solutions",
+        "Integrate Obsidian MCP server documentation"
       ],
       "key_docs": [
+        "CLAUDE.md",
         "PORTFOLIO_MAP.md",
         "/patterns/",
         "/Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/_Templates/"
