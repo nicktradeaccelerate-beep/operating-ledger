@@ -868,17 +868,16 @@
         "caldr-os",
         "caldr-sites-au"
       ],
-      "revenue_model": "Internal enablement / efficiency",
+      "revenue_model": "Internal efficiency and reuse acceleration",
       "outstanding": [
         "Keep PORTFOLIO_MAP.md synchronized with all venture launches",
-        "Expand /patterns/ with cross-portfolio solutions",
-        "Maintain Obsidian Portfolio index and templates"
+        "Expand /patterns/ directory with solved cross-portfolio problems",
+        "Maintain Obsidian vault template consistency"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
         "/patterns/",
-        "Obsidian Portfolio index",
-        "_Templates/ directory"
+        "/Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/_Templates/"
       ]
     }
   ],
