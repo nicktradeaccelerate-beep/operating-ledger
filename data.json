@@ -787,42 +787,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying likely-to-sell industrial/logistics owners before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
-        "PostGIS",
-        "TypeScript",
-        "Clerk",
-        "Anthropic SDK",
-        "Resend",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
-        "G-NAF",
-        "Claude Opus 4.7"
+        "Clerk",
+        "Anthropic SDK (claude-opus-4-7)",
+        "Resend",
+        "PostGIS",
+        "TypeScript strict",
+        "G-NAF geocoder",
+        "Prompt caching"
       ],
       "connections": [
-        "Loïc (Lead operator)",
-        "Nick Sinclair (Reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
         "caldr-acquire",
         "caldr-os"
       ],
-      "revenue_model": "20% gross licensing fee from operating entity (Newton & Sinclair Ltd) to IP owner; operator commission structure TBC",
+      "revenue_model": "20% gross licence fee to IP owner (Newton & Sinclair Ltd); operating entity handles client acquisition in NSW launch market",
       "outstanding": [
-        "Loïc rev-share % and commission structure (NSW vs VIC)",
-        "Letter of Authority draft for Loïc",
-        "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup)",
-        "Phase 1C engine wiring against live NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Loïc rev-share % confirmation",
+        "LoA draft for Loïc (Jodie Stubbington template mirror)",
+        "Licensing call (NSW PS final sign-off)",
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter build (weeks 2-3)",
+        "Phase 1C engine wiring on real NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
-        "lib/adapters/nsw/ (NSW adapter — Phase 1B)"
+        "lib/adapters/federal/",
+        "lib/core/"
       ]
     },
     {
@@ -903,7 +902,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-26",
+    "last_updated": "2026-05-27",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
