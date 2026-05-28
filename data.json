@@ -790,41 +790,39 @@
       "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
-        "Supabase",
-        "PostGIS",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "caldr-acquire",
-        "standards"
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; operator rev-share model TBC",
+      "revenue_model": "IP licensed from Newton & Sinclair Ltd at 20% gross to operating entity; future commission/rev-share model TBC",
       "outstanding": [
-        "Loïc rev-share % and NSW vs VIC commission structure",
-        "Letter of Authority template for Loïc",
-        "Licensing call completion (NSW PS)",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema migration)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup)",
-        "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)",
-        "Deep green accent hex value against standards"
+        "Loïc rev-share % definition",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PS)",
+        "Phase 1A core scaffold",
+        "NSW adapter build",
+        "Engine wiring against real NSW data",
+        "Operator console development"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
         "lib/core/",
         "lib/adapters/federal/",
-        "CLAUDE.md"
+        "lib/adapters/nsw/"
       ]
     },
     {
