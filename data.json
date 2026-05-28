@@ -787,39 +787,40 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at parcel level.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW, identifying ownership signals before market listing.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
-        "G-NAF",
-        "Mapbox"
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire",
         "caldr-os"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd direct)",
+      "revenue_model": "20% gross licence fee from operating entity (Newton & Sinclair Ltd) to IP owner; operator commission structure pending",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
-        "LoA draft for Loïc",
+        "Loïc rev-share % finalisation",
+        "Letter of Appointment (LoA) draft for Loïc",
         "Licensing call (NSW PSI)",
-        "Phase 1A core scaffold completion",
-        "NSW adapter dual-path PSI ingestion",
-        "Engine wiring against real NSW data",
-        "Operator console build"
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup, electricity resolver)",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
+        "lib/adapters/",
         "CLAUDE.md"
       ]
     },
