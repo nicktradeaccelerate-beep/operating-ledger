@@ -862,10 +862,10 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Internal",
+      "ecosystem": "Caldr",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
       "tech_stack": [
         "Python 3.12",
         "requests",
@@ -875,34 +875,30 @@
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
-        "Newton & Sinclair",
-        "Caldr Acquire",
-        "HNW Circle"
+        "caldr-acquire",
+        "caldr-os",
+        "Newton & Sinclair"
       ],
-      "revenue_model": "Internal operator tool — not sold to end users",
+      "revenue_model": "Internal operator tool — not revenue-generating",
       "outstanding": [
-        "Implement live Supabase dashboard mode",
-        "Expand Companies House geographic paging for >5000 results",
-        "Add new data source integrations",
-        "Strengthen iXBRL parser for unusual namespace prefixes"
+        "Live dashboard stability monitoring",
+        "CCOD bulk download optimization",
+        "iXBRL parser edge case handling"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
-        "prospector_pkg/briefing.py",
-        "prospector_dashboard/app/lib/types.ts",
+        "prospector_dashboard/app/lib/data.ts",
         "run_prospector.py",
         "run_matchmaker.py"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-27",
+    "last_updated": "2026-05-28",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
