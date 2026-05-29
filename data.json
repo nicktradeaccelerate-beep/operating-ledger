@@ -865,8 +865,8 @@
       "name": "Prospector",
       "ecosystem": "Internal",
       "status": "Live",
-      "progress": 100,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
+      "progress": 85,
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow.",
       "tech_stack": [
         "Python 3.12",
         "Next.js 14",
@@ -880,21 +880,24 @@
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
-        "Caldr Acquire"
+        "Caldr Acquire",
+        "caldr-ai",
+        "caldr-property",
+        "caldr-acquire"
       ],
-      "revenue_model": "Internal operator tool — not monetized",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "CCOD bulk download cache management",
-        "Gazette JSON endpoint normalization edge cases",
-        "Companies House pagination for >5000 results",
-        "iXBRL parser namespace prefix coverage"
+        "Document CCOD cache invalidation strategy",
+        "Expand iXBRL parser robustness",
+        "Add pagination handler for Companies House >5000 results",
+        "Formalize matchmaker output governance"
       ],
       "key_docs": [
-        "prospector_pkg/models.py",
-        "prospector_pkg/enrich.py",
-        "prospector_dashboard/app/lib/data.ts",
+        "prospector_pkg/",
+        "prospector_dashboard/",
         "run_prospector.py",
-        "run_matchmaker.py"
+        "run_matchmaker.py",
+        "CLAUDE.md"
       ]
     }
   ],
