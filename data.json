@@ -786,42 +786,41 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership before listing.",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "G-NAF",
-        "ABR bulk data"
+        "TypeScript strict",
+        "G-NAF geocoder"
       ],
       "connections": [
-        "Loïc (Lead Operator)",
-        "Nick Sinclair (Reports to)",
-        "Newton & Sinclair Ltd (IP Owner)",
-        "caldr-acquire",
-        "caldr-os"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licenced by Newton & Sinclair Ltd at 20% gross to operating entity (Newton & Sinclair Ltd direct); operator commission structure TBC",
+      "revenue_model": "IP licensed at 20% gross to operating entity (Newton & Sinclair Ltd); operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "NSW licensing call completion",
-        "Phase 1A core scaffold",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring to live NSW data",
-        "Phase 1D operator console"
+        "Loïc rev-share % definition",
+        "Loïc Letter of Appointment (mirror Jodie Stubbington template)",
+        "Licensing call (NSW PSI compliance)",
+        "Phase 1A core scaffold completion",
+        "NSW adapter implementation",
+        "Real data engine wiring",
+        "Operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "lib/core/schema (migration)",
+        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
+        "lib/adapters/nsw/ (PSI, cadastre, zoning)"
       ]
     },
     {
