@@ -783,7 +783,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership signals across Australian states, launching in NSW Greater Sydney.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership signals across Australian states, launching in NSW.",
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase (ap-southeast-1)",
@@ -802,22 +802,22 @@
         "caldr-acquire",
         "caldr-property"
       ],
-      "revenue_model": "Newton & Sinclair Ltd licenses IP at 20% gross to operating entity (Newton & Sinclair Ltd direct); future operator commission structure TBC",
+      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure (NSW vs VIC)",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PSI pathway)",
-        "Phase 1A core scaffold (repo, Supabase, schema)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning)",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, pipeline, digest)"
+        "NSW licensing call completion",
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapter skeleton)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping)",
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/nsw/ (NSW regional adapter)",
-        "lib/adapters/federal/ (shared federal helpers)"
+        "lib/core/",
+        "lib/adapters/<state>/",
+        "lib/adapters/federal/"
       ]
     },
     {
