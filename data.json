@@ -180,27 +180,30 @@
       "id": "caldr-acquire",
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
-      "status": "Designed",
-      "progress": 30,
-      "one_liner": "M&A acquisition intelligence (£3,500/mo, acquire.caldr.ai). Bloomberg-style dark UI.",
+      "status": "Build sprint",
+      "progress": 65,
+      "one_liner": "M&A territory intelligence platform for deal sourcing and target identification.",
       "tech_stack": [
-        "Next.js",
-        "Supabase (planned)",
-        "Companies House"
+        "Next.js 14",
+        "TypeScript",
+        "App Router",
+        "Cormorant Garamond",
+        "DM Sans",
+        "JetBrains Mono"
       ],
       "connections": [
-        "Caldr ecosystem",
-        "Thor (adjacent)"
+        "caldr-ai",
+        "caldr-property",
+        "caldr-os"
       ],
-      "revenue_model": "£3,500/month subscription",
+      "revenue_model": "SaaS subscription for M&A professionals and deal teams",
       "outstanding": [
-        "Owner psychology profiling module",
-        "Bolt-on value model build",
-        "Personalised outreach kit implementation",
-        "acquire.caldr.ai subdomain + auth"
+        "API integration strategy post-mock-data phase",
+        "Mayfair design system refinement",
+        "Spec implementation from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
       ],
       "key_docs": [
-        "Caldr Acquire platform spec"
+        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
       ],
       "url": "https://acquire.caldr.ai",
       "local_path": "/Users/nicksinclair001/caldr acquire"
@@ -893,7 +896,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-05-30",
+    "last_updated": "2026-06-01",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
