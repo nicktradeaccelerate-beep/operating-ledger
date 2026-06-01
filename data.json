@@ -795,34 +795,33 @@
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder",
-        "Cormorant Garamond / Inter fonts"
+        "TypeScript",
+        "G-NAF",
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
+        "Loïc (Lead operator)",
+        "Nick Sinclair (Reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "Nick Sinclair (reports to)",
-        "Loïc (lead operator)",
-        "caldr-acquire",
-        "caldr-os"
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee from operating entity to Newton & Sinclair Ltd IP owner; operator commission on off-market deal flow (terms TBC).",
+      "revenue_model": "IP licensed at 20% gross to operating entity (Newton & Sinclair Ltd direct); Phase 2+ includes paid LANDATA integration for VIC adapter",
       "outstanding": [
         "Loïc rev-share % confirmation",
-        "Commission flow structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing sign-off (NSW PS)",
-        "Phase 1A core scaffold (week 1)",
-        "Phase 1B NSW adapter (weeks 2–3)",
-        "Phase 1C engine wired to NSW data (week 3)",
-        "Phase 1D operator console (week 4)"
+        "Licensing call (NSW PSI)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console deployment"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
         "lib/adapters/federal/",
-        "lib/adapters/nsw/",
-        "CLAUDE.md"
+        "lib/adapters/nsw/"
       ]
     },
     {
