@@ -790,11 +790,11 @@
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
-        "PostGIS",
         "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
@@ -802,26 +802,27 @@
       ],
       "connections": [
         "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
+        "Nick Sinclair (reports to, from August 2026)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Caldr Acquire (separate product)"
       ],
-      "revenue_model": "IP licenced to Newton & Sinclair Ltd operating entity at 20% gross; operator commission structure (TBC)",
+      "revenue_model": "Newton & Sinclair Ltd licenses IP at 20% gross to operating entity; operator commission structure (rev-share % pending)",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "LoA draft for Loïc",
+        "Loïc rev-share % definition",
+        "Commission flow structure NSW vs VIC",
+        "Letter of Authority draft for Loïc",
         "Licensing call (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console deployment"
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter (weeks 2–3)",
+        "Phase 1C engine wired to NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/",
-        "CLAUDE.md"
+        "lib/core/ (state-agnostic core)",
+        "lib/adapters/federal/ (shared federal helpers)",
+        "lib/adapters/nsw/ (launch state adapter)"
       ]
     },
     {
