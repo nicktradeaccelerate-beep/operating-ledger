@@ -785,42 +785,44 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership likelihood to sell before listing.",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "PostGIS",
         "TypeScript",
-        "G-NAF geocoder"
+        "G-NAF",
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "standards"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "20% gross licence fee from operating entity to Newton & Sinclair Ltd; future acquirer matching and curated off-market delivery (Phase 4)",
+      "revenue_model": "20% gross revenue share licence from Newton & Sinclair Ltd (IP owner) to operating entity; operator commission structure TBC",
       "outstanding": [
         "Loïc rev-share % confirmation",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
+        "Commission flow structure (NSW vs VIC)",
+        "Letter of Authority draft for Loïc",
+        "Licensing call completion",
         "Phase 1A core scaffold completion",
         "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring with real data",
-        "Phase 1D operator console launch"
+        "Phase 1C engine wiring against real data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
         "lib/adapters/federal/",
-        "lib/adapters/nsw/",
-        "CLAUDE.md"
+        "lib/adapters/nsw/"
       ]
     },
     {
