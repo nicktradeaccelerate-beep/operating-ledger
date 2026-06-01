@@ -785,43 +785,38 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial/logistics owners likely to sell before listing.",
+      "progress": 15,
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership signals in Australian industrial/logistics markets.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder",
-        "Prompt caching"
+        "TypeScript",
+        "G-NAF",
+        "ABR bulk data"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "Jodie Stubbington (LoA template reference)"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity; commission structure TBC",
+      "revenue_model": "IP licence fee (20% gross) from operating entity to Newton & Sinclair Ltd; phase 2+ paid regional data integrations (LANDATA VIC)",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "Letter of Authority draft for Loïc",
-        "Licensing call (NSW PSI and data integrations)",
-        "Phase 1A core scaffold and state-agnostic schema",
-        "Phase 1B NSW adapter with PSI ingestion and cadastre load",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)"
+        "Loïc rev-share % and commission structure",
+        "LoA draft for Loïc operator",
+        "NSW licensing approval call",
+        "NSW cadastre and zoning bulk load completion",
+        "Phase 1B dual-path PSI ingestion setup"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (core engine)",
-        "lib/adapters/federal/ (shared federal helpers)",
-        "lib/adapters/nsw/ (NSW launch adapter)"
+        "Privacy Act 1988 ratification (2026-05-19)"
       ]
     },
     {
