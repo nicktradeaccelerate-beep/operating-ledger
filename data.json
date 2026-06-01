@@ -785,38 +785,41 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership signals in Australian industrial/logistics markets.",
+      "progress": 5,
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale opportunities for Australian industrial/logistics owners.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
         "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
         "Resend",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data"
+        "Claude Opus 4.7"
       ],
       "connections": [
         "Nick Sinclair",
         "Loïc",
         "Newton & Sinclair Ltd",
-        "caldr-acquire"
+        "caldr-acquire",
+        "standards"
       ],
-      "revenue_model": "IP licence fee (20% gross) from operating entity to Newton & Sinclair Ltd; phase 2+ paid regional data integrations (LANDATA VIC)",
+      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd); operator commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
-        "LoA draft for Loïc operator",
-        "NSW licensing approval call",
-        "NSW cadastre and zoning bulk load completion",
-        "Phase 1B dual-path PSI ingestion setup"
+        "Loïc rev-share percentage finalisation",
+        "LoA draft for Loïc",
+        "Licensing call (NSW)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Privacy Act 1988 ratification (2026-05-19)"
+        "CLAUDE.md"
       ]
     },
     {
