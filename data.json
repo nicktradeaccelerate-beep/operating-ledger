@@ -374,7 +374,7 @@
       "progress": 45,
       "one_liner": "Next.js 15 + Supabase SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
@@ -383,26 +383,29 @@
         "TypeScript"
       ],
       "connections": [
-        "Caldr ecosystem",
-        "Property verticalization"
+        "Caldr property ecosystem",
+        "Tax compliance"
       ],
-      "revenue_model": "SaaS subscription for capital allowance identification and tax report generation",
+      "revenue_model": "SaaS subscription for capital allowances identification and tax reporting",
       "outstanding": [
-        "Rename PROJECTID/SCANID/ASSETID directory structures to bracket notation",
-        "Wire core MVP hooks to Dashboard and Projects list",
-        "Implement asset QS override panel",
-        "Complete scan upload → AI processing → asset detection flow",
-        "Wire report generation and PDF rendering",
+        "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
+        "Set up .env.local configuration",
+        "Wire core MVP hooks to frontend (useProjects, useProjectDetail)",
+        "Implement QS override panel",
+        "Complete scan upload flow integration",
+        "Test end-to-end AI vision → asset detection",
+        "Wire report generation with PDF rendering",
         "Build deals pipeline and opportunity scoring",
-        "Integrate Gmail connector for automated deal sourcing",
-        "Develop ops dashboard for internal team"
+        "Implement Gmail connector for email intake",
+        "Create ops dashboard for internal team"
       ],
       "key_docs": [
         "supabase/migrations/001_initial_schema.sql",
         "lib/capexscan/vision-provider.ts",
         "lib/capexscan/render-pdf.ts",
-        "src/hooks/useProjectDetail.ts",
+        "src/hooks/useProjects.ts",
         "src/hooks/useScanUploadFlow.ts",
+        "src/components/AssetOverridePanel.jsx",
         "src/components/ReportGenerateMenu.jsx"
       ],
       "url": "https://capexscan.vercel.app",
