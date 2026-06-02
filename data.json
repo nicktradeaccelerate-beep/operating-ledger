@@ -786,44 +786,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sale candidates through ownership intelligence.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
         "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset"
+        "ABR",
+        "ASIC"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "caldr-property",
-        "caldr-os"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensed at 20% gross from Newton & Sinclair Ltd to operating entity; commission structure TBC",
+      "revenue_model": "20% gross IP licensing from Newton & Sinclair Ltd to operating entity; operator commission model TBC",
       "outstanding": [
         "Loïc rev-share % confirmation",
         "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
-        "Supabase RLS implementation",
-        "Federal adapter skeleton",
-        "NSW adapter build",
-        "Scout AI system prompt caching",
-        "Operator console map and filters"
+        "NSW licensing call completion",
+        "Phase 1A core scaffold",
+        "Phase 1B NSW adapter dual-path ingestion",
+        "Phase 1C engine wiring against NSW data",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
-        "lib/core/types/adapter.ts",
-        "Phase 1A-1D build phases",
-        "CLAUDE.md"
+        "lib/core/types/adapter.ts"
       ]
     },
     {
@@ -899,7 +894,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-02",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
