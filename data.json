@@ -181,8 +181,8 @@
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "M&A territory intelligence platform for market acquisition analysis and deal sourcing.",
+      "progress": 35,
+      "one_liner": "M&A territory intelligence platform for acquisition target identification and analysis.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -193,14 +193,13 @@
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property",
-        "caldr-os"
+        "caldr-property"
       ],
       "revenue_model": "B2B SaaS subscription for M&A intelligence",
       "outstanding": [
-        "Implement mock data layer",
-        "Build dark Mayfair design system",
-        "Complete full feature spec from blueprint"
+        "Complete full specification implementation",
+        "API integration setup post-development",
+        "Dark Mayfair design system implementation"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
