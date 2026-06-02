@@ -835,7 +835,7 @@
         "Markdown",
         "JSON",
         "Obsidian",
-        "Git"
+        "MCP"
       ],
       "connections": [
         "pto-core",
@@ -867,16 +867,17 @@
         "caldr-os",
         "caldr-sites-au"
       ],
-      "revenue_model": "Internal operational efficiency (no direct revenue)",
+      "revenue_model": "Internal efficiency / pattern reuse across portfolio",
       "outstanding": [
-        "Keep PORTFOLIO_MAP.md updated with new ventures",
-        "Expand /patterns/ directory with cross-portfolio solutions",
-        "Maintain Obsidian template library"
+        "Update PORTFOLIO_MAP.md on new venture launches",
+        "Maintain /patterns/ directory with canonical implementations",
+        "Keep Obsidian Portfolio index synchronized"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
         "/patterns/",
-        "/Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/_Templates/"
+        "Obsidian Portfolio index at /Users/nicksinclair001/Desktop/obsidean genuis/genuies vault/Portfolio/",
+        "_Templates/ directory"
       ]
     },
     {
