@@ -372,41 +372,40 @@
       "ecosystem": "Standalone",
       "status": "Build sprint",
       "progress": 45,
-      "one_liner": "Next.js 15 + Supabase SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
+      "one_liner": "Next.js SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
         "OpenAI GPT-4o Vision",
-        "React PDF Renderer",
+        "@react-pdf/renderer",
         "TypeScript"
       ],
       "connections": [
-        "Caldr ecosystem (potential)",
-        "Property tech partners"
+        "Caldr ecosystem (property context)",
+        "PTO ecosystem (tax reporting)"
       ],
-      "revenue_model": "SaaS subscription for tax-saving reports and capital allowance analysis",
+      "revenue_model": "SaaS subscription tiers based on scan volume and report generation",
       "outstanding": [
-        "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
-        "Set up .env.local configuration",
-        "Wire Sprint 1: useProjects, useProjectDetail, assets tab, AssetOverridePanel",
-        "Wire Sprint 2: ScanUploadPanel, useScanUploadFlow, end-to-end image processing",
-        "Wire Sprint 3: ReportGenerateMenu, PDF rendering",
-        "Wire Sprint 4: Deals pipeline, Gmail connector, Ops dashboard",
-        "Create assets/bulk-review API route",
-        "Run migrations 002 and 003 if using deals pipeline"
+        "Rename PROJECTID/SCANID/ASSETID directories to bracket syntax",
+        "Wire Sprint 1 hooks to Dashboard and project pages",
+        "Implement scan upload flow and AI vision processing",
+        "Build PDF report generation",
+        "Implement deals pipeline and opportunity scoring",
+        "Integrate Gmail connector for property deal sourcing",
+        "Build ops dashboard and KPI tracking",
+        "Create bulk asset review endpoint",
+        "Implement CSV import normalization"
       ],
       "key_docs": [
         "supabase/migrations/001_initial_schema.sql",
         "lib/capexscan/vision-provider.ts",
         "lib/capexscan/render-pdf.ts",
         "src/hooks/useProjects.ts",
-        "src/hooks/useProjectDetail.ts",
         "src/hooks/useScanUploadFlow.ts",
         "src/components/ScanUploadPanel.jsx",
-        "src/components/ReportGenerateMenu.jsx",
-        "src/components/AssetOverridePanel.jsx"
+        "src/components/ReportGenerateMenu.jsx"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
