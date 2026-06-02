@@ -901,43 +901,45 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Internal",
+      "ecosystem": "Caldr",
       "status": "Live",
-      "progress": 100,
+      "progress": 85,
       "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
       "tech_stack": [
-        "Python 3.12",
-        "pandas",
+        "Python 3.12+",
         "requests",
+        "pandas",
         "reportlab",
         "structlog",
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
         "TypeScript",
-        "Vercel"
+        "Supabase"
       ],
       "connections": [
-        "Newton & Sinclair",
-        "HNW Circle",
         "Caldr Acquire",
+        "HNW Circle",
+        "Newton & Sinclair",
         "Companies House",
-        "HMLR",
-        "The Gazette"
+        "HMLR CCOD",
+        "The Gazette",
+        "Vercel"
       ],
       "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Monitor CCOD cache invalidation",
-        "Validate Gazette JSON edge cases",
-        "Scale Companies House pagination for >5000 results",
-        "Review iXBRL parser coverage"
+        "Expand geographic coverage beyond UK",
+        "Optimize CCOD cache strategy",
+        "Improve iXBRL parser for edge cases",
+        "Add real-time scoring updates to dashboard"
       ],
       "key_docs": [
         "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
         "prospector_dashboard/app/lib/types.ts",
-        "run_prospector.py"
+        "run_prospector.py",
+        "run_matchmaker.py"
       ]
     }
   ],
