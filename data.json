@@ -788,19 +788,18 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing ownership intelligence across Australian states, launching in NSW.",
+      "progress": 0,
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sale opportunities across Australian states, launching in NSW.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
         "TypeScript",
-        "G-NAF",
-        "Claude Opus 4.7"
+        "G-NAF geocoder"
       ],
       "connections": [
         "Loïc (lead operator)",
@@ -808,19 +807,22 @@
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross licensing fee to operating entity (Newton & Sinclair Ltd) from IP owner; operator commission structure TBC",
+      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; operator commission structure TBC",
       "outstanding": [
         "Loïc rev-share % confirmation",
+        "Commission flow structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing compliance review (NSW PS)",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine integration with real data",
-        "Phase 1D operator console delivery"
+        "Licensing call (NSW PS)",
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter (weeks 2–3)",
+        "Phase 1C engine wired to real NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
+        "lib/adapters/",
         "CLAUDE.md"
       ]
     },
