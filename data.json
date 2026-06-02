@@ -809,39 +809,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing ownership signals.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial owners likely to sell before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
-        "PostGIS",
-        "TypeScript",
+        "Anthropic SDK",
         "Resend",
-        "G-NAF"
+        "TypeScript",
+        "Claude Opus 4.7"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
-        "Newton & Sinclair Ltd",
-        "caldr-property",
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "20% gross revenue share to Newton & Sinclair Ltd IP licensor; operator rev-share TBC",
+      "revenue_model": "IP licensing at 20% gross from operating entity to Newton & Sinclair Ltd; Phase 2+ may include state-specific commission structures.",
       "outstanding": [
-        "Loïc rev-share % confirmation",
+        "Loïc rev-share % finalisation",
         "LoA draft for Loïc",
-        "Licensing call NSW PS completion",
+        "Licensing call (NSW PS)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against NSW data",
+        "Phase 1B NSW adapter development",
+        "Phase 1C engine wiring with real NSW data",
         "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 audit standard"
+        "Portfolio May 2026 standards (Anthropic prompt caching audit)"
       ]
     },
     {
