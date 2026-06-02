@@ -834,24 +834,44 @@
       "tech_stack": [
         "Markdown",
         "JSON",
-        "Obsidian MCP"
+        "Obsidian",
+        "Git"
       ],
       "connections": [
         "pto-core",
         "pto-scorecard",
+        "pto-stan",
+        "pto-tax-calc",
         "caldr-ai",
+        "caldr-property",
+        "caldr-acquire",
         "mirror",
+        "bfb",
+        "thor",
         "comet-dno",
+        "comet-deal-flow",
+        "comet-pension",
+        "capexscan",
+        "eva",
+        "reporadar",
+        "lexivo",
+        "vantage-ip",
         "procurai-scout",
-        "all portfolio projects"
+        "procurai-grants",
+        "procurai-signal",
+        "ai-board",
+        "trade-accelerate",
+        "agentos-jodie",
+        "rent2rent-tarragon",
+        "operating-ledger",
+        "caldr-os",
+        "caldr-sites-au"
       ],
-      "revenue_model": "Internal infrastructure — no direct revenue",
+      "revenue_model": "Internal operational efficiency (no direct revenue)",
       "outstanding": [
-        "Maintain PORTFOLIO_MAP.md currency",
-        "Expand /patterns/ directory with solved cross-portfolio problems",
-        "Document auth middleware patterns",
-        "Publish Supabase RLS policy templates",
-        "Archive pattern implementations from completed ventures"
+        "Keep PORTFOLIO_MAP.md updated with new ventures",
+        "Expand /patterns/ directory with cross-portfolio solutions",
+        "Maintain Obsidian template library"
       ],
       "key_docs": [
         "PORTFOLIO_MAP.md",
