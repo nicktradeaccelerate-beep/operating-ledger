@@ -790,10 +790,10 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership signals before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15",
-        "Supabase",
+        "Next.js 15 App Router",
+        "Supabase (ap-southeast-1)",
         "Vercel",
         "Clerk",
         "Anthropic Claude Opus 4.7",
@@ -808,22 +808,24 @@
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Caldr Acquire UK"
       ],
-      "revenue_model": "IP licensing at 20% gross to Newton & Sinclair Ltd operating entity; operator commission structure TBD",
+      "revenue_model": "20% gross licence fee from Newton & Sinclair Ltd operating entity to IP owner; operator commission structure (rev-share % pending)",
       "outstanding": [
-        "Loïc rev-share percentage confirmation",
-        "LoA draft for Loïc",
-        "Licensing call NSW PSI",
-        "Core scaffold build (Phase 1A)",
-        "NSW adapter implementation (Phase 1B)",
-        "Operator console delivery (Phase 1D)"
+        "Loïc rev-share % definition and commission flow structure (NSW vs VIC)",
+        "LoA draft for Loïc (mirror Jodie Stubbington template)",
+        "Licensing call (NSW PSI)",
+        "Phase 1A core scaffold completion (week 1)",
+        "Phase 1B NSW adapter build (weeks 2–3)",
+        "Phase 1C engine wiring with NSW data (week 3)",
+        "Phase 1D operator console launch (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
+        "lib/core/",
         "lib/adapters/federal/",
-        "portfolio May 2026 audit standards"
+        "lib/adapters/nsw/"
       ]
     },
     {
