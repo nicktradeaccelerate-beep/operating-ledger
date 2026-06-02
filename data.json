@@ -790,8 +790,8 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying pre-listing sales opportunities in Australian industrial markets, launching in NSW.",
+      "progress": 0,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
         "Next.js 15 App Router",
         "Supabase (ap-southeast-1)",
@@ -800,37 +800,33 @@
         "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
+        "TypeScript",
         "G-NAF",
         "Cormorant Garamond",
         "Inter"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (IP owner)",
         "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
-        "caldr-acquire",
-        "procurai-scout"
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire (separate product, not Phase 1)"
       ],
-      "revenue_model": "20% gross licensing to operating entity (Newton & Sinclair Ltd) from IP owner on operator origination activity",
+      "revenue_model": "IP licensed at 20% gross by Newton & Sinclair Ltd to operating entity; Phase 2+ may include paid regional adapters (e.g. LANDATA for VIC); future acquirer layer (v2) out of scope Phase 1",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "Letter of Appointment draft for Loïc",
-        "Licensing call documentation",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter (PSI, cadastre, zoning, LRS)",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console (map, filters, pipeline, digest)",
-        "Scout AI production depth (owner research, signal triage, outreach drafting)",
-        "VIC adapter design and economics"
+        "Loïc rev-share % and commission structure (NSW vs VIC)",
+        "Letter of Agreement draft for Loïc",
+        "Licensing call (NSW PSI access confirmation)",
+        "Phase 1A core scaffold (week 1)",
+        "Phase 1B NSW adapter implementation (weeks 2–3)",
+        "Phase 1C engine wired against real NSW data (week 3)",
+        "Phase 1D operator console (week 4)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/",
-        "CLAUDE.md"
+        "lib/core/ (core engine)",
+        "lib/adapters/federal/ (shared federal helpers)",
+        "lib/adapters/nsw/ (NSW launch adapter)"
       ]
     },
     {
