@@ -600,13 +600,16 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit works, with AI-powered marketing tools for trade businesses.",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects with AI-powered marketing automation.",
       "tech_stack": [
-        "Next.js 14",
+        "Next.js 14 App Router",
         "Supabase",
         "Postgres 15",
-        "Vercel",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Drizzle ORM",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -614,28 +617,25 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription tier + three-letter sequence print-and-post + campaign builder; future v1.2 commercial origination layer",
+      "revenue_model": "Trade subscription platform with three-letter sequence (AI letter generation + print-and-post) as primary revenue mechanism; grant finder and SEO audit as user acquisition free tools.",
       "outstanding": [
-        "Complete 05_BUILD_SEQUENCE.md week-by-week build",
-        "Implement 19_THREE_LETTER_SEQUENCE.md revenue mechanism",
-        "Build 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Implement 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md",
-        "Build 15_FREE_TOOL_ABUSE_FRAMEWORK.md protection layer",
-        "Set up 06_ENVIRONMENT.md third-party integrations",
-        "Implement 07_INTEGRITY_LAYER.md verification logic",
-        "Apply 20_AUDIENCE_REGISTER.md to all surfaces",
-        "Defer v1.1+ specs until 5+ paying trades live"
+        "Finalize 02_SCHEMA.sql and apply to Supabase",
+        "Build three-letter sequence (19_THREE_LETTER_SEQUENCE.md) — priority 1",
+        "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Build grants finder homeowner tool (10_GRANTS_FINDER.md)",
+        "Build campaign builder dashboard (03_API_CONTRACTS.md, campaign-builder-v3.html)",
+        "Integrate Stripe checkout and customer portal",
+        "Implement free tool abuse framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Complete week 1-4 build sequence (05_BUILD_SEQUENCE.md)",
+        "Establish environment variables and third-party integrations (06_ENVIRONMENT.md)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -645,10 +645,12 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "06_ENVIRONMENT.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
         "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
