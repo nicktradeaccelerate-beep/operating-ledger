@@ -182,7 +182,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "M&A territory intelligence platform for acquisition due diligence and market analysis.",
+      "one_liner": "M&A territory intelligence platform for deal sourcing and acquisition strategy",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -193,13 +193,13 @@
       ],
       "connections": [
         "caldr-ai",
-        "caldr-property"
+        "caldr-property",
+        "caldr-os"
       ],
-      "revenue_model": "B2B SaaS subscription for M&A professionals",
+      "revenue_model": "B2B SaaS subscription for M&A teams and advisors",
       "outstanding": [
-        "Full specification review",
+        "Implement full spec from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
         "API integration planning",
-        "Mock data implementation",
         "Design system implementation"
       ],
       "key_docs": [
