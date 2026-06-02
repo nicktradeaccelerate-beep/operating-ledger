@@ -182,7 +182,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "M&A territory intelligence platform for acquisition target identification and analysis.",
+      "one_liner": "M&A territory intelligence platform for deal sourcing and acquisition strategy",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -192,13 +192,15 @@
         "JetBrains Mono"
       ],
       "connections": [
+        "caldr-ai",
+        "caldr-property",
         "caldr-os"
       ],
-      "revenue_model": "B2B SaaS platform for M&A intelligence",
+      "revenue_model": "B2B SaaS subscription for M&A teams and advisors",
       "outstanding": [
-        "Full spec implementation from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
-        "Dark Mayfair design system implementation",
-        "API integration (currently mocked)"
+        "Implement full spec from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
+        "API integration planning",
+        "Design system implementation"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
@@ -372,11 +374,11 @@
       "progress": 45,
       "one_liner": "Next.js 15 + Supabase SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
-        "OpenAI GPT-4o Vision",
+        "OpenAI GPT-4o",
         "React PDF Renderer",
         "TypeScript"
       ],
@@ -384,24 +386,23 @@
         "Caldr ecosystem",
         "Property tax optimization"
       ],
-      "revenue_model": "SaaS subscription for tax-saving report generation and capital allowance identification",
+      "revenue_model": "SaaS subscription for capital allowance identification and tax report generation",
       "outstanding": [
         "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
         "Set up .env.local configuration",
-        "Wire useProjects and useProjectDetail hooks to UI",
-        "Implement ScanUploadPanel and end-to-end upload flow",
-        "Complete ReportGenerateMenu and PDF rendering",
-        "Build deals pipeline (OpportunitiesDashboard)",
-        "Integrate Gmail connector for email intake",
-        "Develop ops dashboard and KPI tracking"
+        "Wire useProjects and useProjectDetail hooks to frontend",
+        "Implement ScanUploadPanel and full upload-to-process flow",
+        "Wire ReportGenerateMenu and PDF rendering",
+        "Build deals pipeline and opportunity scoring",
+        "Integrate Gmail connector for deal sourcing",
+        "Create ops dashboard for internal team"
       ],
       "key_docs": [
         "supabase/migrations/001_initial_schema.sql",
         "lib/capexscan/vision-provider.ts",
         "lib/capexscan/render-pdf.ts",
-        "src/hooks/useProjects.ts",
-        "src/hooks/useProjectDetail.ts",
-        "src/components/ScanUploadPanel.jsx",
+        "src/hooks/useScanUploadFlow.ts",
+        "src/components/AssetOverridePanel.jsx",
         "src/components/ReportGenerateMenu.jsx"
       ],
       "url": "https://capexscan.vercel.app",
