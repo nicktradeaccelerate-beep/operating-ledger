@@ -368,28 +368,43 @@
       "id": "capexscan",
       "name": "CapexScan",
       "ecosystem": "Standalone",
-      "status": "Live",
-      "progress": 85,
-      "one_liner": "Property image → capital allowances report. UK/US/AU jurisdictions. 138 files, 7 SQL migrations.",
+      "status": "Build sprint",
+      "progress": 45,
+      "one_liner": "Next.js 15 + Supabase SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
       "tech_stack": [
         "Next.js 15",
-        "Supabase",
-        "Claude vision",
-        "Stripe",
-        "Resend",
-        "PWA"
+        "Supabase Postgres",
+        "Supabase Auth",
+        "Supabase Storage",
+        "OpenAI GPT-4o Vision",
+        "React PDF Renderer",
+        "TypeScript"
       ],
       "connections": [
-        "PTO (cross-sell)",
-        "EPC Golden Thread module"
+        "PTO ecosystem (tax reporting alignment)",
+        "Property valuation services"
       ],
-      "revenue_model": "Per-report pricing + Stripe subscriptions",
+      "revenue_model": "SaaS subscription for tax-saving report generation and capital allowance identification",
       "outstanding": [
-        "EPC Golden Thread module expansion",
-        "US/AU marketing launch"
+        "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
+        "Complete Sprint 1: Wire core MVP (useProjects, useProjectDetail, assets, QS override)",
+        "Complete Sprint 2: Scan upload flow and AI detection",
+        "Complete Sprint 3: PDF report generation",
+        "Complete Sprint 4: Deals pipeline, Gmail connector, ops dashboard",
+        "Create bulk-review route at assets/bulk-review/",
+        "Apply migrations 002 and 003 if using deals pipeline and auto-sourcing",
+        "Configure .env.local with Supabase and OpenAI credentials"
       ],
       "key_docs": [
-        "CapexScan production repo"
+        "supabase/migrations/001_initial_schema.sql",
+        "lib/capexscan/vision-provider.ts",
+        "lib/capexscan/render-pdf.ts",
+        "lib/capexscan/vision-prompt.ts",
+        "src/hooks/useProjects.ts",
+        "src/hooks/useProjectDetail.ts",
+        "src/hooks/useScanUploadFlow.ts",
+        "src/components/ScanUploadPanel.jsx",
+        "src/components/ReportGenerateMenu.jsx"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
