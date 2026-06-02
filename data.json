@@ -187,21 +187,22 @@
         "Next.js 14",
         "TypeScript",
         "App Router",
+        "React",
         "Cormorant Garamond",
         "DM Sans",
         "JetBrains Mono"
       ],
       "connections": [
-        "caldr-ai",
         "caldr-property",
+        "caldr-ai",
         "caldr-os"
       ],
-      "revenue_model": "SaaS subscription for M&A teams and corporate development",
+      "revenue_model": "SaaS subscription for M&A intelligence access",
       "outstanding": [
-        "Complete API integration",
-        "User authentication flow",
-        "Dashboard analytics",
-        "Data enrichment pipeline"
+        "Complete full specification review",
+        "Dark Mayfair design system implementation",
+        "Mock data integration validation",
+        "API architecture planning"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
