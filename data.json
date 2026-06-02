@@ -807,38 +807,41 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with ownership intelligence at the parcel level.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
+        "PostGIS",
         "TypeScript",
-        "Claude Opus 4.7"
+        "G-NAF geocoder"
       ],
       "connections": [
         "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
+        "Nick Sinclair (reports to, Hua Hin from August 2026)",
         "Newton & Sinclair Ltd (IP owner)",
         "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross from operating entity to Newton & Sinclair Ltd; Phase 2+ may include state-specific commission structures.",
+      "revenue_model": "20% gross licensing fee to IP owner (Newton & Sinclair Ltd); Phase 2+ potential commission structure TBC",
       "outstanding": [
-        "Loïc rev-share % finalisation",
+        "Loïc rev-share % confirmation",
+        "Commission flow structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing call (NSW PS)",
+        "Licensing call (NSW PSI)",
         "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter development",
-        "Phase 1C engine wiring with real NSW data",
-        "Phase 1D operator console delivery"
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console (map, filters, pipeline, digest)"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 standards (Anthropic prompt caching audit)"
+        "lib/core/",
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     },
     {
