@@ -372,9 +372,9 @@
       "ecosystem": "Standalone",
       "status": "Build sprint",
       "progress": 45,
-      "one_liner": "Next.js SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
+      "one_liner": "Next.js 15 + Supabase SaaS that identifies capital allowances from property room images and generates tax-saving reports across UK, US, and AU jurisdictions.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
@@ -383,29 +383,25 @@
         "TypeScript"
       ],
       "connections": [
-        "Caldr ecosystem (property context)",
-        "PTO ecosystem (tax reporting)"
+        "caldr-property",
+        "caldr-acquire"
       ],
-      "revenue_model": "SaaS subscription tiers based on scan volume and report generation",
+      "revenue_model": "SaaS subscription for tax-saving report generation and capital allowance identification",
       "outstanding": [
-        "Rename PROJECTID/SCANID/ASSETID directories to bracket syntax",
-        "Wire Sprint 1 hooks to Dashboard and project pages",
-        "Implement scan upload flow and AI vision processing",
-        "Build PDF report generation",
-        "Implement deals pipeline and opportunity scoring",
-        "Integrate Gmail connector for property deal sourcing",
-        "Build ops dashboard and KPI tracking",
+        "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
+        "Wire core MVP hooks to Dashboard and Projects list (Sprint 1)",
+        "Implement scan upload flow and AI detection (Sprint 2)",
+        "Build report generation with PDF rendering (Sprint 3)",
+        "Integrate deals pipeline and Gmail connector (Sprint 4)",
         "Create bulk asset review endpoint",
-        "Implement CSV import normalization"
+        "Build ops dashboard and KPI tracking"
       ],
       "key_docs": [
-        "supabase/migrations/001_initial_schema.sql",
-        "lib/capexscan/vision-provider.ts",
-        "lib/capexscan/render-pdf.ts",
-        "src/hooks/useProjects.ts",
-        "src/hooks/useScanUploadFlow.ts",
-        "src/components/ScanUploadPanel.jsx",
-        "src/components/ReportGenerateMenu.jsx"
+        "app/api/ — Next.js API routes",
+        "lib/capexscan/ — Core business logic (vision, PDF, deal scoring)",
+        "src/hooks/ — Frontend state management",
+        "src/components/ — UI components",
+        "supabase/migrations/ — Database schema"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
@@ -941,7 +937,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
