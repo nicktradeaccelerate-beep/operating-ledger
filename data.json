@@ -801,40 +801,42 @@
       "name": "Caldr Sites AU",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial owners likely to sell before listing.",
+      "progress": 15,
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
-        "Vercel",
-        "Clerk",
-        "Anthropic Claude Opus 4.7",
-        "Resend",
         "PostGIS",
         "TypeScript",
+        "Clerk",
+        "Anthropic SDK (claude-opus-4-7)",
+        "Resend",
+        "Vercel",
         "G-NAF",
-        "ABR",
-        "ASIC"
+        "Prompt caching"
       ],
       "connections": [
-        "Loïc (operator)",
+        "Loïc (lead operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "caldr-acquire (separate product)",
+        "standards (portfolio standards repo)"
       ],
-      "revenue_model": "IP licensing at 20% gross to operating entity; potential commission structure on deals (pending LoA definition)",
+      "revenue_model": "IP licensing at 20% gross to Newton & Sinclair Ltd operating entity; operator commission structure (Loïc rev-share % pending)",
       "outstanding": [
-        "Loïc rev-share % confirmation",
-        "LoA draft (Jodie Stubbington template)",
-        "Licensing call (NSW)",
+        "Loïc rev-share % and NSW vs VIC commission flow structure",
+        "LoA draft for Loïc (mirror Jodie Stubbington template)",
+        "Licensing call (NSW PS incomplete)",
         "Phase 1B NSW adapter build",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console delivery"
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console deployment"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Portfolio May 2026 audit standard"
+        "lib/core/ (core state-agnostic layer)",
+        "lib/adapters/federal/ (G-NAF, ABR, ASIC loaders)",
+        "lib/adapters/nsw/ (NSW adapter — Phase 1B)"
       ]
     },
     {
