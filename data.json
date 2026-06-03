@@ -802,40 +802,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform identifying NSW industrial owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic Claude Opus 4.7",
         "Resend",
-        "TypeScript"
+        "PostGIS",
+        "TypeScript",
+        "G-NAF",
+        "ABR",
+        "ASIC"
       ],
       "connections": [
-        "Loïc (lead operator)",
+        "Loïc (operator)",
         "Nick Sinclair (reports to)",
         "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire",
-        "Jodie Stubbington (LoA template reference)"
+        "caldr-acquire"
       ],
-      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; Loïc rev-share % TBC",
+      "revenue_model": "IP licensing at 20% gross to operating entity; potential commission structure on deals (pending LoA definition)",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure",
-        "LoA draft for Loïc",
-        "Licensing call (NSW PSI)",
-        "Phase 1A core scaffold completion",
-        "NSW adapter dual-path bulk PSI ingestion",
-        "Engine wiring against real NSW data",
-        "Operator console launch"
+        "Loïc rev-share % confirmation",
+        "LoA draft (Jodie Stubbington template)",
+        "Licensing call (NSW)",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring against real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/federal/",
-        "lib/adapters/nsw/"
+        "Portfolio May 2026 audit standard"
       ]
     },
     {
@@ -898,41 +897,39 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Internal",
+      "ecosystem": "Caldr",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK SME portfolio LTDs on acquireability for HNW buyer discovery.",
       "tech_stack": [
         "Python 3.12",
-        "requests",
+        "Next.js 14",
+        "Tailwind CSS",
+        "Supabase",
         "pandas",
         "reportlab",
         "structlog",
-        "supabase-py",
-        "Next.js 14",
-        "Tailwind CSS",
         "Vercel"
       ],
       "connections": [
-        "Newton & Sinclair",
+        "caldr-acquire",
         "HNW Circle",
-        "Caldr Acquire",
-        "caldr-acquire"
+        "Newton & Sinclair"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — no external revenue",
       "outstanding": [
         "CCOD bulk download caching optimization",
-        "iXBRL parser edge case handling",
-        "Companies House pagination for >5000 results",
-        "Gazette JSON endpoint normalization robustness"
+        "The Gazette JSON endpoint normalization edge cases",
+        "Companies House 5000-result pagination handling",
+        "iXBRL parser namespace prefix coverage"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "run_prospector.py",
+        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/types.ts",
-        "CLAUDE.md"
+        "run_prospector.py",
+        "run_matchmaker.py"
       ]
     }
   ],
