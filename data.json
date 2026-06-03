@@ -378,37 +378,36 @@
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
-        "OpenAI GPT-4o",
+        "OpenAI GPT-4o Vision",
         "React PDF Renderer",
         "TypeScript"
       ],
       "connections": [
-        "Caldr ecosystem",
-        "Property tax planning"
+        "PTO ecosystem (tax/allowances)",
+        "Caldr (property)"
       ],
-      "revenue_model": "SaaS subscription for tax report generation and capital allowance identification",
+      "revenue_model": "SaaS subscription for property tax-saving reports",
       "outstanding": [
         "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
-        "Set up .env.local configuration",
-        "Wire core MVP hooks to Dashboard and Projects pages",
-        "Implement scan upload flow with AI vision processing",
-        "Build report generation and PDF rendering",
+        "Wire core MVP (useProjects, useProjectDetail, useAssets)",
+        "Implement ScanUploadPanel and full upload→process flow",
+        "Build ReportGenerateMenu and PDF rendering",
         "Implement deals pipeline and opportunity scoring",
-        "Add Gmail connector for automated deal sourcing",
-        "Build ops dashboard with KPI tracking",
-        "Create bulk asset review feature",
-        "Implement CSV import functionality"
+        "Build Gmail connector and automated deal sourcing",
+        "Create ops dashboard for internal team",
+        "Create bulk asset review endpoint",
+        "Set up .env.local configuration"
       ],
       "key_docs": [
         "supabase/migrations/001_initial_schema.sql",
+        "supabase/migrations/002_deal_opportunities.sql",
+        "supabase/migrations/003_listing_sources.sql",
         "lib/capexscan/vision-provider.ts",
         "lib/capexscan/render-pdf.ts",
         "src/hooks/useProjects.ts",
-        "src/hooks/useProjectDetail.ts",
         "src/hooks/useScanUploadFlow.ts",
         "src/components/ScanUploadPanel.jsx",
-        "src/components/ReportGenerateMenu.jsx",
-        "app/api/projects/[projectId]/route.ts"
+        "src/components/ReportGenerateMenu.jsx"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
