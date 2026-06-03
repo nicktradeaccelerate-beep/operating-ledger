@@ -378,30 +378,37 @@
         "Supabase Postgres",
         "Supabase Auth",
         "Supabase Storage",
-        "OpenAI GPT-4o Vision",
-        "@react-pdf/renderer",
+        "OpenAI GPT-4o",
+        "React PDF Renderer",
         "TypeScript"
       ],
       "connections": [
-        "caldr-property",
-        "caldr-acquire"
+        "Caldr ecosystem",
+        "Property tax planning"
       ],
-      "revenue_model": "SaaS subscription for tax-saving report generation and capital allowance identification",
+      "revenue_model": "SaaS subscription for tax report generation and capital allowance identification",
       "outstanding": [
         "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
-        "Wire core MVP hooks to Dashboard and Projects list (Sprint 1)",
-        "Implement scan upload flow and AI detection (Sprint 2)",
-        "Build report generation with PDF rendering (Sprint 3)",
-        "Integrate deals pipeline and Gmail connector (Sprint 4)",
-        "Create bulk asset review endpoint",
-        "Build ops dashboard and KPI tracking"
+        "Set up .env.local configuration",
+        "Wire core MVP hooks to Dashboard and Projects pages",
+        "Implement scan upload flow with AI vision processing",
+        "Build report generation and PDF rendering",
+        "Implement deals pipeline and opportunity scoring",
+        "Add Gmail connector for automated deal sourcing",
+        "Build ops dashboard with KPI tracking",
+        "Create bulk asset review feature",
+        "Implement CSV import functionality"
       ],
       "key_docs": [
-        "app/api/ — Next.js API routes",
-        "lib/capexscan/ — Core business logic (vision, PDF, deal scoring)",
-        "src/hooks/ — Frontend state management",
-        "src/components/ — UI components",
-        "supabase/migrations/ — Database schema"
+        "supabase/migrations/001_initial_schema.sql",
+        "lib/capexscan/vision-provider.ts",
+        "lib/capexscan/render-pdf.ts",
+        "src/hooks/useProjects.ts",
+        "src/hooks/useProjectDetail.ts",
+        "src/hooks/useScanUploadFlow.ts",
+        "src/components/ScanUploadPanel.jsx",
+        "src/components/ReportGenerateMenu.jsx",
+        "app/api/projects/[projectId]/route.ts"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
