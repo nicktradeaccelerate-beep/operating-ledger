@@ -802,39 +802,38 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic SDK",
         "Resend",
         "PostGIS",
-        "TypeScript strict",
-        "G-NAF geocoder"
+        "TypeScript",
+        "Claude Opus 4.7"
       ],
       "connections": [
-        "Loïc (Lead operator)",
-        "Nick Sinclair (Reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "Caldr Acquire UK (separate product)"
+        "Nick Sinclair",
+        "Loïc",
+        "Newton & Sinclair Ltd",
+        "caldr-acquire"
       ],
-      "revenue_model": "Newton & Sinclair Ltd licences IP at 20% gross to operating entity; operator commission structure TBC",
+      "revenue_model": "IP licensing at 20% gross to operating entity (Newton & Sinclair Ltd); future acquirer book and mandate matching in v2",
       "outstanding": [
         "Loïc rev-share % confirmation",
-        "Commission flow structure (NSW vs VIC)",
         "LoA draft for Loïc",
-        "Licensing call (NSW)",
+        "NSW licensing call completion",
         "Phase 1A core scaffold completion",
-        "NSW adapter implementation",
-        "Real NSW data integration",
-        "Operator console delivery"
+        "Phase 1B NSW adapter implementation",
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "Phase 1A–1D build roadmap"
+        "CLAUDE.md"
       ]
     },
     {
