@@ -813,32 +813,30 @@
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic Claude Opus 4.7",
+        "Anthropic SDK",
+        "claude-opus-4-7",
         "Resend",
         "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR bulk data",
-        "ASIC dataset",
-        "ABS geographies"
+        "Cormorant Garamond",
+        "Inter"
       ],
       "connections": [
-        "Nick Sinclair",
-        "Loïc",
         "Newton & Sinclair Ltd",
-        "caldr-acquire",
-        "caldr-os"
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licensing at 20% gross from Newton & Sinclair Ltd to operating entity; future acquirer mandate matching and commission flows TBC",
+      "revenue_model": "IP licensing at 20% gross margin to operating entity (Newton & Sinclair Ltd)",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "LoA draft for Loïc operator",
-        "NSW PS licensing call completion",
-        "Phase 1A core scaffold completion (repo, Supabase, Clerk, Vercel, schema, federal skeleton)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup, electricity resolver)",
-        "Phase 1C engine wiring against real NSW data (scoring, candidate universe, Scout AI)",
-        "Phase 1D operator console (map, filters, pipeline, digest)",
-        "Deep green accent hex value against standards repo"
+        "Loïc rev-share % confirmation",
+        "LoA draft for Loïc",
+        "Licensing call (NSW PS completion)",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring with real NSW data",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
