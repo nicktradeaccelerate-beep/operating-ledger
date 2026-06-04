@@ -383,31 +383,30 @@
         "TypeScript"
       ],
       "connections": [
-        "PTO ecosystem (tax/allowances)",
-        "Caldr (property)"
+        "Caldr ecosystem (potential)",
+        "Property vertical"
       ],
-      "revenue_model": "SaaS subscription for property tax-saving reports",
+      "revenue_model": "Tax-saving reports SaaS, jurisdiction-specific compliance (UK, US, AU)",
       "outstanding": [
         "Rename PROJECTID/SCANID/ASSETID directories to bracket notation",
-        "Wire core MVP (useProjects, useProjectDetail, useAssets)",
-        "Implement ScanUploadPanel and full upload→process flow",
-        "Build ReportGenerateMenu and PDF rendering",
-        "Implement deals pipeline and opportunity scoring",
-        "Build Gmail connector and automated deal sourcing",
-        "Create ops dashboard for internal team",
-        "Create bulk asset review endpoint",
-        "Set up .env.local configuration"
+        "Complete Sprint 1: wire core MVP (hooks, Dashboard, Projects list, assets tab, QS override)",
+        "Complete Sprint 2: scan upload flow and end-to-end AI detection",
+        "Complete Sprint 3: report generation and PDF rendering",
+        "Complete Sprint 4: deals pipeline, Gmail connector, Ops dashboard",
+        "Create assets/bulk-review API route",
+        "Run migrations 002_deal_opportunities.sql and 003_listing_sources.sql",
+        "Set up .env.local for OpenAI Vision and Supabase credentials"
       ],
       "key_docs": [
         "supabase/migrations/001_initial_schema.sql",
-        "supabase/migrations/002_deal_opportunities.sql",
-        "supabase/migrations/003_listing_sources.sql",
         "lib/capexscan/vision-provider.ts",
+        "lib/capexscan/vision-prompt.ts",
         "lib/capexscan/render-pdf.ts",
         "src/hooks/useProjects.ts",
+        "src/hooks/useProjectDetail.ts",
         "src/hooks/useScanUploadFlow.ts",
-        "src/components/ScanUploadPanel.jsx",
-        "src/components/ReportGenerateMenu.jsx"
+        "app/api/projects/[projectId]/route.ts",
+        "app/api/scans/[scanId]/process/route.ts"
       ],
       "url": "https://capexscan.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/capexscan",
@@ -943,7 +942,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-03",
+    "last_updated": "2026-06-04",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
