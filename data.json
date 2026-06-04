@@ -807,41 +807,45 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying logistics owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
         "Next.js 15",
         "Supabase",
-        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Anthropic Claude Opus 4.7",
         "Resend",
+        "PostGIS",
         "TypeScript",
         "G-NAF",
-        "ABR",
-        "ASIC"
+        "ABR bulk data",
+        "ASIC dataset",
+        "ABS geographies"
       ],
       "connections": [
         "Nick Sinclair",
         "Loïc",
         "Newton & Sinclair Ltd",
-        "caldr-acquire"
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "20% gross licensing fee from operating entity to IP owner (Newton & Sinclair Ltd); operator commission structure TBC",
+      "revenue_model": "IP licensing at 20% gross from Newton & Sinclair Ltd to operating entity; future acquirer mandate matching and commission flows TBC",
       "outstanding": [
-        "Loïc rev-share percentage",
-        "LoA draft for Loïc",
-        "Licensing call NSW PS",
-        "Phase 1B NSW adapter dual-path PSI ingestion",
-        "Phase 1C engine wiring against real NSW data",
-        "Phase 1D operator console"
+        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
+        "LoA draft for Loïc operator",
+        "NSW PS licensing call completion",
+        "Phase 1A core scaffold completion (repo, Supabase, Clerk, Vercel, schema, federal skeleton)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA lookup, electricity resolver)",
+        "Phase 1C engine wiring against real NSW data (scoring, candidate universe, Scout AI)",
+        "Phase 1D operator console (map, filters, pipeline, digest)",
+        "Deep green accent hex value against standards repo"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
         "lib/core/",
-        "lib/adapters/"
+        "lib/adapters/federal/",
+        "lib/adapters/nsw/"
       ]
     },
     {
