@@ -807,13 +807,14 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, launching in NSW with parcel-level ownership intelligence and pre-listing identification.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
       "tech_stack": [
-        "Next.js 15 App Router",
-        "Supabase (ap-southeast-1)",
+        "Next.js 15",
+        "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic SDK",
+        "Claude Opus 4.7",
         "Resend",
         "PostGIS",
         "TypeScript",
@@ -822,24 +823,28 @@
         "Inter"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to, Hua Hin from Aug 2026)",
-        "Newton & Sinclair Ltd (IP owner, 20% gross licence)",
-        "caldr-acquire (separate product, acquirer layer future)",
-        "standards (portfolio standards repo)"
+        "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire",
+        "caldr-os",
+        "standards"
       ],
-      "revenue_model": "20% gross licence to Newton & Sinclair Ltd operating entity; future acquirer matching and off-market deal fees (Phase 4)",
+      "revenue_model": "IP licenced at 20% gross from Newton & Sinclair Ltd to operating entity; future commission from operator activity and state-based expansion (VIC paid LANDATA integration in Phase 2).",
       "outstanding": [
-        "Loïc rev-share % and commission flow structure (NSW vs VIC)",
-        "LoA draft for Loïc (mirror Jodie Stubbington template)",
-        "Licensing call (NSW PSA)"
+        "Loïc rev-share % finalisation",
+        "LoA draft for Loïc",
+        "NSW licensing sign-off",
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Real NSW data integration",
+        "Phase 1D operator console deployment"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/ (state-agnostic core)",
-        "lib/adapters/federal/ (shared federal helpers)",
-        "lib/adapters/nsw/ (NSW regional adapter)"
+        "lib/core/",
+        "lib/adapters/"
       ]
     },
     {
