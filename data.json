@@ -618,7 +618,7 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects, with revenue from trade subscriptions and three-letter direct mail campaigns.",
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to find qualified leads through three-letter sequences and SEO tools.",
       "tech_stack": [
         "Next.js 14 App Router",
         "Supabase (Postgres 15)",
@@ -637,21 +637,22 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus producer",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscriptions + three-letter direct mail campaign fees (AI-generated personalized letters with voice modelling and print-and-post integration)",
+      "revenue_model": "Trade subscription tiers for lead access and marketing tools (three-letter sequences, SEO audits, campaign builder); grant matching and calculator as freemium conversion funnel",
       "outstanding": [
-        "Build 02_SCHEMA.sql and apply to Supabase",
-        "Implement 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — build first)",
-        "Build homeowner grant finder and calculator (10_GRANTS_FINDER.md, 11_GRANT_CALCULATOR.md)",
+        "Apply schema (02_SCHEMA.sql) to Supabase",
+        "Build three-letter sequence system (19_THREE_LETTER_SEQUENCE.md) — revenue mechanism",
         "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Build campaign builder dashboard (audience register C)",
-        "Implement abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "Set up Stripe subscription and direct mail integrations",
-        "Deploy canonical mockups and verify audience register mapping",
-        "Achieve 5+ paying trades before starting v1.1 features"
+        "Build grants finder and calculator (10_GRANTS_FINDER.md, 11_GRANT_CALCULATOR.md)",
+        "Implement SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
+        "Set up abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Build campaign builder v3 (C register, 05_BUILD_SEQUENCE.md)",
+        "Integrate Stripe Checkout + Customer Portal",
+        "Set up Braemar Bus event contracts (04_BUS_PRODUCER_CONTRACT.md)",
+        "Implement integrity layer (07_INTEGRITY_LAYER.md) — verified/inferred/uncertain/out-of-scope"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -667,7 +668,9 @@
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md"
+        "11_GRANT_CALCULATOR.md",
+        "13_SEO_AUDIT_TOOL.md",
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
