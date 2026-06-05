@@ -616,9 +616,9 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Designed",
-      "progress": 5,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit work at scale.",
+      "status": "Build sprint",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects at scale.",
       "tech_stack": [
         "Next.js 14 App Router",
         "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
@@ -636,23 +636,22 @@
         "Drizzle ORM"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "Newton & Sinclair Ltd (parent)",
+        "Caldr (sibling platform)",
+        "PTO Score (sibling platform)",
+        "Braemar Bus (event producer)"
       ],
-      "revenue_model": "Trade subscription (pricing page: /for-trades); three-letter sequence print-and-post campaigns; grants finder commission (v1.1); review-triggered campaigns (v1.1); job-area triggered sequences (v1.1)",
+      "revenue_model": "Trade subscription platform with three-letter sequence (AI-generated direct mail), lead routing, and commercial venture expansion (deferred to 2027)",
       "outstanding": [
-        "Apply 02_SCHEMA.sql schema to Supabase",
-        "Implement 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — build first)",
-        "Build 16_TRADE_ONBOARDING_UX.md (6-step onboarding)",
-        "Implement 10_GRANTS_FINDER.md (homeowner-facing grant matching)",
+        "Complete 02_SCHEMA.sql and apply to Supabase",
+        "Implement 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — priority)",
+        "Build 16_TRADE_ONBOARDING_UX.md (6-step flow)",
+        "Implement 10_GRANTS_FINDER.md (homeowner grant matching)",
         "Implement 11_GRANT_CALCULATOR.md (grant amount calculator)",
-        "Build 13_SEO_AUDIT_TOOL.md (trade SEO audit free tool)",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md (abuse protection)",
-        "Build trade dashboard from campaign-builder-v3.html mockup",
-        "Reach 5+ paying trades before starting v1.1 features",
-        "Implement audience register routing per 20_AUDIENCE_REGISTER.md"
+        "Build 13_SEO_AUDIT_TOOL.md (free tool with abuse protection)",
+        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md (cross-cutting protection)",
+        "Design 17_FOR_TRADES_PAGE.md (pricing page)",
+        "Reach 5+ paying trades before starting v1.1 work"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -665,7 +664,7 @@
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "08_BRAND.md"
+        "11_GRANT_CALCULATOR.md"
       ],
       "local_path": ""
     },
