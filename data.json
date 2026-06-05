@@ -807,38 +807,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying industrial/logistics owners likely to sell before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying pre-listing sales opportunities in industrial/logistics.",
       "tech_stack": [
-        "Next.js 15 App Router",
+        "Next.js 15",
         "Supabase",
+        "PostGIS",
         "Vercel",
         "Clerk",
-        "Anthropic SDK (claude-opus-4-7)",
+        "Anthropic SDK",
         "Resend",
-        "PostGIS",
-        "TypeScript"
+        "TypeScript",
+        "G-NAF",
+        "Claude Opus 4.7"
       ],
       "connections": [
-        "Loïc (lead operator)",
-        "Nick Sinclair (reports to)",
-        "Newton & Sinclair Ltd (IP owner)",
-        "caldr-acquire"
+        "Newton & Sinclair Ltd",
+        "Loïc",
+        "Nick Sinclair",
+        "caldr-acquire",
+        "caldr-os"
       ],
-      "revenue_model": "20% gross margin licence from operating entity Newton & Sinclair Ltd to IP owner",
+      "revenue_model": "IP licenced at 20% gross to operating entity (Newton & Sinclair Ltd); commission structure on operator pipeline TBC",
       "outstanding": [
-        "Loïc rev-share % and commission structure",
-        "Letter of Authority draft for Loïc",
+        "Loïc rev-share percentage finalisation",
+        "LoA draft for Loïc",
         "NSW licensing call completion",
-        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapters)",
-        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping)",
-        "Phase 1C engine wired to real NSW data",
-        "Phase 1D operator console"
+        "Phase 1A core scaffold completion",
+        "Phase 1B NSW adapter build",
+        "Phase 1C engine wiring to NSW data",
+        "Phase 1D operator console delivery"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
-        "lib/core/",
-        "lib/adapters/",
         "CLAUDE.md"
       ]
     },
