@@ -807,44 +807,39 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "State-agnostic off-market industrial property origination platform for Australia identifying ownership intelligence at parcel level before listing.",
+      "one_liner": "State-agnostic off-market industrial property origination platform for Australia, identifying industrial/logistics owners likely to sell before listing.",
       "tech_stack": [
-        "Next.js 15",
+        "Next.js 15 App Router",
         "Supabase",
         "Vercel",
         "Clerk",
-        "Anthropic SDK",
-        "Claude Opus 4.7",
+        "Anthropic SDK (claude-opus-4-7)",
         "Resend",
         "PostGIS",
-        "TypeScript",
-        "G-NAF",
-        "Cormorant Garamond",
-        "Inter"
+        "TypeScript"
       ],
       "connections": [
-        "Newton & Sinclair Ltd",
-        "Loïc",
-        "Nick Sinclair",
-        "caldr-acquire",
-        "caldr-os",
-        "standards"
+        "Loïc (lead operator)",
+        "Nick Sinclair (reports to)",
+        "Newton & Sinclair Ltd (IP owner)",
+        "caldr-acquire"
       ],
-      "revenue_model": "IP licenced at 20% gross from Newton & Sinclair Ltd to operating entity; future commission from operator activity and state-based expansion (VIC paid LANDATA integration in Phase 2).",
+      "revenue_model": "20% gross margin licence from operating entity Newton & Sinclair Ltd to IP owner",
       "outstanding": [
-        "Loïc rev-share % finalisation",
-        "LoA draft for Loïc",
-        "NSW licensing sign-off",
-        "Phase 1A core scaffold completion",
-        "Phase 1B NSW adapter build",
-        "Real NSW data integration",
-        "Phase 1D operator console deployment"
+        "Loïc rev-share % and commission structure",
+        "Letter of Authority draft for Loïc",
+        "NSW licensing call completion",
+        "Phase 1A core scaffold (repo, Supabase, Clerk, Vercel, schema, federal adapters)",
+        "Phase 1B NSW adapter (PSI ingestion, cadastre, zoning, LGA mapping)",
+        "Phase 1C engine wired to real NSW data",
+        "Phase 1D operator console"
       ],
       "key_docs": [
         "docs/architecture-v0.1.md",
         "lib/core/types/adapter.ts",
         "lib/core/",
-        "lib/adapters/"
+        "lib/adapters/",
+        "CLAUDE.md"
       ]
     },
     {
@@ -944,7 +939,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-04",
+    "last_updated": "2026-06-05",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
