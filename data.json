@@ -618,11 +618,12 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to find customers through AI-powered letter campaigns and scheduling tools.",
+      "one_liner": "UK property retrofit and trades growth platform enabling trade businesses to run multi-trade retrofit campaigns with AI-powered letter sequences and scheduling.",
       "tech_stack": [
-        "Next.js 14 App Router",
-        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
-        "Vercel",
+        "Next.js 14",
+        "Supabase",
+        "Postgres 15",
+        "TypeScript",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -630,39 +631,40 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "TypeScript",
         "shadcn/ui",
         "Tailwind CSS",
         "Drizzle ORM"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription platform with three-letter AI campaign generation, Stripe billing, print-and-post via Stannp",
+      "revenue_model": "SaaS subscription for trade businesses; tiered pricing for campaign features, three-letter sequences, and integration services",
       "outstanding": [
-        "Build three-letter sequence (19_THREE_LETTER_SEQUENCE.md) — revenue mechanism",
+        "Complete 02_SCHEMA.sql implementation",
+        "Build three-letter sequence engine (19_THREE_LETTER_SEQUENCE.md priority)",
         "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Grant finder and calculator tools (10_GRANTS_FINDER.md, 11_GRANT_CALCULATOR.md)",
-        "SEO audit tool (13_SEO_AUDIT_TOOL.md)",
-        "Commercial scope detection (12_COMMERCIAL_VENTURE_BRIEF.md)",
-        "Free tool abuse framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "Marketing homepage and for-trades pricing page",
-        "Database schema and API contracts"
+        "Develop grants finder and calculator (10_GRANTS_FINDER.md, 11_GRANT_CALCULATOR.md)",
+        "Set up Stripe integration and subscription billing",
+        "Build campaign builder UI (campaign-builder-v3.html canonical)",
+        "Implement abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Deploy SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
+        "Configure Braemar Bus event schemas (04_BUS_PRODUCER_CONTRACT.md)",
+        "Establish integrity layer conventions (07_INTEGRITY_LAYER.md)"
       ],
       "key_docs": [
-        "CLAUDE.md",
-        "20_AUDIENCE_REGISTER.md",
         "01_MASTER_SPEC.md",
         "02_SCHEMA.sql",
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
         "19_THREE_LETTER_SEQUENCE.md",
+        "20_AUDIENCE_REGISTER.md",
+        "08_BRAND.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "08_BRAND.md"
+        "17_FOR_TRADES_PAGE.md"
       ],
       "local_path": ""
     },
