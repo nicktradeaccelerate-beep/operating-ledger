@@ -618,36 +618,40 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to access growth marketing tools.",
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects, with AI-driven letter campaigns for trade lead generation.",
       "tech_stack": [
         "Next.js 14 App Router",
         "Supabase (Postgres 15)",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
         "Stripe",
         "Stannp",
         "Twilio",
         "Resend",
         "Google Business Profile API",
         "Postcodes.io",
+        "Cloudflare",
+        "TypeScript",
+        "shadcn/ui",
+        "Tailwind CSS",
         "Drizzle ORM"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus",
         "Caldr",
-        "PTO Score"
+        "PTO Score",
+        "Braemar Bus producer"
       ],
-      "revenue_model": "Subscription fees from trades for marketing platform access; ancillary services (direct mail, scheduling, SEO tools)",
+      "revenue_model": "Subscription pricing for trades to access lead generation, grant matching tools, and campaign builder; freemium model for homeowners (grants finder, calculator, SEO audit tool)",
       "outstanding": [
-        "Implement 19_THREE_LETTER_SEQUENCE.md (revenue mechanism)",
-        "Complete 02_SCHEMA.sql application",
-        "Build 16_TRADE_ONBOARDING_UX.md (6-step flow)",
-        "Implement 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md",
-        "Build campaign builder dashboard (v3 mockup)",
-        "Establish 07_INTEGRITY_LAYER.md verification patterns",
-        "Achieve 5+ paying trades before v1.1 release gate"
+        "Apply 02_SCHEMA.sql database schema",
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism)",
+        "Implement 16_TRADE_ONBOARDING_UX.md (6-step flow)",
+        "Build 10_GRANTS_FINDER.md (homeowner-facing)",
+        "Build 11_GRANT_CALCULATOR.md (homeowner-facing)",
+        "Build 13_SEO_AUDIT_TOOL.md with abuse protection (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Build 17_FOR_TRADES_PAGE.md (pricing page)",
+        "Implement 03_API_CONTRACTS.md endpoints",
+        "Set up Braemar Bus event integration (04_BUS_PRODUCER_CONTRACT.md)",
+        "Implement 07_INTEGRITY_LAYER.md (verified/inferred/uncertain/out-of-scope)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -657,9 +661,10 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "19_THREE_LETTER_SEQUENCE.md",
-        "16_TRADE_ONBOARDING_UX.md",
-        "08_BRAND.md"
+        "06_ENVIRONMENT.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
+        "19_THREE_LETTER_SEQUENCE.md"
       ],
       "local_path": ""
     },
