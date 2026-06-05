@@ -617,13 +617,13 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 5,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects at scale.",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to access AI-powered marketing tools.",
       "tech_stack": [
         "Next.js 14",
+        "App Router",
         "Supabase",
         "Postgres 15",
-        "Vercel",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -638,23 +638,22 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Three-letter sequence (AI letter generation + print-and-post), trade subscription pricing, grant matching fee-per-placement",
+      "revenue_model": "SaaS subscription for trades (three-letter sequence, grant calculator, SEO audit tool, microsite templates); grant finder free tool with potential affiliate/lead-gen monetization; v1.2+ commercial venture expansion.",
       "outstanding": [
-        "Finalize 20_AUDIENCE_REGISTER.md (four registers A-D + progression principle)",
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md) — priority 1",
-        "Implement grants finder tool (10_GRANTS_FINDER.md)",
-        "Implement grant calculator (11_GRANT_CALCULATOR.md)",
-        "Build trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Build campaign builder v3 (C-register sophistication)",
-        "Commercial venture scope-out detection + routing (12_COMMERCIAL_VENTURE_BRIEF.md)",
-        "Free tool abuse framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "SEO audit tool launch (13_SEO_AUDIT_TOOL.md)",
-        "Braemar Bus event schema integration (04_BUS_PRODUCER_CONTRACT.md)",
-        "Reach 5+ paying trades before v1.1 gate"
+        "Complete 02_SCHEMA.sql implementation",
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — priority)",
+        "Implement 10_GRANTS_FINDER.md homeowner tool",
+        "Implement 11_GRANT_CALCULATOR.md",
+        "Build 16_TRADE_ONBOARDING_UX.md six-step flow",
+        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md",
+        "Deploy 03_API_CONTRACTS.md endpoints",
+        "Integrate Stannp print-and-post",
+        "Set up 06_ENVIRONMENT.md third-party accounts",
+        "Achieve 5+ paying trades for v1.1 gate"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -662,18 +661,10 @@
         "01_MASTER_SPEC.md",
         "02_SCHEMA.sql",
         "03_API_CONTRACTS.md",
-        "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "06_ENVIRONMENT.md",
-        "07_INTEGRITY_LAYER.md",
-        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
-        "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md",
-        "15_FREE_TOOL_ABUSE_FRAMEWORK.md",
-        "13_SEO_AUDIT_TOOL.md"
+        "08_BRAND.md"
       ],
       "local_path": ""
     },
