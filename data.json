@@ -618,11 +618,14 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects via AI-generated direct mail campaigns.",
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to find retrofit work via AI-powered letter campaigns and scheduling.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "Supabase (Postgres 15)",
-        "Vercel",
+        "Supabase",
+        "Postgres 15",
+        "TypeScript",
+        "shadcn/ui",
+        "Tailwind CSS",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -630,28 +633,26 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Drizzle ORM",
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "SaaS subscription for trades; three-letter AI-generated direct mail campaigns (print-and-post); grant matching and calculator tools for homeowners",
+      "revenue_model": "SaaS subscription for trades; freemium grant finder and SEO audit tools with premium trade dashboard",
       "outstanding": [
-        "Build three-letter sequence revenue engine (priority 1)",
-        "Trade onboarding UX (6-step flow)",
-        "Grants Finder tool",
-        "Grant Calculator tool",
-        "SEO Audit Tool",
-        "Commercial scope-out detection and routing",
-        "Abuse protection framework for free tools",
-        "Marketing homepage",
-        "Microsite templates (Classic, Bold, Mono)"
+        "Build three-letter sequence revenue mechanism",
+        "Implement grants finder homeowner tool",
+        "Trade onboarding flow (6-step UX)",
+        "Campaign builder dashboard (register C)",
+        "SEO audit free tool",
+        "Commercial scope detection and routing",
+        "Abuse protection framework",
+        "Works calendar (phase 2)",
+        "v1.1 features (cross-referencing, review triggers, job-area sequences)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -661,14 +662,11 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "06_ENVIRONMENT.md",
-        "07_INTEGRITY_LAYER.md",
-        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
-        "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
-        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
+        "16_TRADE_ONBOARDING_UX.md",
+        "17_FOR_TRADES_PAGE.md",
+        "08_BRAND.md"
       ],
       "local_path": ""
     },
