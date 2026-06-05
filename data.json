@@ -616,13 +616,12 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Designed",
-      "progress": 0,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to access retrofit funding and scheduling",
+      "status": "Build sprint",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects via AI-generated direct mail campaigns.",
       "tech_stack": [
-        "Next.js 14",
-        "Supabase",
-        "Postgres 15",
+        "Next.js 14 App Router",
+        "Supabase (Postgres 15)",
         "Vercel",
         "Stripe",
         "Stannp",
@@ -638,22 +637,21 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus",
         "Caldr",
-        "PTO Score"
+        "PTO Score",
+        "Braemar Bus"
       ],
-      "revenue_model": "Subscription via Stripe for trades; three-letter sequence print-and-post campaigns; grant calculator and SEO tools with premium features in v1.1+",
+      "revenue_model": "SaaS subscription for trades; three-letter AI-generated direct mail campaigns (print-and-post); grant matching and calculator tools for homeowners",
       "outstanding": [
-        "Build v1 three-letter sequence revenue mechanism (priority)",
-        "Implement trade onboarding flow (6-step UX)",
-        "Build grants finder and calculator tools",
-        "Create trade dashboard with campaign builder",
-        "Set up Braemar Bus event schema integration",
-        "Implement free tool abuse protection framework",
-        "Design and build microsite templates (Classic, Bold, Mono, Considered Craft v1.2+)",
-        "Configure Stripe, Stannp, Twilio, Resend integrations",
-        "Apply integrity layer verification/inferred/uncertain/out-of-scope conventions",
-        "Build audience register-driven UI across all surfaces"
+        "Build three-letter sequence revenue engine (priority 1)",
+        "Trade onboarding UX (6-step flow)",
+        "Grants Finder tool",
+        "Grant Calculator tool",
+        "SEO Audit Tool",
+        "Commercial scope-out detection and routing",
+        "Abuse protection framework for free tools",
+        "Marketing homepage",
+        "Microsite templates (Classic, Bold, Mono)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -663,12 +661,14 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "06_ENVIRONMENT.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
         "11_GRANT_CALCULATOR.md",
-        "08_BRAND.md",
-        "07_INTEGRITY_LAYER.md"
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
