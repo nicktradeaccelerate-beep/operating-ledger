@@ -911,33 +911,35 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer discovery and deal flow scoring.",
       "tech_stack": [
-        "Python 3.12+",
-        "Next.js 14",
-        "Tailwind CSS",
-        "Supabase",
+        "Python 3.12",
+        "requests",
         "pandas",
         "reportlab",
         "structlog",
-        "requests"
+        "supabase-py",
+        "Next.js 14",
+        "Tailwind CSS",
+        "TypeScript",
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "Caldr Acquire",
         "HNW Circle"
       ],
-      "revenue_model": "Internal operator tool — not monetized",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Expand data source coverage",
-        "Optimize CCOD cache performance",
-        "Refine buyer-discovery matching algorithms",
-        "Enhance PDF brief generation templates"
+        "CCOD bulk cache optimization",
+        "iXBRL parser edge-case coverage",
+        "Companies House pagination for >5000 results",
+        "Matchmaker UI restrictions enforcement"
       ],
       "key_docs": [
+        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/data.ts",
         "run_prospector.py",
         "run_matchmaker.py"
@@ -945,7 +947,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-05",
+    "last_updated": "2026-06-07",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
