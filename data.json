@@ -618,10 +618,10 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 5,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects, and trades to generate retrofit leads through AI-powered letter campaigns.",
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects, with AI-powered marketing tools for tradespeople.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "Supabase (Postgres 15)",
+        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
         "Vercel",
         "Stripe",
         "Stannp",
@@ -637,20 +637,22 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus",
+        "Braemar Bus (producer)",
         "Caldr",
         "PTO Score"
       ],
-      "revenue_model": "Freemium: free grant-finder and SEO audit tools; paid subscription tiers for trades to generate retrofit leads via three-letter AI campaigns, print-and-post delivery, and review-triggered sequences.",
+      "revenue_model": "Trade subscription platform with three-letter AI-generated direct mail sequence; v1.2 commercial venture origination layer",
       "outstanding": [
-        "Apply 02_SCHEMA.sql to Supabase",
-        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism first",
-        "Implement 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Build 10_GRANTS_FINDER.md homeowner grant matching",
-        "Build 13_SEO_AUDIT_TOOL.md free tool with abuse protection",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md",
-        "Route commercial scope-out detection (12_COMMERCIAL_VENTURE_BRIEF.md)",
-        "Onboard 5+ paying trades before v1.1 gate"
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — priority)",
+        "Implement 02_SCHEMA.sql",
+        "Build grant matching and calculator tools",
+        "Trade onboarding UX (6-step flow)",
+        "SEO audit free tool",
+        "Abuse protection framework",
+        "Works calendar (phase 2)",
+        "Microsite templates (Bold, Mono, Considered Craft)",
+        "v1.1 features: cross-referencing, review campaigns, job-area sequences",
+        "Stripe integration and payment flows"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -662,8 +664,7 @@
         "05_BUILD_SEQUENCE.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "10_GRANTS_FINDER.md",
-        "13_SEO_AUDIT_TOOL.md",
+        "17_FOR_TRADES_PAGE.md",
         "08_BRAND.md"
       ],
       "local_path": ""
