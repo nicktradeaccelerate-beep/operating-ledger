@@ -617,8 +617,8 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to run AI-powered marketing campaigns and homeowners to find grants and retrofit guidance.",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute local retrofit works.",
       "tech_stack": [
         "Next.js 14",
         "Supabase",
@@ -633,7 +633,6 @@
         "Resend",
         "Google Business Profile API",
         "Postcodes.io",
-        "Cloudflare",
         "Vercel"
       ],
       "connections": [
@@ -642,17 +641,18 @@
         "Caldr",
         "PTO Score"
       ],
-      "revenue_model": "Subscription pricing for trades; AI-powered three-letter sequence (letter generation + voice modelling + print-and-post); grant finder and calculator (homeowner-facing free tools with commercial routing to sister venture)",
+      "revenue_model": "Three-letter sequence (AI-generated letters, voice modelling, print-and-post), trade subscription tiers, grant finder monetisation (v1.1+), cross-referencing campaigns (v1.1+)",
       "outstanding": [
-        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism (priority 1)",
-        "Complete 02_SCHEMA.sql Postgres schema setup",
-        "Implement 20_AUDIENCE_REGISTER.md across all UI surfaces",
-        "Build 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Develop 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
-        "Establish 07_INTEGRITY_LAYER.md verification workflows",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md cross-cutting protection",
-        "Complete 05_BUILD_SEQUENCE.md week-by-week build plan",
-        "Set up 06_ENVIRONMENT.md third-party accounts and approvals"
+        "Complete 20_AUDIENCE_REGISTER.md definition",
+        "Finalise 01_MASTER_SPEC.md",
+        "Build 02_SCHEMA.sql and apply to Supabase",
+        "Define 03_API_CONTRACTS.md",
+        "Confirm 04_BUS_PRODUCER_CONTRACT.md event schemas",
+        "Execute 05_BUILD_SEQUENCE.md week 1-4",
+        "Set up 06_ENVIRONMENT.md and third-party accounts",
+        "Implement 07_INTEGRITY_LAYER.md data classification",
+        "Design trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Build three-letter sequence core (19_THREE_LETTER_SEQUENCE.md)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -662,12 +662,11 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "07_INTEGRITY_LAYER.md",
         "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md"
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
