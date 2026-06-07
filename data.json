@@ -617,15 +617,12 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to run multi-trade campaigns and homeowners to find grants and schedule works.",
+      "progress": 5,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects, and trades to generate retrofit leads through AI-powered letter campaigns.",
       "tech_stack": [
         "Next.js 14 App Router",
         "Supabase (Postgres 15)",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM",
+        "Vercel",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -633,29 +630,27 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "Vercel"
+        "TypeScript",
+        "shadcn/ui",
+        "Tailwind CSS",
+        "Drizzle ORM"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade SaaS subscriptions via Stripe; three-letter sequence physical mail integration (print-and-post); grant finder and calculator (freemium homeowner tools with trade conversion funnel); potential v1.2 commercial venture origination.",
+      "revenue_model": "Freemium: free grant-finder and SEO audit tools; paid subscription tiers for trades to generate retrofit leads via three-letter AI campaigns, print-and-post delivery, and review-triggered sequences.",
       "outstanding": [
         "Apply 02_SCHEMA.sql to Supabase",
-        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism ��� priority 1)",
-        "Implement 16_TRADE_ONBOARDING_UX.md (6-step flow)",
-        "Build 10_GRANTS_FINDER.md (homeowner tool)",
-        "Build 11_GRANT_CALCULATOR.md (homeowner tool)",
-        "Build 13_SEO_AUDIT_TOOL.md (free tool with abuse protection)",
-        "Implement 03_API_CONTRACTS.md endpoints",
-        "Implement 04_BUS_PRODUCER_CONTRACT.md event schemas",
-        "Execute 05_BUILD_SEQUENCE.md week-by-week plan",
-        "Apply 07_INTEGRITY_LAYER.md conventions (verified/inferred/uncertain/out-of-scope)",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md across all free tools",
-        "Defer v1.1 specs (09, 14, 21, 22, 23, 24) until 5+ paying trades live",
-        "Defer v1.2+ specs (22, 25, 26, 27) until 30+ paying trades + decision gate"
+        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism first",
+        "Implement 16_TRADE_ONBOARDING_UX.md 6-step flow",
+        "Build 10_GRANTS_FINDER.md homeowner grant matching",
+        "Build 13_SEO_AUDIT_TOOL.md free tool with abuse protection",
+        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md",
+        "Route commercial scope-out detection (12_COMMERCIAL_VENTURE_BRIEF.md)",
+        "Onboard 5+ paying trades before v1.1 gate"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -665,19 +660,11 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "06_ENVIRONMENT.md",
-        "07_INTEGRITY_LAYER.md",
-        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
         "13_SEO_AUDIT_TOOL.md",
-        "15_FREE_TOOL_ABUSE_FRAMEWORK.md",
-        "trade-accelerate-light-mockup.html",
-        "property-landing-page-v2.html",
-        "three-letter-sequence-mockup.html",
-        "campaign-builder-v3.html"
+        "08_BRAND.md"
       ],
       "local_path": ""
     },
