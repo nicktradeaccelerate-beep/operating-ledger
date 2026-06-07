@@ -617,12 +617,16 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects, with trade-focused marketing and three-letter campaign automation.",
+      "progress": 0,
+      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to run AI-powered marketing campaigns and homeowners to find grants and retrofit guidance.",
       "tech_stack": [
-        "Next.js 14 App Router",
-        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
-        "Vercel",
+        "Next.js 14",
+        "Supabase",
+        "Postgres 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Drizzle ORM",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -630,29 +634,25 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription model; three-letter sequence print-and-post campaigns; grants finder monetization (v1.1+); potential commercial venture sister product (2027)",
+      "revenue_model": "Subscription pricing for trades; AI-powered three-letter sequence (letter generation + voice modelling + print-and-post); grant finder and calculator (homeowner-facing free tools with commercial routing to sister venture)",
       "outstanding": [
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md) first",
-        "Complete 05_BUILD_SEQUENCE.md week-by-week execution plan",
-        "Implement grants finder and calculator (10, 11)",
-        "Build six-step trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Establish free tool abuse framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "SEO audit tool (13_SEO_AUDIT_TOOL.md) and free tool dashboard (v1.1)",
-        "Audience register implementation across all surfaces (20_AUDIENCE_REGISTER.md)",
-        "Integrity layer verification workflow (07_INTEGRITY_LAYER.md)",
-        "Environment setup and third-party account approvals (06_ENVIRONMENT.md)",
-        "Works calendar multi-trade scheduling (phase 2, 18_WORKS_CALENDAR.md)"
+        "Build 19_THREE_LETTER_SEQUENCE.md revenue mechanism (priority 1)",
+        "Complete 02_SCHEMA.sql Postgres schema setup",
+        "Implement 20_AUDIENCE_REGISTER.md across all UI surfaces",
+        "Build 16_TRADE_ONBOARDING_UX.md 6-step flow",
+        "Develop 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
+        "Establish 07_INTEGRITY_LAYER.md verification workflows",
+        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md cross-cutting protection",
+        "Complete 05_BUILD_SEQUENCE.md week-by-week build plan",
+        "Set up 06_ENVIRONMENT.md third-party accounts and approvals"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -662,15 +662,12 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
-        "06_ENVIRONMENT.md",
         "07_INTEGRITY_LAYER.md",
         "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
-        "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md",
-        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
+        "10_GRANTS_FINDER.md",
+        "11_GRANT_CALCULATOR.md"
       ],
       "local_path": ""
     },
