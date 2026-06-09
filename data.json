@@ -616,9 +616,9 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Designed",
-      "progress": 0,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowner grant matching and trade-led multi-touch marketing campaigns.",
+      "status": "Build sprint",
+      "progress": 15,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects.",
       "tech_stack": [
         "Next.js 14",
         "Supabase",
@@ -638,27 +638,24 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus",
         "Caldr",
-        "PTO Score"
+        "PTO Score",
+        "Braemar Bus"
       ],
-      "revenue_model": "SaaS subscription for trades; three-letter direct mail sequence; grant finder and calculator freemium tools with premium trade features.",
+      "revenue_model": "Trade subscription platform with three-letter sequence print-and-post campaigns, Stripe checkout, grant lead generation.",
       "outstanding": [
-        "Apply 02_SCHEMA.sql database schema",
-        "Implement 19_THREE_LETTER_SEQUENCE.md (revenue core)",
-        "Build 10_GRANTS_FINDER.md homeowner tool",
-        "Build 11_GRANT_CALCULATOR.md homeowner tool",
-        "Implement 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Build 17_FOR_TRADES_PAGE.md pricing page",
-        "Implement 15_FREE_TOOL_ABUSE_FRAMEWORK.md protection",
-        "Set up Stripe Checkout + Customer Portal",
-        "Set up Stannp print-and-post integration",
-        "Implement audience register routing (20_AUDIENCE_REGISTER.md)",
-        "Build marketing homepage from trade-accelerate-light-mockup.html",
-        "Build microsite Classic template from microsite-template-01-classic.html",
-        "Build trade dashboard campaign builder from campaign-builder-v3.html",
-        "Implement 12_COMMERCIAL_VENTURE_BRIEF.md scope detection + routing",
-        "Set up Braemar Bus event schema integration (04_BUS_PRODUCER_CONTRACT.md)"
+        "Complete master specification (01_MASTER_SPEC.md)",
+        "Implement Postgres schema (02_SCHEMA.sql)",
+        "Build three-letter sequence (19_THREE_LETTER_SEQUENCE.md) — revenue mechanism, priority 1",
+        "Build trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Implement grants finder tool (10_GRANTS_FINDER.md)",
+        "Implement grant calculator (11_GRANT_CALCULATOR.md)",
+        "Build SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
+        "Set up Braemar Bus event schemas (04_BUS_PRODUCER_CONTRACT.md)",
+        "Configure environment and third-party integrations (06_ENVIRONMENT.md)",
+        "Build marketing homepage and /for-trades pricing page",
+        "Implement abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Achieve 5+ paying trades before v1.1 gates"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -672,10 +669,12 @@
         "07_INTEGRITY_LAYER.md",
         "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
+        "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
         "11_GRANT_CALCULATOR.md",
-        "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md"
+        "13_SEO_AUDIT_TOOL.md",
+        "17_FOR_TRADES_PAGE.md",
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
