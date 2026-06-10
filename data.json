@@ -606,11 +606,11 @@
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit projects.",
+      "progress": 5,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowner grant matching and trade-led marketing via AI-generated letter campaigns.",
       "tech_stack": [
         "Next.js 14 App Router",
-        "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
+        "Supabase (Postgres 15)",
         "Vercel",
         "Stripe",
         "Stannp",
@@ -626,20 +626,20 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus producer",
-        "Caldr (sibling venture)",
-        "PTO Score (sibling venture)"
+        "Braemar Bus",
+        "Caldr",
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription + three-letter sequence (AI letter generation, voice modelling, print-and-post integration)",
+      "revenue_model": "Trade subscription platform with three-letter AI sequence (print-and-post integration), grant finder/calculator tools, and SEO audit free-tier with premium dashboard.",
       "outstanding": [
-        "Build 02_SCHEMA.sql Postgres schema",
-        "Implement 19_THREE_LETTER_SEQUENCE.md revenue mechanism",
-        "Complete 16_TRADE_ONBOARDING_UX.md 6-step flow",
-        "Deploy 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
-        "Set up 15_FREE_TOOL_ABUSE_FRAMEWORK.md protection",
-        "Build trade dashboard campaign builder (v3 mockup)",
-        "Integrate Stripe, Stannp, Twilio, Google Business Profile API",
-        "Complete 05_BUILD_SEQUENCE.md week-by-week acceptance criteria"
+        "Build three-letter sequence revenue mechanism (priority 1)",
+        "Implement grant finder and calculator homeowner tools",
+        "Complete trade onboarding flow (6-step UX)",
+        "Establish free tool abuse protection framework",
+        "Integrate Stannp direct mail API",
+        "Build campaign builder dashboard (register C)",
+        "Works calendar phase 2 implementation",
+        "v1.1 features gated until 5+ paying trades live"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -650,12 +650,9 @@
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
         "06_ENVIRONMENT.md",
-        "07_INTEGRITY_LAYER.md",
-        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md"
+        "08_BRAND.md"
       ],
       "local_path": ""
     },
