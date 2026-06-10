@@ -117,18 +117,18 @@
       "id": "caldr-ai",
       "name": "Caldr AI",
       "ecosystem": "Caldr",
-      "status": "Live",
+      "status": "Pending",
       "progress": 0,
-      "one_liner": "AI-powered capabilities within the Caldr ecosystem.",
+      "one_liner": "AI agents and automation systems for the Caldr ecosystem.",
       "tech_stack": [],
       "connections": [
-        "caldr-os",
-        "caldr-property",
-        "caldr-acquire"
+        "@AGENTS.md"
       ],
       "revenue_model": "",
       "outstanding": [],
-      "key_docs": [],
+      "key_docs": [
+        "CLAUDE.md"
+      ],
       "url": "https://caldr-alpha.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai",
       "local_path": ""
