@@ -616,16 +616,14 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit works, with AI-powered marketing automation for tradespeople.",
+      "status": "Designed",
+      "progress": 0,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to connect with customers via AI-generated letter campaigns.",
       "tech_stack": [
-        "Next.js 14 App Router",
-        "Supabase (Postgres 15)",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM",
+        "Next.js 14",
+        "Supabase",
+        "Postgres 15",
+        "Vercel",
         "Stripe",
         "Stannp",
         "Twilio",
@@ -633,26 +631,28 @@
         "Google Business Profile API",
         "Postcodes.io",
         "Cloudflare",
-        "Vercel"
+        "TypeScript",
+        "shadcn/ui",
+        "Tailwind CSS",
+        "Drizzle ORM"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "SaaS subscription for trades (tiered by marketing volume); affiliate commissions from grant scheme referrals; premium editorial microsites (v1.2+)",
+      "revenue_model": "Trade subscription tiers, three-letter sequence campaigns (AI letter generation + print-and-post), premium features unlocked at 30+ paying trades threshold",
       "outstanding": [
-        "Complete 02_SCHEMA.sql implementation",
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md)",
-        "Trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Grants finder and calculator tools",
-        "SEO audit free tool",
-        "Campaign builder v3 dashboard",
-        "Abuse protection framework across free tools",
-        "Audience register implementation (A-D progression)",
-        "Stripe integration for trade billing",
-        "Stannp integration for print-and-post"
+        "Apply 02_SCHEMA.sql",
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism)",
+        "Implement 16_TRADE_ONBOARDING_UX.md (6-step flow)",
+        "Build 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md homeowner tools",
+        "Create 13_SEO_AUDIT_TOOL.md free tool",
+        "Implement abuse protection (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Build campaign builder (v3 mockup)",
+        "Integrate Stannp and Stripe",
+        "Set up Braemar Bus event schemas (04_BUS_PRODUCER_CONTRACT.md)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -662,11 +662,10 @@
         "03_API_CONTRACTS.md",
         "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
-        "10_GRANTS_FINDER.md",
-        "11_GRANT_CALCULATOR.md",
-        "16_TRADE_ONBOARDING_UX.md",
-        "08_BRAND.md"
+        "16_TRADE_ONBOARDING_UX.md"
       ],
       "local_path": ""
     },
