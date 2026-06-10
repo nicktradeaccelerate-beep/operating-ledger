@@ -115,31 +115,20 @@
     },
     {
       "id": "caldr-ai",
-      "name": "Caldr.ai (Marketing Intelligence)",
+      "name": "Caldr AI",
       "ecosystem": "Caldr",
-      "status": "Build sprint",
-      "progress": 60,
-      "one_liner": "Postcode territory intelligence + Buffer scheduling. Live at caldr-alpha.vercel.app.",
-      "tech_stack": [
-        "Next.js",
-        "Vercel",
-        "Supabase (planned)",
-        "Buffer API"
-      ],
+      "status": "Live",
+      "progress": 0,
+      "one_liner": "AI-powered capabilities within the Caldr ecosystem.",
+      "tech_stack": [],
       "connections": [
-        "Caldr Property Intelligence",
-        "Newton & Sinclair (IP)"
+        "caldr-os",
+        "caldr-property",
+        "caldr-acquire"
       ],
-      "revenue_model": "SaaS subscription (tiered, franchise + single-operator)",
-      "outstanding": [
-        "Persistent Supabase intelligence files per user",
-        "Google My Business + Google Ads competitor scraping",
-        "Franchise market mode with territory viability scoring",
-        "International country selector (UK/USA/AU/DE/NL/ZA/SG/UAE via OpenCorporates)"
-      ],
-      "key_docs": [
-        "caldr-alpha.vercel.app production config"
-      ],
+      "revenue_model": "",
+      "outstanding": [],
+      "key_docs": [],
       "url": "https://caldr-alpha.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai",
       "local_path": ""
