@@ -613,9 +613,9 @@
       "id": "trade-accelerate",
       "name": "Trade Accelerate",
       "ecosystem": "Trade Accelerate",
-      "status": "Build sprint",
-      "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to execute retrofit works at scale.",
+      "status": "Designed",
+      "progress": 0,
+      "one_liner": "UK property retrofit and trades growth platform enabling homeowner grant matching and trade marketing via AI-generated direct mail campaigns.",
       "tech_stack": [
         "Next.js 14",
         "Supabase",
@@ -633,32 +633,38 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
+        "Braemar Bus (third producer after Caldr and PTO Score)",
         "Caldr",
-        "PTO Score",
-        "Braemar Bus"
+        "PTO Score"
       ],
-      "revenue_model": "Trade subscription via Stripe; three-letter sequence direct mail (Stannp); premium microsite templates (v1.2+); commercial Trade Accelerate sister venture lead-gen (2027)",
+      "revenue_model": "Trade subscription for marketing automation platform; three-letter campaign sequences (AI letter generation + print-and-post integration via Stannp); premium features and add-ons in v1.1+",
       "outstanding": [
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md)",
-        "Complete trade onboarding UX (16_TRADE_ONBOARDING_UX.md)",
-        "Implement grants finder tool (10_GRANTS_FINDER.md)",
-        "Implement grants calculator (11_GRANT_CALCULATOR.md)",
-        "Build trade SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
-        "Implement free tool abuse framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "Launch microsite Classic template (22_MICROSITE_PREMIUM_EDITORIAL.md reference)",
-        "Apply audience register progression (20_AUDIENCE_REGISTER.md) across all surfaces"
+        "Complete 02_SCHEMA.sql implementation",
+        "Build 03_API_CONTRACTS endpoints",
+        "Implement 04_BUS_PRODUCER_CONTRACT event schemas",
+        "Execute 05_BUILD_SEQUENCE week-by-week build plan",
+        "Complete 16_TRADE_ONBOARDING_UX 6-step flow",
+        "Build 19_THREE_LETTER_SEQUENCE revenue mechanism",
+        "Implement 10_GRANTS_FINDER homeowner grant matching",
+        "Build 13_SEO_AUDIT_TOOL free tool",
+        "Set up 15_FREE_TOOL_ABUSE_FRAMEWORK protection",
+        "v1.1 features (cross-referencing, review-triggered campaigns, job-area sequences)",
+        "v1.2+ features (premium microsite, bookkeeping, commercial routing)"
       ],
       "key_docs": [
         "CLAUDE.md",
+        "20_AUDIENCE_REGISTER.md",
         "01_MASTER_SPEC.md",
         "02_SCHEMA.sql",
         "03_API_CONTRACTS.md",
+        "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "07_INTEGRITY_LAYER.md",
+        "08_BRAND.md",
+        "10_GRANTS_FINDER.md",
+        "13_SEO_AUDIT_TOOL.md",
         "16_TRADE_ONBOARDING_UX.md",
-        "17_FOR_TRADES_PAGE.md",
-        "19_THREE_LETTER_SEQUENCE.md",
-        "20_AUDIENCE_REGISTER.md",
-        "08_BRAND.md"
+        "19_THREE_LETTER_SEQUENCE.md"
       ],
       "local_path": ""
     },
