@@ -177,8 +177,8 @@
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "M&A territory intelligence platform for acquisition research and deal identification.",
+      "progress": 45,
+      "one_liner": "M&A territory intelligence platform for acquisition target identification and due diligence.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -188,15 +188,15 @@
         "JetBrains Mono"
       ],
       "connections": [
-        "Caldr ecosystem",
-        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
+        "caldr-ai",
+        "caldr-property",
+        "caldr-os"
       ],
-      "revenue_model": "SaaS subscription for M&A intelligence",
+      "revenue_model": "B2B SaaS subscription for M&A professionals and corporate development teams",
       "outstanding": [
-        "Full specification review",
-        "Design system implementation",
-        "Mock data integration",
-        "Feature development"
+        "Complete full spec implementation",
+        "API integration (post-mock data phase)",
+        "Design system dark Mayfair aesthetic refinement"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
