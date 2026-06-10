@@ -119,13 +119,20 @@
       "ecosystem": "Caldr",
       "status": "Pending",
       "progress": 0,
-      "one_liner": "AI agents and automation systems for the Caldr ecosystem.",
+      "one_liner": "AI-powered agents and automation platform for the Caldr ecosystem.",
       "tech_stack": [],
       "connections": [
-        "@AGENTS.md"
+        "caldr-os",
+        "caldr-property",
+        "caldr-acquire",
+        "caldr-sites-au"
       ],
-      "revenue_model": "",
-      "outstanding": [],
+      "revenue_model": "TBD",
+      "outstanding": [
+        "Project definition",
+        "Initial architecture",
+        "Team assignment"
+      ],
       "key_docs": [
         "CLAUDE.md"
       ],
