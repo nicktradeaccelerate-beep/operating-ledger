@@ -915,21 +915,25 @@
         "HNW Circle",
         "Caldr Acquire",
         "Companies House",
-        "HMLR",
+        "HMLR CCOD",
         "The Gazette"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — no external revenue",
       "outstanding": [
-        "Expand geographic coverage beyond UK",
-        "Optimize CCOD cache performance",
-        "Enhance iXBRL parser for edge cases",
-        "Add real-time Supabase sync option"
+        "Optimize CCOD bulk download caching",
+        "Handle Gazette API edge cases (list vs dict normalization)",
+        "Extend Companies House pagination for >5000 results",
+        "Improve iXBRL parser namespace handling",
+        "Add new data sources following established patterns"
       ],
       "key_docs": [
+        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
+        "prospector_pkg/output.py",
         "prospector_pkg/briefing.py",
         "run_prospector.py",
+        "run_matchmaker.py",
         "prospector_dashboard/app/lib/types.ts"
       ]
     }
