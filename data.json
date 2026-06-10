@@ -177,27 +177,28 @@
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "M&A territory intelligence platform for acquisition target identification and analysis.",
+      "progress": 45,
+      "one_liner": "M&A territory intelligence platform for acquisition due diligence and market analysis.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
         "App Router",
+        "React",
         "Cormorant Garamond",
         "DM Sans",
         "JetBrains Mono"
       ],
       "connections": [
-        "caldr-os",
+        "caldr-ai",
         "caldr-property",
-        "caldr-ai"
+        "caldr-os"
       ],
-      "revenue_model": "B2B SaaS subscription for M&A intelligence",
+      "revenue_model": "B2B SaaS for M&A advisory and corporate development teams",
       "outstanding": [
-        "Complete SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2 spec implementation",
-        "Design system implementation",
-        "Mock data integration",
-        "External API integration planning"
+        "Complete full specification implementation",
+        "API integration when NEXT_PUBLIC_USE_MOCK_DATA removed",
+        "Dark Mayfair design system implementation",
+        "User testing and feedback cycles"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
@@ -903,37 +904,33 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer discovery and deal flow scoring.",
       "tech_stack": [
         "Python 3.12",
-        "requests",
+        "Next.js 14",
+        "Tailwind CSS",
+        "Supabase",
         "pandas",
         "reportlab",
         "structlog",
-        "supabase-py",
-        "Next.js 14",
-        "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
-        "Caldr Acquire",
-        "caldr-ai",
-        "caldr-property"
+        "Caldr Acquire"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — not sold to end users",
       "outstanding": [
-        "CCOD bulk download cache optimization",
-        "iXBRL parser refinement for edge-case namespace prefixes",
-        "Matchmaker operator-only access enforcement",
-        "Live dashboard Supabase sync reliability"
+        "CCOD bulk download optimization",
+        "iXBRL parser edge cases",
+        "Companies House pagination for >5000 results per SIC",
+        "Matchmaker operator access controls"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_dashboard/app/lib/data.ts",
+        "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
       ]
