@@ -907,39 +907,31 @@
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
-        "Caldr Acquire",
-        "Companies House",
-        "HMLR CCOD",
-        "The Gazette"
+        "Caldr Acquire"
       ],
-      "revenue_model": "Internal operator tool — no external revenue",
+      "revenue_model": "Internal operator tool — not sold to end users",
       "outstanding": [
-        "Optimize CCOD bulk download caching",
-        "Handle Gazette API edge cases (list vs dict normalization)",
-        "Extend Companies House pagination for >5000 results",
-        "Improve iXBRL parser namespace handling",
-        "Add new data sources following established patterns"
+        "CCOD bulk download optimization",
+        "iXBRL parser edge cases",
+        "Companies House pagination for >5000 results",
+        "Matchmaker operator-only safeguards"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
-        "prospector_pkg/briefing.py",
+        "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
-        "run_matchmaker.py",
-        "prospector_dashboard/app/lib/types.ts"
+        "run_matchmaker.py"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
