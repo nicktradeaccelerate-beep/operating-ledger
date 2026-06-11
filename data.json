@@ -119,12 +119,12 @@
       "ecosystem": "Caldr",
       "status": "Pending",
       "progress": 0,
-      "one_liner": "AI-powered agent system for the Caldr ecosystem.",
+      "one_liner": "AI agent system referenced in project ecosystem documentation.",
       "tech_stack": [],
       "connections": [
         "@AGENTS.md"
       ],
-      "revenue_model": "",
+      "revenue_model": null,
       "outstanding": [],
       "key_docs": [
         "CLAUDE.md"
