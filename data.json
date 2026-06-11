@@ -119,15 +119,22 @@
       "ecosystem": "Caldr",
       "status": "Pending",
       "progress": 0,
-      "one_liner": "AI agent system referenced in project ecosystem documentation.",
+      "one_liner": "AI-powered capabilities and agents for the Caldr platform ecosystem.",
       "tech_stack": [],
       "connections": [
-        "@AGENTS.md"
+        "caldr-os",
+        "caldr-property",
+        "caldr-acquire",
+        "caldr-sites-au"
       ],
-      "revenue_model": null,
-      "outstanding": [],
+      "revenue_model": "Integrated revenue stream through Caldr platform offerings",
+      "outstanding": [
+        "Project definition",
+        "Scope clarification",
+        "Tech stack definition"
+      ],
       "key_docs": [
-        "CLAUDE.md"
+        "AGENTS.md"
       ],
       "url": "https://caldr-alpha.vercel.app",
       "github": "https://github.com/nicktradeaccelerate-beep/caldr-ai",
