@@ -119,16 +119,18 @@
       "ecosystem": "Caldr",
       "status": "Pending",
       "progress": 0,
-      "one_liner": "AI agent system referenced in project documentation structure.",
+      "one_liner": "AI agent systems and automation platform within the Caldr ecosystem.",
       "tech_stack": [],
       "connections": [
-        "@AGENTS.md"
+        "caldr-os",
+        "caldr-property",
+        "caldr-acquire"
       ],
-      "revenue_model": "Unknown",
+      "revenue_model": "TBD",
       "outstanding": [
         "Define project scope",
         "Establish technical requirements",
-        "Create implementation roadmap"
+        "Set development timeline"
       ],
       "key_docs": [
         "CLAUDE.md"
