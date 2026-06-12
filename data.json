@@ -908,25 +908,28 @@
         "Supabase",
         "pandas",
         "reportlab",
-        "structlog",
-        "Vercel"
+        "requests",
+        "structlog"
       ],
       "connections": [
         "Newton & Sinclair",
+        "HNW Circle",
         "Caldr Acquire",
-        "HNW Circle"
+        "caldr-acquire",
+        "caldr-property"
       ],
-      "revenue_model": "Internal operator tool — not monetized",
+      "revenue_model": "Internal operator tool — no external revenue",
       "outstanding": [
-        "CCOD bulk cache management",
-        "iXBRL parser edge-case coverage",
+        "CCOD cache optimization",
+        "iXBRL parser edge cases",
+        "Gazette endpoint normalization",
         "Companies House pagination for >5000 results",
-        "Matchmaker output access controls"
+        "Client-facing UI security review for matchmaker output"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
+        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
