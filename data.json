@@ -615,22 +615,23 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling homeowners to find grants and trades to manage retrofit projects.",
+      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to run multi-trade scheduling, marketing campaigns, and grant-matched property targeting.",
       "tech_stack": [
         "Next.js 14",
+        "App Router",
         "Supabase",
         "Postgres 15",
-        "Vercel",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Drizzle ORM",
         "Stripe",
         "Stannp",
         "Twilio",
         "Resend",
         "Google Business Profile API",
         "Postcodes.io",
-        "TypeScript",
-        "shadcn/ui",
-        "Tailwind CSS",
-        "Drizzle ORM"
+        "Vercel"
       ],
       "connections": [
         "Newton & Sinclair Ltd",
@@ -638,17 +639,18 @@
         "PTO Score",
         "Braemar Bus"
       ],
-      "revenue_model": "Trade subscription tiers; three-letter sequence campaigns; print-and-post integration; v1.2 commercial origination layer",
+      "revenue_model": "SaaS subscription for trades (pricing on /for-trades page), three-letter sequence print-and-post campaign fees, future commercial venture routing",
       "outstanding": [
-        "Build three-letter sequence revenue mechanism (19_THREE_LETTER_SEQUENCE.md)",
-        "Implement trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
-        "Develop grants finder tool (10_GRANTS_FINDER.md)",
-        "Build SEO audit free tool (13_SEO_AUDIT_TOOL.md)",
-        "Integrate Stannp direct mail",
-        "Complete Stripe checkout + customer portal",
-        "Implement abuse protection framework (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
-        "Build campaign builder dashboard",
-        "Establish Braemar Bus event integration (04_BUS_PRODUCER_CONTRACT.md)"
+        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — priority 1)",
+        "Implement 02_SCHEMA.sql database",
+        "Complete 05_BUILD_SEQUENCE.md week-by-week execution",
+        "Establish 20_AUDIENCE_REGISTER.md audience routing (A/B/C/D)",
+        "Integrate Stannp direct mail API",
+        "Set up Stripe Checkout + Customer Portal",
+        "Deploy trade onboarding flow (16_TRADE_ONBOARDING_UX.md)",
+        "Build grants finder tool (10_GRANTS_FINDER.md)",
+        "Implement abuse protection (15_FREE_TOOL_ABUSE_FRAMEWORK.md)",
+        "Reach 5+ paying trades before v1.1 gate"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -656,11 +658,14 @@
         "01_MASTER_SPEC.md",
         "02_SCHEMA.sql",
         "03_API_CONTRACTS.md",
+        "04_BUS_PRODUCER_CONTRACT.md",
         "05_BUILD_SEQUENCE.md",
+        "06_ENVIRONMENT.md",
         "07_INTEGRITY_LAYER.md",
         "08_BRAND.md",
         "19_THREE_LETTER_SEQUENCE.md",
-        "16_TRADE_ONBOARDING_UX.md"
+        "16_TRADE_ONBOARDING_UX.md",
+        "10_GRANTS_FINDER.md"
       ],
       "local_path": ""
     },
