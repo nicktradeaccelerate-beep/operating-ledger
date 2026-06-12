@@ -119,18 +119,19 @@
       "ecosystem": "Caldr",
       "status": "Pending",
       "progress": 0,
-      "one_liner": "AI agent framework and capabilities for the Caldr ecosystem.",
+      "one_liner": "AI-powered capabilities and agents for the Caldr ecosystem.",
       "tech_stack": [],
       "connections": [
         "caldr-os",
         "caldr-property",
-        "caldr-acquire"
+        "caldr-acquire",
+        "caldr-sites-au"
       ],
-      "revenue_model": "Component of Caldr platform",
+      "revenue_model": "Integrated into Caldr product suite",
       "outstanding": [
-        "Define project scope",
-        "Establish tech stack",
-        "Determine MVP features"
+        "Define scope",
+        "Establish roadmap",
+        "Allocate resources"
       ],
       "key_docs": [
         "CLAUDE.md"
