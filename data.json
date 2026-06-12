@@ -176,31 +176,28 @@
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 45,
-      "one_liner": "M&A territory intelligence platform for acquisition due diligence and market analysis.",
+      "progress": 0,
+      "one_liner": "M&A territory intelligence platform for market acquisition analysis.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
         "App Router",
-        "React",
         "Cormorant Garamond",
         "DM Sans",
         "JetBrains Mono"
       ],
       "connections": [
-        "caldr-ai",
-        "caldr-property",
-        "caldr-os"
+        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
       ],
-      "revenue_model": "B2B SaaS for M&A advisory and corporate development teams",
+      "revenue_model": "Enterprise SaaS for M&A intelligence",
       "outstanding": [
-        "Complete full specification implementation",
-        "API integration when NEXT_PUBLIC_USE_MOCK_DATA removed",
-        "Dark Mayfair design system implementation",
-        "User testing and feedback cycles"
+        "Full feature implementation per spec",
+        "API integration (currently mocked)",
+        "Design system implementation"
       ],
       "key_docs": [
-        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
+        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
+        "CLAUDE.md"
       ],
       "url": "https://acquire.caldr.ai",
       "local_path": "/Users/nicksinclair001/caldr acquire"
