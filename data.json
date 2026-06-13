@@ -941,14 +941,19 @@
       "id": "caldr-care",
       "name": "Caldr Care",
       "ecosystem": "Caldr",
-      "status": "Pending",
+      "status": "Designed",
       "progress": 0,
-      "one_liner": "Care management platform referenced in master specification document.",
+      "one_liner": "Healthcare management platform within the Caldr ecosystem.",
       "tech_stack": [],
-      "connections": [],
-      "revenue_model": "",
+      "connections": [
+        "caldr-os",
+        "caldr-property"
+      ],
+      "revenue_model": "TBD",
       "outstanding": [
-        "Review full build specification in CLAUDE_CALDERCARE_MASTER_V1.2.md"
+        "Full build specification review",
+        "Technical architecture definition",
+        "Team allocation"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md"
