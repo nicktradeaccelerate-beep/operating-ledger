@@ -936,10 +936,27 @@
         "run_prospector.py",
         "run_matchmaker.py"
       ]
+    },
+    {
+      "id": "caldr-care",
+      "name": "Caldr Care",
+      "ecosystem": "Caldr",
+      "status": "Pending",
+      "progress": 0,
+      "one_liner": "Care management platform referenced in master specification document.",
+      "tech_stack": [],
+      "connections": [],
+      "revenue_model": "",
+      "outstanding": [
+        "Review full build specification in CLAUDE_CALDERCARE_MASTER_V1.2.md"
+      ],
+      "key_docs": [
+        "CLAUDE_CALDERCARE_MASTER_V1.2.md"
+      ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-12",
+    "last_updated": "2026-06-13",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
