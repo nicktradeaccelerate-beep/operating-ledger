@@ -943,11 +943,10 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "Healthcare or care services management platform within the Caldr ecosystem.",
+      "one_liner": "Healthcare or care management solution within the Caldr ecosystem.",
       "tech_stack": [],
       "connections": [
-        "caldr-os",
-        "caldr-sites-au"
+        "caldr-os"
       ],
       "revenue_model": "TBD",
       "outstanding": [
