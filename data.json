@@ -181,7 +181,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "M&A territory intelligence platform for acquisition research and deal analysis.",
+      "one_liner": "M&A territory intelligence platform for deal sourcing and acquisition analysis.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -191,14 +191,15 @@
         "JetBrains Mono"
       ],
       "connections": [
-        "caldr-os",
-        "caldr-ai"
+        "caldr-ai",
+        "caldr-property",
+        "caldr-os"
       ],
-      "revenue_model": "TBD",
+      "revenue_model": "B2B SaaS subscription for M&A intelligence",
       "outstanding": [
-        "Implement NEXT_PUBLIC_USE_MOCK_DATA mock data layer",
-        "Apply dark Mayfair design system",
-        "Review full specification"
+        "Implement mock data layer",
+        "Design system implementation",
+        "Specification review from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
