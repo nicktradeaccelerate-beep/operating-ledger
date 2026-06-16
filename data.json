@@ -181,28 +181,33 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "M&A territory intelligence platform for deal sourcing and acquisition analysis.",
+      "one_liner": "M&A territory intelligence platform for off-market deal identification and analysis",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
         "App Router",
-        "Cormorant Garamond",
+        "Braemar visual identity",
+        "JetBrains Mono",
         "DM Sans",
-        "JetBrains Mono"
+        "Cormorant Garamond"
       ],
       "connections": [
         "caldr-ai",
         "caldr-property",
         "caldr-os"
       ],
-      "revenue_model": "B2B SaaS subscription for M&A intelligence",
+      "revenue_model": "Enterprise M&A intelligence subscription",
       "outstanding": [
-        "Implement mock data layer",
-        "Design system implementation",
-        "Specification review from SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
+        "Off-market Intelligence Layer implementation",
+        "Live data collector integration",
+        "UK country-scoped queries",
+        "Mock data disable for production module",
+        "quarantine_check.py validation"
       ],
       "key_docs": [
-        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx"
+        "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
+        "BUILD_SPEC addendum",
+        "scripts/quarantine_check.py"
       ],
       "url": "https://acquire.caldr.ai",
       "local_path": "/Users/nicksinclair001/caldr acquire"
