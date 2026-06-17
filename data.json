@@ -945,11 +945,11 @@
     },
     {
       "id": "caldr-care",
-      "name": "Caldr Care",
+      "name": "Caldercare",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 70,
-      "one_liner": "Offline-first care worker visit logging and voice-note system for home carers with poor signal connectivity.",
+      "progress": 75,
+      "one_liner": "Offline-first care visit logging and voice note system for home carers with poor signal connectivity.",
       "tech_stack": [
         "Next.js 15",
         "App Router",
@@ -962,19 +962,18 @@
         "TypeScript"
       ],
       "connections": [
-        "Caldr ecosystem",
-        "CQC regulated care",
-        "Home care sector"
+        "Anthropic",
+        "Deepgram",
+        "Supabase"
       ],
       "revenue_model": "B2B SaaS for care agencies",
       "outstanding": [
-        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit helpers unused)",
-        "Implement photo sync (queuePhotoLocally exists but no Storage upload or UI)",
-        "Configure test runner",
-        "Complete CLAUDE_CALDERCARE_MASTER_V1.2.md full build spec"
+        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit, getAllLocalVisits)",
+        "Implement photo sync to Supabase Storage",
+        "Add test runner configuration",
+        "Complete UI for photo capture"
       ],
       "key_docs": [
-        "CLAUDE.md",
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
         "lib/offline/visitStore.ts",
         "lib/offline/sync.ts",
