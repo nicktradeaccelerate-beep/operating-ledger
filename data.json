@@ -180,30 +180,28 @@
       "name": "Caldr Acquire",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 75,
-      "one_liner": "M&A territory intelligence platform for off-market deal identification and analysis.",
+      "progress": 65,
+      "one_liner": "M&A territory intelligence platform for off-market deal sourcing and target identification.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
         "App Router",
         "React",
-        "Cormorant Garamond",
+        "JetBrains Mono",
         "DM Sans",
-        "JetBrains Mono"
+        "Cormorant Garamond"
       ],
       "connections": [
-        "caldr-ai",
         "caldr-property",
-        "caldr-os"
+        "caldr-ai"
       ],
-      "revenue_model": "SaaS subscription for M&A intelligence and deal sourcing",
+      "revenue_model": "SaaS subscription for M&A intelligence and territory mapping",
       "outstanding": [
-        "Finalize SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx specification",
-        "Implement off-market intelligence layer with live data connectors",
-        "Apply Braemar visual identity to off-market module",
-        "Configure country scope hard-locking to UK",
-        "Validate quarantine_check.py for zero-row emission on empty results",
-        "Disable NEXT_PUBLIC_USE_MOCK_DATA for off-market collectors"
+        "Off-Market Intelligence Layer implementation",
+        "Live data collector validation",
+        "Braemar visual identity integration",
+        "quarantine_check.py validation",
+        "UK country-scoping enforcement"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
