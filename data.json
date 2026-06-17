@@ -945,34 +945,32 @@
     },
     {
       "id": "caldr-care",
-      "name": "Caldr Care",
+      "name": "Caldercare",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 75,
-      "one_liner": "Offline-first care visit management platform for home carers with voice note transcription and sync on reconnect.",
+      "progress": 70,
+      "one_liner": "Offline-first PWA for home care visits with voice notes, checklist tracking, and real-time sync on reconnect.",
       "tech_stack": [
         "Next.js 15",
         "App Router",
         "Supabase",
+        "Anthropic SDK",
         "IndexedDB",
         "idb-keyval",
-        "Anthropic SDK",
-        "Deepgram ASR",
         "MediaRecorder",
+        "Deepgram ASR",
         "TypeScript"
       ],
       "connections": [
-        "Anthropic",
-        "Deepgram",
-        "Supabase"
+        "Caldr ecosystem",
+        "care sector (CQC regulated)"
       ],
-      "revenue_model": "SaaS subscription for care agencies",
+      "revenue_model": "B2B care organisation subscription",
       "outstanding": [
         "Wire offline reads — local-read helpers exist but pages read straight from Supabase",
-        "Implement photo sync — queuePhotoLocally exists but missing Supabase Storage upload step",
-        "Configure test runner",
-        "Build UI for photo capture",
-        "Ensure voice transcription works with empty DEEPGRAM_API_KEY"
+        "Photo sync — queuePhotoLocally exists but no Storage upload step or UI capture",
+        "Test runner configuration",
+        "iOS Safari reliability hardening"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
@@ -980,8 +978,7 @@
         "lib/offline/sync.ts",
         "components/shell/OfflineSync*.tsx",
         "components/visit/VoiceNote.tsx",
-        "lib/theme.ts",
-        "types/speech-recognition.d.ts"
+        "lib/theme.ts"
       ]
     }
   ],
