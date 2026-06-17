@@ -943,33 +943,33 @@
     },
     {
       "id": "caldr-care",
-      "name": "Caldercare",
+      "name": "Caldr Care",
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 75,
-      "one_liner": "Offline-first care visit logging and voice note system for home carers with poor signal connectivity.",
+      "one_liner": "Offline-first PWA for domiciliary care workers to log visits, checklists, voice notes, and family messages with automatic sync on reconnect.",
       "tech_stack": [
         "Next.js 15",
         "App Router",
         "Supabase",
         "Anthropic SDK",
         "IndexedDB",
-        "idb-keyval",
         "MediaRecorder",
         "Deepgram ASR",
         "TypeScript"
       ],
       "connections": [
+        "caldr-os",
         "Anthropic",
         "Deepgram",
         "Supabase"
       ],
-      "revenue_model": "B2B SaaS for care agencies",
+      "revenue_model": "B2B SaaS for care providers (CQC-regulated)",
       "outstanding": [
-        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit, getAllLocalVisits)",
-        "Implement photo sync to Supabase Storage",
-        "Add test runner configuration",
-        "Complete UI for photo capture"
+        "Wire offline reads (hydrateVisitsFromServer helpers currently unused)",
+        "Implement photo sync UI and Storage upload in sync.ts",
+        "Configure test runner",
+        "Offline-first visit open with no signal (currently shows nothing)"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
