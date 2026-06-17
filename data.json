@@ -907,12 +907,12 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Internal",
+      "ecosystem": "Caldr",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK small-to-mid portfolio LTDs on acquireability for HNW buyer discovery.",
       "tech_stack": [
-        "Python 3.12",
+        "Python 3.12+",
         "requests",
         "pandas",
         "reportlab",
@@ -920,7 +920,6 @@
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
@@ -928,23 +927,25 @@
         "HNW Circle",
         "Caldr Acquire",
         "Companies House",
-        "HMLR",
+        "HMLR CCOD",
         "The Gazette"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — not sold to end users",
       "outstanding": [
-        "Optimize CCOD bulk download caching strategy",
-        "Expand Companies House pagination beyond 5000 results per SIC",
-        "Improve iXBRL parser for unusual namespace prefixes",
-        "Add additional country-specific provider adapters"
+        "iXBRL parser namespace coverage improvement",
+        "Companies House pagination for >5000 SIC results",
+        "CCOD cache optimization for bulk downloads",
+        "Gazette endpoint list/dict normalization robustness"
       ],
       "key_docs": [
-        "prospector_pkg/run_prospector.py",
-        "prospector_pkg/run_matchmaker.py",
+        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
+        "prospector_pkg/output.py",
+        "prospector_pkg/briefing.py",
         "prospector_dashboard/app/lib/types.ts",
-        "CLAUDE.md"
+        "run_prospector.py",
+        "run_matchmaker.py"
       ]
     },
     {
