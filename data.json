@@ -946,18 +946,37 @@
       "name": "Caldr Care",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 0,
-      "one_liner": "Healthcare or care management solution within the Caldr ecosystem.",
-      "tech_stack": [],
-      "connections": [
-        "caldr-os"
+      "progress": 65,
+      "one_liner": "Offline-first PWA for home care visits, checklist logging, voice notes, and family messaging on poor-signal networks.",
+      "tech_stack": [
+        "Next.js 15",
+        "App Router",
+        "Supabase",
+        "Anthropic SDK",
+        "Deepgram ASR",
+        "IndexedDB",
+        "idb-keyval",
+        "MediaRecorder",
+        "TypeScript"
       ],
-      "revenue_model": "TBD",
+      "connections": [
+        "Anthropic",
+        "Deepgram",
+        "Supabase"
+      ],
+      "revenue_model": "Care provider SaaS subscription",
       "outstanding": [
-        "Review full build spec in CLAUDE_CALDERCARE_MASTER_V1.2.md"
+        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit helpers currently unused)",
+        "Implement photo sync (queuePhotoLocally exists but no Storage upload or UI capture)",
+        "Configure test runner",
+        "CQC compliance validation for care notes"
       ],
       "key_docs": [
-        "CLAUDE_CALDERCARE_MASTER_V1.2.md"
+        "CLAUDE_CALDERCARE_MASTER_V1.2.md",
+        "lib/offline/visitStore.ts",
+        "lib/offline/sync.ts",
+        "components/visit/VoiceNote.tsx",
+        "lib/theme.ts"
       ]
     }
   ],
