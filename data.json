@@ -945,34 +945,34 @@
     },
     {
       "id": "caldr-care",
-      "name": "CaldrCare",
+      "name": "Caldr Care",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 70,
-      "one_liner": "Offline-first PWA for home care visit logging, checklist tracking, and voice-transcribed care notes with Supabase backend.",
+      "progress": 75,
+      "one_liner": "Offline-first care visit management platform for home carers with voice note transcription and sync on reconnect.",
       "tech_stack": [
-        "Next.js 15 (App Router)",
+        "Next.js 15",
+        "App Router",
         "Supabase",
-        "IndexedDB (idb-keyval)",
+        "IndexedDB",
+        "idb-keyval",
         "Anthropic SDK",
         "Deepgram ASR",
         "MediaRecorder",
-        "TypeScript",
-        "Cormorant + Jost fonts",
-        "Minnie design system"
+        "TypeScript"
       ],
       "connections": [
         "Anthropic",
         "Deepgram",
         "Supabase"
       ],
-      "revenue_model": "B2B SaaS for care providers; licensing per carer/organisation",
+      "revenue_model": "SaaS subscription for care agencies",
       "outstanding": [
-        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit) to pages",
-        "Implement photo sync to Supabase Storage",
-        "Add photo capture UI",
+        "Wire offline reads — local-read helpers exist but pages read straight from Supabase",
+        "Implement photo sync — queuePhotoLocally exists but missing Supabase Storage upload step",
         "Configure test runner",
-        "CQC compliance audit for voice note handling"
+        "Build UI for photo capture",
+        "Ensure voice transcription works with empty DEEPGRAM_API_KEY"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
@@ -980,8 +980,8 @@
         "lib/offline/sync.ts",
         "components/shell/OfflineSync*.tsx",
         "components/visit/VoiceNote.tsx",
-        "app/(app)/layout.tsx",
-        "api/transcribe-note"
+        "lib/theme.ts",
+        "types/speech-recognition.d.ts"
       ]
     }
   ],
