@@ -948,29 +948,31 @@
       "name": "CaldrCare",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 65,
-      "one_liner": "Offline-first PWA for home care visit logging with voice notes, checklist tracking, and real-time sync.",
+      "progress": 70,
+      "one_liner": "Offline-first PWA for home care visit logging, checklist tracking, and voice-transcribed care notes with Supabase backend.",
       "tech_stack": [
-        "Next.js 15",
-        "App Router",
-        "TypeScript",
+        "Next.js 15 (App Router)",
         "Supabase",
+        "IndexedDB (idb-keyval)",
         "Anthropic SDK",
         "Deepgram ASR",
-        "IndexedDB",
-        "idb-keyval",
         "MediaRecorder",
-        "PWA"
+        "TypeScript",
+        "Cormorant + Jost fonts",
+        "Minnie design system"
       ],
       "connections": [
-        "caldr-os"
+        "Anthropic",
+        "Deepgram",
+        "Supabase"
       ],
-      "revenue_model": "B2B SaaS for care providers (CQC-regulated)",
+      "revenue_model": "B2B SaaS for care providers; licensing per carer/organisation",
       "outstanding": [
-        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit, getAllLocalVisits, getChecklistForVisit) to pages",
-        "Implement photo sync (Storage upload step in sync.ts, UI capture)",
+        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit) to pages",
+        "Implement photo sync to Supabase Storage",
+        "Add photo capture UI",
         "Configure test runner",
-        "Replace dead Web Speech API code (types/speech-recognition.d.ts)"
+        "CQC compliance audit for voice note handling"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
@@ -978,7 +980,8 @@
         "lib/offline/sync.ts",
         "components/shell/OfflineSync*.tsx",
         "components/visit/VoiceNote.tsx",
-        "lib/theme.ts"
+        "app/(app)/layout.tsx",
+        "api/transcribe-note"
       ]
     }
   ],
