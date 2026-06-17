@@ -943,40 +943,40 @@
     },
     {
       "id": "caldr-care",
-      "name": "Caldr Care",
+      "name": "CalderCare",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 70,
-      "one_liner": "Offline-first PWA for home care workers to log visits, checklists, voice notes, and family messages with reliable sync on reconnect.",
+      "progress": 75,
+      "one_liner": "Next.js PWA for care workers to log visits, checklists, voice notes and family messages offline-first with automatic sync on reconnect.",
       "tech_stack": [
-        "Next.js 15",
-        "App Router",
+        "Next.js 15 (App Router)",
         "Supabase",
         "Anthropic SDK",
-        "Deepgram ASR",
-        "IndexedDB",
-        "idb-keyval",
+        "IndexedDB (idb-keyval)",
         "MediaRecorder",
-        "TypeScript"
+        "Deepgram ASR",
+        "TypeScript",
+        "Cormorant + Jost fonts",
+        "Minnie design system"
       ],
       "connections": [
-        "Anthropic",
-        "Deepgram",
-        "Supabase"
+        "Deepgram (voice transcription)",
+        "Anthropic (note formatting)",
+        "Supabase (backend)"
       ],
-      "revenue_model": "B2B SaaS for care agencies (CQC-regulated)",
+      "revenue_model": "B2B SaaS for care agencies / CQC-regulated providers",
       "outstanding": [
-        "Wire offline read helpers to pages (hydrateVisitsFromServer, getLocalVisit, etc.)",
-        "Implement photo sync to Supabase Storage with UI capture",
+        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit helpers unused)",
+        "Implement photo sync (queuePhotoLocally exists, no Supabase Storage upload or UI capture)",
         "Configure test runner",
-        "Complete CLAUDE_CALDERCARE_MASTER_V1.2.md build spec"
+        "Complete CLAUDE_CALDERCARE_MASTER_V1.2.md spec"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
         "lib/offline/visitStore.ts",
         "lib/offline/sync.ts",
-        "components/shell/OfflineSync*.tsx",
         "components/visit/VoiceNote.tsx",
+        "components/shell/OfflineSync*.tsx",
         "lib/theme.ts"
       ]
     }
