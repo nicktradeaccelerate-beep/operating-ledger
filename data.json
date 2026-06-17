@@ -913,7 +913,6 @@
       "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
       "tech_stack": [
         "Python 3.12",
-        "requests",
         "pandas",
         "reportlab",
         "structlog",
@@ -929,17 +928,17 @@
       ],
       "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Monitor CCOD cache performance",
-        "Validate iXBRL parser edge cases",
-        "Extend geographic paging for Companies House",
-        "Operator sign-off on new data sources"
+        "CCOD bulk download optimization",
+        "iXBRL parser edge-case handling",
+        "Companies House pagination for >5000 results",
+        "Matchmaker output access controls"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
-        "run_prospector.py",
+        "prospector_pkg/enrich.py",
         "prospector_dashboard/app/lib/types.ts",
-        ".gitignore (prospects.json, ccod_cache.csv, briefs)"
+        "run_prospector.py",
+        "run_matchmaker.py"
       ]
     },
     {
