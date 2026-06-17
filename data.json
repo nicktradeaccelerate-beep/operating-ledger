@@ -946,8 +946,8 @@
       "name": "Caldr Care",
       "ecosystem": "Caldr",
       "status": "Build sprint",
-      "progress": 65,
-      "one_liner": "Offline-first PWA for home care visits, checklist logging, voice notes, and family messaging on poor-signal networks.",
+      "progress": 70,
+      "one_liner": "Offline-first PWA for home care workers to log visits, checklists, voice notes, and family messages with reliable sync on reconnect.",
       "tech_stack": [
         "Next.js 15",
         "App Router",
@@ -964,17 +964,18 @@
         "Deepgram",
         "Supabase"
       ],
-      "revenue_model": "Care provider SaaS subscription",
+      "revenue_model": "B2B SaaS for care agencies (CQC-regulated)",
       "outstanding": [
-        "Wire offline reads (hydrateVisitsFromServer, getLocalVisit helpers currently unused)",
-        "Implement photo sync (queuePhotoLocally exists but no Storage upload or UI capture)",
+        "Wire offline read helpers to pages (hydrateVisitsFromServer, getLocalVisit, etc.)",
+        "Implement photo sync to Supabase Storage with UI capture",
         "Configure test runner",
-        "CQC compliance validation for care notes"
+        "Complete CLAUDE_CALDERCARE_MASTER_V1.2.md build spec"
       ],
       "key_docs": [
         "CLAUDE_CALDERCARE_MASTER_V1.2.md",
         "lib/offline/visitStore.ts",
         "lib/offline/sync.ts",
+        "components/shell/OfflineSync*.tsx",
         "components/visit/VoiceNote.tsx",
         "lib/theme.ts"
       ]
