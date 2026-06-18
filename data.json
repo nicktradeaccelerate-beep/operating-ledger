@@ -910,7 +910,7 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK SME portfolio LTDs on acquireability for HNW buyer discovery.",
       "tech_stack": [
         "Python 3.12",
         "Next.js 14",
@@ -919,18 +919,22 @@
         "pandas",
         "reportlab",
         "structlog",
+        "Companies House API",
+        "HMLR API",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
-        "Caldr Acquire"
+        "Caldr Acquire",
+        "caldr-acquire"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — not sold to end users",
       "outstanding": [
-        "Dashboard live mode Supabase sync optimization",
-        "Additional country-specific provider adapters",
-        "CCOD cache invalidation strategy refinement"
+        "Service role key management",
+        "CCOD bulk cache optimization",
+        "iXBRL parser edge cases",
+        "Matchmaker operator-only access controls"
       ],
       "key_docs": [
         "prospector_pkg/config.py",
