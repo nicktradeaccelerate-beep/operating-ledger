@@ -912,34 +912,30 @@
       "progress": 85,
       "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK small-to-mid portfolio LTDs on acquireability for HNW buyer discovery.",
       "tech_stack": [
-        "Python 3.12",
+        "Python 3.12+",
         "Next.js 14",
         "Tailwind CSS",
         "Supabase",
         "pandas",
         "reportlab",
         "structlog",
-        "TypeScript"
+        "requests"
       ],
       "connections": [
         "HNW Circle",
         "Caldr Acquire",
-        "Newton & Sinclair",
-        "Companies House",
-        "HMLR",
-        "The Gazette"
+        "Newton & Sinclair"
       ],
       "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Optimize CCOD bulk download caching strategy",
-        "Extend geographic paging for Companies House results >5000",
-        "Add support for additional data source providers",
-        "Enhance iXBRL parser for unusual namespace prefixes"
+        "CCOD bulk cache management",
+        "iXBRL parser edge cases with namespace prefixes",
+        "Companies House pagination beyond 5000 results per SIC",
+        "Gazette endpoint normalization maintenance"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
