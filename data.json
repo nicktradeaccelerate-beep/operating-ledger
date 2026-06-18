@@ -913,32 +913,35 @@
       "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
       "tech_stack": [
         "Python 3.12",
+        "Next.js 14",
+        "Tailwind CSS",
+        "Supabase",
         "pandas",
         "requests",
         "reportlab",
-        "structlog",
-        "supabase-py",
-        "Next.js 14",
-        "Tailwind CSS",
-        "TypeScript",
-        "Vercel"
+        "structlog"
       ],
       "connections": [
-        "Caldr Acquire",
+        "Newton & Sinclair",
         "HNW Circle",
-        "Newton & Sinclair"
+        "Caldr Acquire",
+        "Companies House",
+        "HMLR CCOD",
+        "The Gazette"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — not monetized",
       "outstanding": [
-        "CCOD bulk download optimization",
-        "iXBRL parser edge case handling",
-        "Companies House pagination for large SIC queries",
-        "Matchmaker operator UI polish"
+        "CCOD bulk download optimization (400 MB cache management)",
+        "Gazette JSON endpoint normalization edge cases",
+        "Companies House pagination for >5000 results",
+        "iXBRL parser namespace prefix coverage",
+        "Live dashboard Supabase integration completion"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_dashboard/app/lib/data.ts",
+        "prospector_pkg/output.py",
+        "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
       ]
