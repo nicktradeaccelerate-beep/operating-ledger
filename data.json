@@ -910,7 +910,7 @@
       "ecosystem": "Caldr",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal-flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer discovery and deal flow scoring.",
       "tech_stack": [
         "Python 3.12",
         "Next.js 14",
@@ -927,17 +927,18 @@
         "HNW Circle",
         "Newton & Sinclair"
       ],
-      "revenue_model": "Internal operator tool — not monetized",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Deploy dashboard to Vercel production",
-        "Complete Supabase schema migrations",
-        "Expand country-specific provider adapters"
+        "Cache management for CCOD bulk downloads",
+        "iXBRL parser edge cases with unusual namespaces",
+        "Companies House pagination for SIC results >5000"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
         "prospector_dashboard/app/lib/types.ts",
-        "run_prospector.py"
+        "run_prospector.py",
+        "run_matchmaker.py"
       ]
     },
     {
