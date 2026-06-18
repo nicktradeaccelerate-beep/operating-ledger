@@ -907,7 +907,7 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Internal",
+      "ecosystem": "Caldr",
       "status": "Live",
       "progress": 85,
       "one_liner": "Property-holding company intelligence pipeline and dashboard for scoring UK SME portfolio LTDs on acquireability.",
@@ -920,28 +920,23 @@
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
-        "TypeScript",
-        "Supabase"
+        "Vercel"
       ],
       "connections": [
-        "Newton & Sinclair",
-        "HNW Circle",
         "Caldr Acquire",
-        "caldr-property",
-        "caldr-acquire"
+        "HNW Circle",
+        "Newton & Sinclair"
       ],
-      "revenue_model": "Internal operator tool — no external revenue",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "iXBRL parser edge cases with unusual namespace prefixes",
-        "Companies House pagination for SIC codes >5000 results",
         "CCOD cache management optimization",
-        "Gazette JSON response type normalization"
+        "iXBRL parser enhancement for edge-case namespaces",
+        "Companies House pagination for large SIC queries",
+        "Matchmaker output governance documentation"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
