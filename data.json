@@ -909,42 +909,37 @@
       "name": "Prospector",
       "ecosystem": "Caldr",
       "status": "Live",
-      "progress": 100,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK SME portfolio LTDs on acquireability for HNW buyer discovery.",
+      "progress": 85,
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for scoring UK SME portfolio LTDs on acquireability.",
       "tech_stack": [
-        "Python 3.12",
-        "requests",
+        "Python 3.12+",
+        "Next.js 14",
+        "Tailwind CSS",
+        "Supabase",
         "pandas",
         "reportlab",
         "structlog",
-        "supabase-py",
-        "Next.js 14",
-        "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
         "Caldr Acquire",
-        "Companies House",
-        "HMLR",
-        "The Gazette"
+        "caldr-acquire"
       ],
-      "revenue_model": "Internal operator tool — not sold to end users",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Monitor CCOD cache performance (400 MB bulk download)",
-        "Improve Gazette JSON parser robustness for edge cases",
-        "Scale Companies House pagination for SIC results >5000",
-        "Review iXBRL parser namespace handling"
+        "Live dashboard deployment to Vercel",
+        "Supabase write mode activation",
+        "Matchmaker buyer-discovery refinement",
+        "Additional data source integrations"
       ],
       "key_docs": [
         "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
-        "run_matchmaker.py"
+        "prospector_dashboard/app/lib/types.ts"
       ]
     },
     {
