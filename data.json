@@ -912,34 +912,35 @@
       "progress": 85,
       "one_liner": "Property-holding company intelligence pipeline and dashboard for scoring UK SME portfolio LTDs on acquireability.",
       "tech_stack": [
-        "Python 3.12+",
-        "Next.js 14",
-        "Tailwind CSS",
-        "Supabase",
+        "Python 3.12",
+        "requests",
         "pandas",
         "reportlab",
         "structlog",
+        "supabase-py",
+        "Next.js 14",
+        "Tailwind CSS",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
         "Caldr Acquire",
-        "caldr-acquire"
+        "caldr-property"
       ],
       "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "Live dashboard deployment to Vercel",
-        "Supabase write mode activation",
-        "Matchmaker buyer-discovery refinement",
-        "Additional data source integrations"
+        "Optimize CCOD cache invalidation",
+        "Add geographic area paging for Companies House >5000 results",
+        "Extend iXBRL parser namespace handling",
+        "Buyer-discovery matchmaker UI"
       ],
       "key_docs": [
-        "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
+        "prospector_dashboard/app/lib/data.ts",
         "run_prospector.py",
-        "prospector_dashboard/app/lib/types.ts"
+        "run_matchmaker.py"
       ]
     },
     {
