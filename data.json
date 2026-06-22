@@ -621,18 +621,18 @@
       "ecosystem": "Trade Accelerate",
       "status": "Build sprint",
       "progress": 15,
-      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to acquire homeowner leads and send AI-generated letter campaigns.",
+      "one_liner": "UK property retrofit and trades growth platform enabling tradespeople to run localized marketing campaigns and homeowners to access retrofit grants.",
       "tech_stack": [
         "Next.js 14 App Router",
         "Supabase (Postgres 15, Auth, Storage, Edge Functions)",
         "Vercel",
-        "Stripe",
-        "Stannp",
-        "Twilio",
-        "Resend",
+        "Stripe (Checkout, Customer Portal, Webhooks)",
+        "Stannp (direct mail API)",
+        "Twilio (SMS)",
+        "Resend (transactional email)",
         "Google Business Profile API",
         "Postcodes.io",
-        "Cloudflare",
+        "Cloudflare (DNS)",
         "TypeScript",
         "shadcn/ui",
         "Tailwind CSS",
@@ -640,20 +640,23 @@
       ],
       "connections": [
         "Newton & Sinclair Ltd",
-        "Braemar Bus (third producer)",
         "Caldr",
-        "PTO Score"
+        "PTO Score",
+        "Braemar Bus"
       ],
-      "revenue_model": "Subscription for trade-facing platform; per-unit pricing for three-letter sequences (AI letter generation, voice modelling, print-and-post)",
+      "revenue_model": "SaaS subscription for trades; freemium tools (Grants Finder, Grant Calculator, SEO Audit Tool) drive homeowner and trade acquisition; Three-Letter Sequence (AI-generated personalized letters + print-and-post) is the core revenue mechanism.",
       "outstanding": [
-        "Build 19_THREE_LETTER_SEQUENCE.md (revenue mechanism — build first)",
-        "Implement 02_SCHEMA.sql and 03_API_CONTRACTS.md",
-        "Complete 05_BUILD_SEQUENCE.md week-by-week execution",
-        "Integrate Stannp direct mail API",
-        "Build 16_TRADE_ONBOARDING_UX.md (6-step flow)",
-        "Implement 10_GRANTS_FINDER.md and 11_GRANT_CALCULATOR.md",
-        "Deploy 13_SEO_AUDIT_TOOL.md",
-        "Establish 15_FREE_TOOL_ABUSE_FRAMEWORK.md"
+        "Build Three-Letter Sequence (19) — revenue mechanism — priority",
+        "Implement Trade Onboarding UX (16)",
+        "Build Grants Finder (10) and Grant Calculator (11)",
+        "Implement SEO Audit Tool (13)",
+        "Commercial scope-out detection and routing (12)",
+        "Free Tool Abuse Framework (15) across all tools",
+        "Trade-facing pricing page (17)",
+        "v1.1 features deferred (Unclaimed Pages, Cross-Referencing, Review-Triggered Campaigns, Job Area Sequences)",
+        "Works Calendar (18) — build phase 2",
+        "Microsite templates (Bold, Mono) — build from Classic template",
+        "v1.2+ features deferred (Premium Editorial microsite, Invisible Bookkeeping, Trade Operating System)"
       ],
       "key_docs": [
         "CLAUDE.md",
@@ -669,7 +672,9 @@
         "19_THREE_LETTER_SEQUENCE.md",
         "16_TRADE_ONBOARDING_UX.md",
         "10_GRANTS_FINDER.md",
-        "13_SEO_AUDIT_TOOL.md"
+        "11_GRANT_CALCULATOR.md",
+        "13_SEO_AUDIT_TOOL.md",
+        "15_FREE_TOOL_ABUSE_FRAMEWORK.md"
       ],
       "local_path": ""
     },
