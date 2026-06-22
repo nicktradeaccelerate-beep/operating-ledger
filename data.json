@@ -910,46 +910,43 @@
     {
       "id": "prospector",
       "name": "Prospector",
-      "ecosystem": "Caldr",
+      "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery conversations and deal flow.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard that scores UK small-to-mid portfolio LTDs on acquireability for HNW buyer discovery.",
       "tech_stack": [
         "Python 3.12",
-        "requests",
-        "pandas",
-        "reportlab",
-        "structlog",
-        "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
         "Supabase",
+        "pandas",
+        "reportlab",
+        "structlog",
         "Vercel"
       ],
       "connections": [
         "Newton & Sinclair",
         "HNW Circle",
         "Caldr Acquire",
-        "Companies House",
-        "HMLR CCOD",
-        "The Gazette"
+        "caldr-property",
+        "caldr-ai"
       ],
-      "revenue_model": "Internal operator tool — not sold to end users",
+      "revenue_model": "Internal operator tool — no direct revenue",
       "outstanding": [
-        "CCOD bulk download cache optimization",
-        "Gazette JSON endpoint edge case handling",
-        "Companies House pagination for large SIC queries",
-        "iXBRL parser namespace prefix support"
+        "CCOD bulk cache management optimization",
+        "Gazette JSON endpoint edge case handling for prod stability",
+        "Companies House pagination strategy for >5000 result queries",
+        "iXBRL parser namespace prefix coverage expansion",
+        "Matchmaker output access control enforcement"
       ],
       "key_docs": [
         "prospector_pkg/config.py",
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
-        "prospector_pkg/briefing.py",
         "run_prospector.py",
         "run_matchmaker.py",
-        "prospector_dashboard/app/lib/types.ts"
+        "prospector_dashboard/app/lib/types.ts",
+        ".gitignore (prospects.json, prospects.xlsx, ccod_cache.csv, *.pdf)"
       ]
     },
     {
