@@ -987,40 +987,42 @@
       "id": "claude-os",
       "name": "Claude OS",
       "ecosystem": "Internal",
-      "status": "Build sprint",
-      "progress": 75,
-      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions to track productivity ROI and prescribe daily improvements.",
+      "status": "Live",
+      "progress": 85,
+      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and API integrations with ROI tracking and daily Dream prescriptions.",
       "tech_stack": [
         "TypeScript",
         "Bun",
         "React",
         "TSX",
+        "JSON",
+        "launchd",
+        "Obsidian API",
         "Pinecone",
         "OpenRouter",
-        "Obsidian API",
-        "launchd"
+        "OpenAI Realtime"
       ],
       "connections": [
-        "Anthropic Claude",
-        "OpenAI",
         "Obsidian",
         "Pinecone",
         "OpenRouter",
-        "Local Ollama"
+        "OpenAI",
+        "Anthropic",
+        "Ollama"
       ],
-      "revenue_model": "Internal productivity tool — no revenue model",
+      "revenue_model": "Internal productivity tool — no direct revenue, enables faster skill deployment and ROI measurement",
       "outstanding": [
-        "Complete local voice setup documentation",
-        "Test Dream cron installation on macOS",
-        "Finalize Skills ROI calculation UI",
-        "Add OpenRouter balance tracking",
-        "Implement Hermes voice interface for local engines"
+        "Voice setup documentation refinement",
+        "Local speech engine integration",
+        "Skills ROI calibration UI",
+        "Dream cron stability on multiple OS versions"
       ],
       "key_docs": [
         "CLAUDE.md",
         "docs/local-voice-setup.md",
-        "skills/dream/SKILL.md",
         "scripts/aggregate.ts",
+        "scripts/setup.ts",
+        "skills/dream/SKILL.md",
         "src/lib/time-saved.ts"
       ]
     }
