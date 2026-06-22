@@ -913,17 +913,16 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal flow scoring.",
+      "one_liner": "Property-holding company intelligence pipeline and dashboard for HNW buyer-discovery and deal-flow scoring.",
       "tech_stack": [
         "Python 3.12",
-        "pandas",
         "requests",
+        "pandas",
         "reportlab",
         "structlog",
         "supabase-py",
         "Next.js 14",
         "Tailwind CSS",
-        "TypeScript",
         "Vercel"
       ],
       "connections": [
@@ -931,17 +930,16 @@
         "HNW Circle",
         "Caldr Acquire"
       ],
-      "revenue_model": "Internal operator tool — no direct revenue",
+      "revenue_model": "Internal operator tool — not sold to end users",
       "outstanding": [
-        "Cache management for CCOD bulk data",
-        "iXBRL parser edge cases for unusual namespaces",
-        "Companies House pagination for large SIC result sets",
-        "Matchmaker operator-only access controls"
+        "CCOD bulk cache management",
+        "iXBRL parser namespace handling",
+        "Companies House pagination for SIC queries >5000 results",
+        "Matchmaker output security protocols"
       ],
       "key_docs": [
         "prospector_pkg/models.py",
         "prospector_pkg/enrich.py",
-        "prospector_pkg/output.py",
         "prospector_dashboard/app/lib/types.ts",
         "run_prospector.py",
         "run_matchmaker.py"
