@@ -982,6 +982,47 @@
         "components/visit/VoiceNote.tsx",
         "lib/theme.ts"
       ]
+    },
+    {
+      "id": "claude-os",
+      "name": "Claude OS",
+      "ecosystem": "Internal",
+      "status": "Live",
+      "progress": 85,
+      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions with ROI tracking and daily Dream audits.",
+      "tech_stack": [
+        "TypeScript",
+        "Bun",
+        "React",
+        "TSX",
+        "JSON",
+        "launchd",
+        "Ollama",
+        "OpenAI Realtime"
+      ],
+      "connections": [
+        "Obsidian",
+        "Pinecone",
+        "OpenRouter",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "revenue_model": "Internal productivity tool — no direct revenue; enables ROI calculation for skills and time-saved tracking",
+      "outstanding": [
+        "Local voice setup documentation completion (docs/local-voice-setup.md)",
+        "Dream cron installation on non-macOS systems",
+        "Advanced subscription analytics",
+        "Custom skill templates library"
+      ],
+      "key_docs": [
+        "CLAUDE.md",
+        "scripts/aggregate.ts",
+        "scripts/setup.ts",
+        "src/routes/index.tsx",
+        "src/lib/time-saved.ts",
+        "skills/dream/SKILL.md",
+        "docs/local-voice-setup.md"
+      ]
     }
   ],
   "team_data": {
