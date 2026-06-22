@@ -987,41 +987,41 @@
       "id": "claude-os",
       "name": "Claude OS",
       "ecosystem": "Internal",
-      "status": "Live",
-      "progress": 85,
-      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions with ROI tracking and daily Dream audits.",
+      "status": "Build sprint",
+      "progress": 75,
+      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions to track productivity ROI and prescribe daily improvements.",
       "tech_stack": [
         "TypeScript",
         "Bun",
         "React",
         "TSX",
-        "JSON",
-        "launchd",
-        "Ollama",
-        "OpenAI Realtime"
+        "Pinecone",
+        "OpenRouter",
+        "Obsidian API",
+        "launchd"
       ],
       "connections": [
+        "Anthropic Claude",
+        "OpenAI",
         "Obsidian",
         "Pinecone",
         "OpenRouter",
-        "OpenAI",
-        "Anthropic"
+        "Local Ollama"
       ],
-      "revenue_model": "Internal productivity tool — no direct revenue; enables ROI calculation for skills and time-saved tracking",
+      "revenue_model": "Internal productivity tool — no revenue model",
       "outstanding": [
-        "Local voice setup documentation completion (docs/local-voice-setup.md)",
-        "Dream cron installation on non-macOS systems",
-        "Advanced subscription analytics",
-        "Custom skill templates library"
+        "Complete local voice setup documentation",
+        "Test Dream cron installation on macOS",
+        "Finalize Skills ROI calculation UI",
+        "Add OpenRouter balance tracking",
+        "Implement Hermes voice interface for local engines"
       ],
       "key_docs": [
         "CLAUDE.md",
-        "scripts/aggregate.ts",
-        "scripts/setup.ts",
-        "src/routes/index.tsx",
-        "src/lib/time-saved.ts",
+        "docs/local-voice-setup.md",
         "skills/dream/SKILL.md",
-        "docs/local-voice-setup.md"
+        "scripts/aggregate.ts",
+        "src/lib/time-saved.ts"
       ]
     }
   ],
