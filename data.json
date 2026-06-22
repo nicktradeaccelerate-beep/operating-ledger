@@ -989,36 +989,39 @@
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 85,
-      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions with ROI tracking and daily AI audit prescriptions.",
+      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions with ROI tracking and daily AI audit.",
       "tech_stack": [
         "TypeScript",
         "Bun",
         "React",
         "TSX",
         "JSON",
-        "launchd",
         "Pinecone",
         "OpenRouter",
-        "Obsidian API"
+        "OpenAI Realtime",
+        "Ollama"
       ],
       "connections": [
-        "Anthropic Claude",
+        "Obsidian",
+        "Claude Code",
+        "Anthropic",
         "OpenAI",
-        "Ollama",
-        "local speech engines"
+        "OpenRouter",
+        "Hermes voice assistant"
       ],
-      "revenue_model": "Internal productivity tool — no direct revenue; enables ROI calculation for skills and time savings",
+      "revenue_model": "Internal productivity tool — no direct revenue",
       "outstanding": [
         "Voice setup documentation refinement",
-        "Dream cron stability on non-macOS systems",
-        "Obsidian vault syncing optimization",
-        "API key management UI"
+        "Dream cron installation cross-platform support",
+        "Skills ROI estimation AI helper",
+        "Dashboard read-only enforcement validation"
       ],
       "key_docs": [
         "CLAUDE.md",
         "docs/local-voice-setup.md",
         "skills/dream/SKILL.md",
         "scripts/aggregate.ts",
+        "scripts/setup.ts",
         "src/lib/time-saved.ts"
       ]
     }
