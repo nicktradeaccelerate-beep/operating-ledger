@@ -181,27 +181,28 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "M&A territory intelligence platform providing off-market deal sourcing and acquisition strategy insights.",
+      "one_liner": "M&A territory intelligence platform for off-market deal sourcing and acquisition analysis.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
         "App Router",
-        "Cormorant Garamond",
+        "React",
         "DM Sans",
+        "Cormorant Garamond",
         "JetBrains Mono"
       ],
       "connections": [
-        "caldr-ai",
         "caldr-property",
-        "caldr-os"
+        "caldr-os",
+        "caldr-ai"
       ],
-      "revenue_model": "B2B SaaS subscription for M&A teams and corporate development",
+      "revenue_model": "B2B SaaS subscription for M&A intelligence and territory mapping",
       "outstanding": [
-        "Off-Market Intelligence Layer live data integration",
-        "Braemar visual identity implementation for off-market module",
-        "BUILD_SPEC addendum completion",
-        "quarantine_check.py validation script",
-        "UK country hard-scope enforcement"
+        "Off-Market Intelligence Layer implementation",
+        "Braemar visual identity integration",
+        "Live data collector validation",
+        "UK country-scoping enforcement",
+        "Build spec addendum completion"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
