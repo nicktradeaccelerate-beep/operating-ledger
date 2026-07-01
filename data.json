@@ -6,41 +6,42 @@
       "ecosystem": "PTO",
       "status": "Build sprint",
       "progress": 65,
-      "one_liner": "Secure, offline-first AI tax intelligence system for UK property investors to extract, categorise, and optimise their tax position from uploaded financial documents.",
+      "one_liner": "Secure offline-first AI tax intelligence system for property investors that extracts, categorises, and maps financial documents to UK tax position via signal cards.",
       "tech_stack": [
         "React",
         "Claude API",
-        "Ollama",
-        "Llama 3.1 8B",
+        "Ollama Llama 3.1 8B",
         "XLSX.js",
-        "Next.js 15",
+        "HTML5",
+        "CSS3",
+        "Anthropic API",
         "Supabase",
+        "Next.js 15",
         "Clerk",
-        "Resend",
         "Vercel"
       ],
       "connections": [
-        "propertytaxoptimisers.co.uk",
-        "Anthropic Claude",
+        "Property Tax Optimisers",
+        "Anthropic",
         "Ollama"
       ],
-      "revenue_model": "SaaS subscription for property investors and tax advisers; premium features via Claude API vs offline Llama mode",
+      "revenue_model": "B2B SaaS for property tax advisers and investors; licensing per user seat or transaction volume",
       "outstanding": [
-        "PWA conversion with service workers and offline caching",
-        "Next.js 15 full stack scaffold with Supabase backend",
-        "Auth integration via Clerk",
-        "Document extraction endpoint",
-        "Export (CSV/PDF) generation",
-        "Signal card expandable UI refinement",
-        "USB package testing and distribution"
+        "PWA conversion with manifest and service worker",
+        "Next.js 15 full stack scaffold with Supabase",
+        "API routes for analyse/extract/export",
+        "Clerk authentication integration",
+        "Document storage in Supabase",
+        "Mobile app icon and splash screen design",
+        "Email integration via Resend",
+        "Vercel deployment pipeline"
       ],
       "key_docs": [
+        "CLAUDE.md",
         "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
-        "/pto-usb/app/index.html",
-        "/pto-usb/START_MAC.sh",
-        "/pto-usb/START_WINDOWS.bat",
-        "Design system tokens",
-        "Signal engine prompt logic"
+        "pto-usb/START_MAC.sh",
+        "pto-usb/START_WINDOWS.bat",
+        "pto-usb/app/index.html"
       ],
       "url": "https://propertytaxoptimisers.co.uk",
       "local_path": ""
