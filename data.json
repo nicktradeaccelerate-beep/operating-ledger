@@ -5,42 +5,41 @@
       "name": "PTO Tax Intelligence",
       "ecosystem": "PTO",
       "status": "Build sprint",
-      "progress": 60,
-      "one_liner": "Offline-first AI tax intelligence system for UK property investors using document upload and Claude/Llama analysis.",
+      "progress": 65,
+      "one_liner": "Secure, offline-first AI tax intelligence system for property investors to extract, categorise, and optimise UK tax positions from financial documents.",
       "tech_stack": [
         "React",
-        "Claude API",
-        "Ollama",
-        "Llama 3.1 8B",
-        "XLSX.js",
-        "HTML5",
-        "JavaScript",
         "Next.js 15",
+        "Anthropic Claude API",
+        "Ollama Llama 3.1 8B",
         "Supabase",
         "Clerk",
-        "Resend"
+        "XLSX.js",
+        "Resend",
+        "Vercel"
       ],
       "connections": [
-        "pto-tax-calc",
-        "Property Tax Optimisers (propertytaxoptimisers.co.uk)"
+        "Property Tax Optimisers (propertytaxoptimisers.co.uk)",
+        "Tax_Strategy_Calculator_2026_v1_6_0.xlsx"
       ],
-      "revenue_model": "B2B SaaS subscription for property tax advisers and investors; white-label licensing to accountancy firms",
+      "revenue_model": "SaaS subscription for property investors and tax advisers; premium tier for enhanced Claude API analysis vs offline Llama mode",
       "outstanding": [
-        "PWA conversion with manifest and service worker",
-        "Next.js 15 full stack scaffold with Supabase backend",
-        "Authentication integration with Clerk",
-        "Document storage in Supabase",
-        "Email notifications via Resend",
-        "Vercel deployment setup",
-        "iPhone/Android installability",
-        "Offline asset caching"
+        "PWA conversion with manifest.json and service-worker.js",
+        "Next.js 15 full stack scaffolding with Supabase backend",
+        "Clerk authentication integration (password + Google Sign-In)",
+        "API routes: /analyse, /extract, /export",
+        "Dashboard, Scan, Tax, Calendar, Chat page templates",
+        "Export Centre: Accounting CSV, Adviser PDF, Client One-Pager generation",
+        "Mobile app icon and splash screen design",
+        "Document upload and photo correction workflow",
+        "Signal card expansion and action button logic"
       ],
       "key_docs": [
-        "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
         "CLAUDE.md",
-        "pto-usb/START_MAC.sh",
-        "pto-usb/START_WINDOWS.bat",
-        "pto-usb/app/index.html"
+        "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
+        "/pto-usb/app/index.html",
+        "/pto-usb/START_MAC.sh",
+        "/pto-usb/START_WINDOWS.bat"
       ],
       "url": "https://propertytaxoptimisers.co.uk",
       "local_path": ""
