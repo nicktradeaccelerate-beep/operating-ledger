@@ -5,48 +5,41 @@
       "name": "PTO Tax Intelligence",
       "ecosystem": "PTO",
       "status": "Build sprint",
-      "progress": 60,
-      "one_liner": "Secure, offline-first AI tax intelligence system for UK property investors using document upload, extraction, and signal-based tax position analysis.",
+      "progress": 65,
+      "one_liner": "Secure offline-first AI tax intelligence system for property investors using Claude or Llama 3.1 to extract documents and surface tax signals.",
       "tech_stack": [
         "React",
-        "Claude API",
-        "Ollama",
-        "Llama 3.1 8B",
+        "Next.js 15",
+        "Anthropic Claude API",
+        "Ollama Llama 3.1 8B",
+        "Supabase",
+        "Clerk",
+        "Resend",
         "XLSX.js",
         "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Anthropic API",
-        "Supabase",
-        "Next.js 15",
-        "Clerk",
-        "Resend"
+        "Service Workers",
+        "PWA"
       ],
       "connections": [
-        "Property Tax Optimisers (propertytaxoptimisers.co.uk)",
-        "Anthropic Claude",
-        "Ollama"
+        "Property Tax Optimisers",
+        "caldr-property"
       ],
-      "revenue_model": "SaaS subscription for web app; white-label USB offline package for advisers and property investors",
+      "revenue_model": "SaaS subscription for advisers and property investors; white-label licensing",
       "outstanding": [
-        "PWA setup (manifest.json, service-worker.js, icon assets)",
-        "Next.js 15 full-stack scaffolding with Supabase backend",
-        "API routes for analysis, extraction, export",
-        "Authentication integration with Clerk",
-        "Row-level security policies in Supabase",
-        "Document storage implementation",
-        "Email integration with Resend",
-        "Vercel deployment configuration",
-        "Mobile splash screen and install prompts",
-        "Tax calculator signal engine optimization"
+        "PWA conversion with manifest and service worker",
+        "Next.js full stack scaffold with Supabase backend",
+        "Auth integration with Clerk",
+        "API routes for analyse/extract/export",
+        "Dashboard and four-tab pages build",
+        "Mobile splash screen and icons",
+        "Document upload to Supabase Storage"
       ],
       "key_docs": [
-        "CLAUDE.md",
         "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
+        "CLAUDE.md",
         "/pto-usb/START_MAC.sh",
         "/pto-usb/START_WINDOWS.bat",
-        "/pto-usb/app/index.html",
-        "Design system tokens and iOS component specs"
+        "/pto-usb/app/index.html"
       ],
       "url": "https://propertytaxoptimisers.co.uk",
       "local_path": ""
