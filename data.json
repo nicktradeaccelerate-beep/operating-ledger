@@ -2,33 +2,45 @@
   "projects": [
     {
       "id": "pto-core",
-      "name": "Property Tax Optimisers (PTO)",
+      "name": "PTO Tax Intelligence",
       "ecosystem": "PTO",
-      "status": "Live",
-      "progress": 85,
-      "one_liner": "UK property tax consultancy: capital allowances, Section 24, SDLT, incorporation strategy.",
+      "status": "Build sprint",
+      "progress": 65,
+      "one_liner": "Secure, offline-first AI tax intelligence system for UK property investors to extract, categorise, and optimise their tax position from uploaded financial documents.",
       "tech_stack": [
-        "Next.js",
+        "React",
+        "Claude API",
+        "Ollama",
+        "Llama 3.1 8B",
+        "XLSX.js",
+        "Next.js 15",
         "Supabase",
         "Clerk",
         "Resend",
-        "Claude API"
+        "Vercel"
       ],
       "connections": [
-        "Newton & Sinclair Ltd (20% licence)",
-        "Simon Skinner (50/50 PTO-originated net)",
-        "Rene (SA, outreach + app clients)"
+        "propertytaxoptimisers.co.uk",
+        "Anthropic Claude",
+        "Ollama"
       ],
-      "revenue_model": "Consultancy fees + app revenue. Newton & Sinclair takes 20% gross of app revenue. Simon: 50/50 net on PTO-originated only.",
+      "revenue_model": "SaaS subscription for property investors and tax advisers; premium features via Claude API vs offline Llama mode",
       "outstanding": [
-        "Finalise CLAUDE.md handoff for production Next.js app",
-        "Roll WDA reduction (14% April 2026) into calculator",
-        "Prepare for mandatory MTD go-live (April 2026)",
-        "Section 21 abolition update (May 2026)"
+        "PWA conversion with service workers and offline caching",
+        "Next.js 15 full stack scaffold with Supabase backend",
+        "Auth integration via Clerk",
+        "Document extraction endpoint",
+        "Export (CSV/PDF) generation",
+        "Signal card expandable UI refinement",
+        "USB package testing and distribution"
       ],
       "key_docs": [
-        "CLAUDE.md (PTO production)",
-        "UK tax strategy calculator v1.6.0"
+        "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
+        "/pto-usb/app/index.html",
+        "/pto-usb/START_MAC.sh",
+        "/pto-usb/START_WINDOWS.bat",
+        "Design system tokens",
+        "Signal engine prompt logic"
       ],
       "url": "https://propertytaxoptimisers.co.uk",
       "local_path": ""
@@ -1029,7 +1041,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-07-01",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
