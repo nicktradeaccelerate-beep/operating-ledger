@@ -5,40 +5,39 @@
       "name": "PTO Tax Intelligence",
       "ecosystem": "PTO",
       "status": "Build sprint",
-      "progress": 65,
-      "one_liner": "Secure offline-first AI tax intelligence system for property investors that extracts, categorises, and maps financial documents to UK tax position via signal cards.",
+      "progress": 60,
+      "one_liner": "Offline-first AI tax intelligence system for UK property investors using document upload and Claude/Llama analysis.",
       "tech_stack": [
         "React",
         "Claude API",
-        "Ollama Llama 3.1 8B",
+        "Ollama",
+        "Llama 3.1 8B",
         "XLSX.js",
         "HTML5",
-        "CSS3",
-        "Anthropic API",
-        "Supabase",
+        "JavaScript",
         "Next.js 15",
+        "Supabase",
         "Clerk",
-        "Vercel"
+        "Resend"
       ],
       "connections": [
-        "Property Tax Optimisers",
-        "Anthropic",
-        "Ollama"
+        "pto-tax-calc",
+        "Property Tax Optimisers (propertytaxoptimisers.co.uk)"
       ],
-      "revenue_model": "B2B SaaS for property tax advisers and investors; licensing per user seat or transaction volume",
+      "revenue_model": "B2B SaaS subscription for property tax advisers and investors; white-label licensing to accountancy firms",
       "outstanding": [
         "PWA conversion with manifest and service worker",
-        "Next.js 15 full stack scaffold with Supabase",
-        "API routes for analyse/extract/export",
-        "Clerk authentication integration",
+        "Next.js 15 full stack scaffold with Supabase backend",
+        "Authentication integration with Clerk",
         "Document storage in Supabase",
-        "Mobile app icon and splash screen design",
-        "Email integration via Resend",
-        "Vercel deployment pipeline"
+        "Email notifications via Resend",
+        "Vercel deployment setup",
+        "iPhone/Android installability",
+        "Offline asset caching"
       ],
       "key_docs": [
-        "CLAUDE.md",
         "Tax_Strategy_Calculator_2026_v1_6_0.xlsx",
+        "CLAUDE.md",
         "pto-usb/START_MAC.sh",
         "pto-usb/START_WINDOWS.bat",
         "pto-usb/app/index.html"
