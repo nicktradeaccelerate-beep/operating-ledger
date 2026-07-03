@@ -998,49 +998,32 @@
     },
     {
       "id": "claude-os",
-      "name": "Claude OS",
+      "name": "Claude OS — Personal Operating System",
       "ecosystem": "Internal",
       "status": "Live",
-      "progress": 85,
-      "one_liner": "Personal AI operator dashboard that aggregates Claude Code sessions, Obsidian notes, and subscriptions with ROI tracking and daily AI audit.",
+      "progress": 100,
+      "one_liner": "Central instruction set and portfolio governance framework for all Nick Sinclair ventures, enforced across every Claude session.",
       "tech_stack": [
-        "TypeScript",
-        "Bun",
-        "React",
-        "TSX",
+        "Markdown",
         "JSON",
-        "Pinecone",
-        "OpenRouter",
-        "OpenAI Realtime",
-        "Ollama"
+        "Git"
       ],
       "connections": [
-        "Obsidian",
-        "Claude Code",
-        "Anthropic",
-        "OpenAI",
-        "OpenRouter",
-        "Hermes voice assistant"
+        "All portfolio projects",
+        "PORTFOLIO_MAP.md",
+        "Obsidian vault"
       ],
-      "revenue_model": "Internal productivity tool — no direct revenue",
-      "outstanding": [
-        "Voice setup documentation refinement",
-        "Dream cron installation cross-platform support",
-        "Skills ROI estimation AI helper",
-        "Dashboard read-only enforcement validation"
-      ],
+      "revenue_model": "Operational efficiency; no direct revenue",
+      "outstanding": [],
       "key_docs": [
-        "CLAUDE.md",
-        "docs/local-voice-setup.md",
-        "skills/dream/SKILL.md",
-        "scripts/aggregate.ts",
-        "scripts/setup.ts",
-        "src/lib/time-saved.ts"
+        "~/.claude/CLAUDE.md",
+        "~/projects/standards/PORTFOLIO_MAP.md",
+        "Operating ledger"
       ]
     }
   ],
   "team_data": {
-    "last_updated": "2026-07-01",
+    "last_updated": "2026-07-03",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
