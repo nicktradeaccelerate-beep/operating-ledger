@@ -998,27 +998,26 @@
     },
     {
       "id": "claude-os",
-      "name": "Claude OS — Personal Operating System",
+      "name": "Claude OS — Personal Operating System Instructions",
       "ecosystem": "Internal",
       "status": "Live",
       "progress": 100,
-      "one_liner": "Central instruction set and portfolio governance framework for all Nick Sinclair ventures, enforced across every Claude session.",
+      "one_liner": "Global code instructions and portfolio governance rules for all Nick Sinclair projects.",
       "tech_stack": [
         "Markdown",
         "JSON",
         "Git"
       ],
       "connections": [
-        "All portfolio projects",
-        "PORTFOLIO_MAP.md",
-        "Obsidian vault"
+        "all-projects",
+        "portfolio-map",
+        "standards"
       ],
-      "revenue_model": "Operational efficiency; no direct revenue",
+      "revenue_model": "None — internal governance",
       "outstanding": [],
       "key_docs": [
         "~/.claude/CLAUDE.md",
-        "~/projects/standards/PORTFOLIO_MAP.md",
-        "Operating ledger"
+        "~/projects/standards/PORTFOLIO_MAP.md"
       ]
     }
   ],
