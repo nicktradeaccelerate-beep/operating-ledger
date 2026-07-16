@@ -192,7 +192,7 @@
       "ecosystem": "Caldr",
       "status": "Build sprint",
       "progress": 0,
-      "one_liner": "M&A territory intelligence platform for off-market deal identification and acquisition strategy.",
+      "one_liner": "M&A territory intelligence platform for off-market deal sourcing and acquisition strategy.",
       "tech_stack": [
         "Next.js 14",
         "TypeScript",
@@ -202,22 +202,22 @@
         "JetBrains Mono"
       ],
       "connections": [
+        "caldr-ai",
         "caldr-property",
         "caldr-os"
       ],
-      "revenue_model": "B2B SaaS subscription for M&A intelligence",
+      "revenue_model": "B2B SaaS for M&A teams and private equity",
       "outstanding": [
-        "Off-Market Intelligence Layer implementation",
-        "Live data integration (non-mocked)",
-        "Braemar visual identity application to off-market module",
-        "UK country scope enforcement",
-        "Mock data removal from off-market collector",
-        "quarantine_check.py validation setup"
+        "Finalize spec against SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
+        "Off-Market Intelligence Layer module build",
+        "Braemar visual identity integration for off-market module",
+        "Live data collector implementation with quarantine validation",
+        "Dark Mayfair aesthetic baseline components"
       ],
       "key_docs": [
         "SINCLAIR_MASTER_BLUEPRINT_APRIL_2026_v2.docx",
-        "BUILD_SPEC addendum",
-        "scripts/quarantine_check.py"
+        "scripts/quarantine_check.py",
+        "BUILD_SPEC addendum"
       ],
       "url": "https://acquire.caldr.ai",
       "local_path": "/Users/nicksinclair001/caldr acquire"
@@ -1022,7 +1022,7 @@
     }
   ],
   "team_data": {
-    "last_updated": "2026-07-03",
+    "last_updated": "2026-07-16",
     "realistic_weekly_hours": {
       "Nick": 45,
       "Rene": 35,
